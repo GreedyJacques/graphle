@@ -1,0 +1,141 @@
+@prefix fo: <http://www.graphle.com/foodOntology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+fo:alcoholic-beverages a fo:FoodGroup ;
+    fo:name "Alcoholic Beverages"^^xsd:string .
+
+fo:appetizers a fo:FoodGroup ;
+    fo:name "Appetizers"^^xsd:string .
+
+fo:artificially-sweetened-beverages a fo:FoodGroup ;
+    fo:name "Artificially Sweetened Beverages"^^xsd:string .
+
+fo:biscuits-and-cakes a fo:FoodGroup ;
+    fo:name "Biscuits And Cakes"^^xsd:string .
+
+fo:bread a fo:FoodGroup ;
+    fo:name "Bread"^^xsd:string .
+
+fo:breakfast-cereals a fo:FoodGroup ;
+    fo:name "Breakfast Cereals"^^xsd:string .
+
+fo:cereals a fo:FoodGroup ;
+    fo:name "Cereals"^^xsd:string .
+
+fo:cereals-and-potatoes a fo:FoodGroup ;
+    fo:name "Cereals And Potatoes"^^xsd:string .
+
+fo:cheese a fo:FoodGroup ;
+    fo:name "Cheese"^^xsd:string .
+
+fo:chocolate-products a fo:FoodGroup ;
+    fo:name "Chocolate Products"^^xsd:string .
+
+fo:dairy-desserts a fo:FoodGroup ;
+    fo:name "Dairy Desserts"^^xsd:string .
+
+fo:dressings-and-sauces a fo:FoodGroup ;
+    fo:name "Dressings And Sauces"^^xsd:string .
+
+fo:dried-fruits a fo:FoodGroup ;
+    fo:name "Dried Fruits"^^xsd:string .
+
+fo:eggs a fo:FoodGroup ;
+    fo:name "Eggs"^^xsd:string .
+
+fo:fats a fo:FoodGroup ;
+    fo:name "Fats"^^xsd:string .
+
+fo:fatty-fish a fo:FoodGroup ;
+    fo:name "Fatty Fish"^^xsd:string .
+
+fo:fish-and-seafood a fo:FoodGroup ;
+    fo:name "Fish And Seafood"^^xsd:string .
+
+fo:fish-meat-eggs a fo:FoodGroup ;
+    fo:name "Fish Meat Eggs"^^xsd:string .
+
+fo:fruit-juices a fo:FoodGroup ;
+    fo:name "Fruit Juices"^^xsd:string .
+
+fo:fruit-nectars a fo:FoodGroup ;
+    fo:name "Fruit Nectars"^^xsd:string .
+
+fo:fruits a fo:FoodGroup ;
+    fo:name "Fruits"^^xsd:string .
+
+fo:fruits-and-vegetables a fo:FoodGroup ;
+    fo:name "Fruits And Vegetables"^^xsd:string .
+
+fo:ice-cream a fo:FoodGroup ;
+    fo:name "Ice Cream"^^xsd:string .
+
+fo:lean-fish a fo:FoodGroup ;
+    fo:name "Lean Fish"^^xsd:string .
+
+fo:legumes a fo:FoodGroup ;
+    fo:name "Legumes"^^xsd:string .
+
+fo:meat-other-than-poultry a fo:FoodGroup ;
+    fo:name "Meat Other Than Poultry"^^xsd:string .
+
+fo:milk-and-yogurt a fo:FoodGroup ;
+    fo:name "Milk And Yogurt"^^xsd:string .
+
+fo:nuts a fo:FoodGroup ;
+    fo:name "Nuts"^^xsd:string .
+
+fo:offals a fo:FoodGroup ;
+    fo:name "Offals"^^xsd:string .
+
+fo:one-dish-meals a fo:FoodGroup ;
+    fo:name "One Dish Meals"^^xsd:string .
+
+fo:pastries a fo:FoodGroup ;
+    fo:name "Pastries"^^xsd:string .
+
+fo:pizza-pies-and-quiches a fo:FoodGroup ;
+    fo:name "Pizza Pies And Quiches"^^xsd:string .
+
+fo:plant-based-milk-substitutes a fo:FoodGroup ;
+    fo:name "Plant Based Milk Substitutes"^^xsd:string .
+
+fo:potatoes a fo:FoodGroup ;
+    fo:name "Potatoes"^^xsd:string .
+
+fo:poultry a fo:FoodGroup ;
+    fo:name "Poultry"^^xsd:string .
+
+fo:processed-meat a fo:FoodGroup ;
+    fo:name "Processed Meat"^^xsd:string .
+
+fo:salty-and-fatty-products a fo:FoodGroup ;
+    fo:name "Salty And Fatty Products"^^xsd:string .
+
+fo:sandwiches a fo:FoodGroup ;
+    fo:name "Sandwiches"^^xsd:string .
+
+fo:soups a fo:FoodGroup ;
+    fo:name "Soups"^^xsd:string .
+
+fo:sweetened-beverages a fo:FoodGroup ;
+    fo:name "Sweetened Beverages"^^xsd:string .
+
+fo:sweets a fo:FoodGroup ;
+    fo:name "Sweets"^^xsd:string .
+
+fo:teas-and-herbal-teas-and-coffees a fo:FoodGroup ;
+    fo:name "Teas And Herbal Teas And Coffees"^^xsd:string .
+
+fo:unknown a fo:FoodGroup ;
+    fo:name "Unknown"^^xsd:string .
+
+fo:unsweetened-beverages a fo:FoodGroup ;
+    fo:name "Unsweetened Beverages"^^xsd:string .
+
+fo:vegetables a fo:FoodGroup ;
+    fo:name "Vegetables"^^xsd:string .
+
+fo:waters-and-flavored-waters a fo:FoodGroup ;
+    fo:name "Waters And Flavored Waters"^^xsd:string .
+
