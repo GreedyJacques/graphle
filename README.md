@@ -19,7 +19,7 @@ course, A.Y. 2023/2024.
 
 **data_exp:** Restriction of the original dataset composed of 21360 elements with 33 attributes. The two additional attributes to *"data"* are *"packaging_tags"* and *"main_category_en"* [[Link](https://github.com/GreedyJacques/graphle/blob/main/data/data_exp.tsv)]
 
-**data_2:** Obtained from a newer version of the OpenFoodFacts dataset. It is composed of 739411 elements with 35 attributes.
+**data_2:** Obtained from a newer version of the OpenFoodFacts dataset. It is composed of 739411 elements with 35 attributes. [[Link](https://github.com/GreedyJacques/graphle/blob/main/data/data_2.zip)]
 
 **data_2 attributes:**
 
