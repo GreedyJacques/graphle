@@ -52,15 +52,6 @@ fo:fatty-fish a fo:FoodGroup ;
 fo:fish-and-seafood a fo:FoodGroup ;
     fo:name "Fish And Seafood"^^xsd:string .
 
-fo:fish-meat-eggs a fo:FoodGroup ;
-    fo:name "Fish Meat Eggs"^^xsd:string .
-
-fo:fruit-juices a fo:FoodGroup ;
-    fo:name "Fruit Juices"^^xsd:string .
-
-fo:fruit-nectars a fo:FoodGroup ;
-    fo:name "Fruit Nectars"^^xsd:string .
-
 fo:fruits a fo:FoodGroup ;
     fo:name "Fruits"^^xsd:string .
 
@@ -124,18 +115,9 @@ fo:sweetened-beverages a fo:FoodGroup ;
 fo:sweets a fo:FoodGroup ;
     fo:name "Sweets"^^xsd:string .
 
-fo:teas-and-herbal-teas-and-coffees a fo:FoodGroup ;
-    fo:name "Teas And Herbal Teas And Coffees"^^xsd:string .
-
-fo:unknown a fo:FoodGroup ;
-    fo:name "Unknown"^^xsd:string .
-
 fo:unsweetened-beverages a fo:FoodGroup ;
     fo:name "Unsweetened Beverages"^^xsd:string .
 
 fo:vegetables a fo:FoodGroup ;
     fo:name "Vegetables"^^xsd:string .
-
-fo:waters-and-flavored-waters a fo:FoodGroup ;
-    fo:name "Waters And Flavored Waters"^^xsd:string .
 

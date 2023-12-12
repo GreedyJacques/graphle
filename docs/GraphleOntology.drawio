@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-08T10:36:43.259Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="uACSm_-hVPl5HJscxP3L" version="22.1.7" type="device">
+<mxfile host="app.diagrams.net" modified="2023-12-11T14:32:52.435Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="C0VrJ-CAsYOQN2ml6z2V" version="22.1.7" type="device">
   <diagram name="Page-1" id="JkanCOTVR1aQbiXiffUx">
-    <mxGraphModel dx="326" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,7 +75,7 @@
           <mxGeometry x="509.9999999999998" y="210.0000000000001" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="eKdSbpDFRuJAMHskkcLp-17" value="&lt;font size=&quot;1&quot;&gt;//Work in progress&lt;br&gt;//Cerchiamo di importare un&#39;ontologia dei paesi appena finiamo le cose più importanti, per ora si possono usare degli URI placeholder&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="80" y="410" width="110" height="130" as="geometry" />
+          <mxGeometry x="70" y="335" width="110" height="130" as="geometry" />
         </mxCell>
         <mxCell id="eKdSbpDFRuJAMHskkcLp-18" value="name: string&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="140" y="200" width="80" height="30" as="geometry" />
@@ -83,14 +83,26 @@
         <mxCell id="eKdSbpDFRuJAMHskkcLp-19" value="name: string&lt;br&gt;owner: string" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="310" y="130" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eKdSbpDFRuJAMHskkcLp-20" value="name: string" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="eKdSbpDFRuJAMHskkcLp-20" value="packagingName:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="590" y="200" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eKdSbpDFRuJAMHskkcLp-21" value="ingredientName: langString" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="eKdSbpDFRuJAMHskkcLp-21" value="ingredientName:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="640" y="360" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eKdSbpDFRuJAMHskkcLp-22" value="name: string&lt;br&gt;servingSize: string&lt;br&gt;nutriscoreScore: //boh&lt;br&gt;nutriscoreGrade: //boh&lt;br&gt;novaGroup: //boh&lt;br&gt;ecoscoreGrade: //boh&lt;br&gt;energyKJ: float&lt;br&gt;energyKcal: float&lt;br&gt;fat: float&lt;br&gt;fatSaturated: float&lt;br&gt;fatTrans: float&lt;br&gt;cholesterol: float&lt;br&gt;carbohydrates: float&lt;br&gt;sugars: float&lt;br&gt;fiber: float&lt;br&gt;proteins: float&lt;br&gt;salt: float&lt;br&gt;sodium: float&lt;br&gt;vitaminA: float&lt;br&gt;vitaminC: float&lt;br&gt;calcium: float&lt;br&gt;iron: float" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="320" y="430" width="160" height="340" as="geometry" />
+          <mxGeometry x="390" y="440" width="160" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="GDGbQpmFeKLph3mgRgml-1" value=":hasLabel" style="endArrow=classic;html=1;rounded=0;verticalAlign=bottom;" edge="1" parent="1" source="eKdSbpDFRuJAMHskkcLp-1" target="GDGbQpmFeKLph3mgRgml-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="570" as="sourcePoint" />
+            <mxPoint x="290" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GDGbQpmFeKLph3mgRgml-2" value=":Label" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="210" y="510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GDGbQpmFeKLph3mgRgml-3" value="labelName:" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="150" y="510" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
