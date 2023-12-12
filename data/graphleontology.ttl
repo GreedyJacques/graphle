@@ -1,262 +1,249 @@
-@prefix : <http://www.graphle.com//> .
+@prefix : <http://www.graphle.com/foodOntology#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.graphle.com//> .
+@base <http://www.graphle.com/foodOntology#> .
 
-<http://www.graphle.com/> rdf:type owl:Ontology .
+<http://www.graphle.com/foodOntology> rdf:type owl:Ontology ;
+                                       owl:imports <http://eulersharp.sourceforge.net/2003/03swap/countries> ,
+                                                   <http://www.w3.org/2004/02/skos/core> .
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://www.graphle.com//belongsToGroup
+###  http://www.graphle.com/foodOntology#belongsToGroup
 :belongsToGroup rdf:type owl:ObjectProperty ;
-                rdfs:domain [ rdf:type owl:Restriction ;
-                              owl:onProperty :belongsToGroup ;
-                              owl:someValuesFrom :Product
-                            ] ;
-                rdfs:range [ rdf:type owl:Restriction ;
-                             owl:onProperty :belongsToGroup ;
-                             owl:someValuesFrom :FoodGroup
-                           ] .
+                rdfs:domain :Product ;
+                rdfs:range :FoodGroup .
 
 
-###  http://www.graphle.com//fromCountry
+###  http://www.graphle.com/foodOntology#fromCountry
 :fromCountry rdf:type owl:ObjectProperty ;
-             rdfs:domain [ rdf:type owl:Restriction ;
-                           owl:onProperty :fromCountry ;
-                           owl:someValuesFrom :Product
-                         ] ;
-             rdfs:range [ rdf:type owl:Restriction ;
-                          owl:onProperty :fromCountry ;
-                          owl:someValuesFrom :Country
-                        ] .
+             rdfs:domain :Product ;
+             rdfs:range <http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country> .
 
 
-###  http://www.graphle.com//hasBrand
+###  http://www.graphle.com/foodOntology#hasBrand
 :hasBrand rdf:type owl:ObjectProperty ;
-          rdfs:domain [ rdf:type owl:Restriction ;
-                        owl:onProperty :hasBrand ;
-                        owl:someValuesFrom :Product
-                      ] ;
-          rdfs:range [ rdf:type owl:Restriction ;
-                       owl:onProperty :hasBrand ;
-                       owl:someValuesFrom :Brand
-                     ] .
+          rdfs:domain :Product ;
+          rdfs:range :Brand .
 
 
-###  http://www.graphle.com//hasIngredient
+###  http://www.graphle.com/foodOntology#hasIngredient
 :hasIngredient rdf:type owl:ObjectProperty ;
-               rdfs:domain [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasIngredient ;
-                             owl:someValuesFrom :Product
-                           ] ;
-               rdfs:range [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasIngredient ;
-                            owl:someValuesFrom :Ingredient
-                          ] .
+               rdfs:domain :Product ;
+               rdfs:range :Ingredient .
 
 
-###  http://www.graphle.com//hasPackaging
+###  http://www.graphle.com/foodOntology#hasLabel
+:hasLabel rdf:type owl:ObjectProperty ;
+          rdfs:domain :Product ;
+          rdfs:range :Label .
+
+
+###  http://www.graphle.com/foodOntology#hasPackaging
 :hasPackaging rdf:type owl:ObjectProperty ;
-              rdfs:domain [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasPackaging ;
-                            owl:someValuesFrom :Product
-                          ] ;
-              rdfs:range [ rdf:type owl:Restriction ;
-                           owl:onProperty :hasPackaging ;
-                           owl:someValuesFrom :Packaging
-                         ] .
+              rdfs:domain :Product ;
+              rdfs:range :Packaging .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://www.graphle.com/calcium
-:calcium rdf:type owl:DatatypeProperty ;
-         rdfs:domain :Product ;
-         rdfs:range xsd:float .
-
-
-###  http://www.graphle.com/carbohydrates
-:carbohydrates rdf:type owl:DatatypeProperty ;
-               rdfs:domain :Product ;
-               rdfs:range xsd:float .
-
-
-###  http://www.graphle.com/cholesterol
-:cholesterol rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Product ;
-             rdfs:range xsd:float .
-
-
-###  http://www.graphle.com/ecoscoreGrade
-:ecoscoreGrade rdf:type owl:DatatypeProperty ;
-               rdfs:domain :Product .
-
-
-###  http://www.graphle.com/energyKJ
-:energyKJ rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Product ;
-          rdfs:range xsd:float .
-
-
-###  http://www.graphle.com/energyKcal
-:energyKcal rdf:type owl:DatatypeProperty ;
-            rdfs:domain :Product ;
-            rdfs:range xsd:float .
-
-
-###  http://www.graphle.com/fat
-:fat rdf:type owl:DatatypeProperty ;
-     rdfs:domain :Product ;
-     rdfs:range xsd:float .
-
-
-###  http://www.graphle.com/fatSaturated
-:fatSaturated rdf:type owl:DatatypeProperty ;
+###  http://www.graphle.com/foodOntology#calcium_100g
+:calcium_100g rdf:type owl:DatatypeProperty ;
               rdfs:domain :Product ;
               rdfs:range xsd:float .
 
 
-###  http://www.graphle.com/fatTrans
-:fatTrans rdf:type owl:DatatypeProperty ;
+###  http://www.graphle.com/foodOntology#carbohydrates_100g
+:carbohydrates_100g rdf:type owl:DatatypeProperty ;
+                    rdfs:domain :Product ;
+                    rdfs:range xsd:float .
+
+
+###  http://www.graphle.com/foodOntology#cholesterol_100g
+:cholesterol_100g rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Product ;
+                  rdfs:range xsd:float .
+
+
+###  http://www.graphle.com/foodOntology#ecoscoreGrade
+:ecoscoreGrade rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Product .
+
+
+###  http://www.graphle.com/foodOntology#energyKJ_100g
+:energyKJ_100g rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Product ;
+               rdfs:range xsd:float .
+
+
+###  http://www.graphle.com/foodOntology#energyKcal_100g
+:energyKcal_100g rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Product ;
+                 rdfs:range xsd:float .
+
+
+###  http://www.graphle.com/foodOntology#fatSaturated_100g
+:fatSaturated_100g rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Product ;
+                   rdfs:range xsd:float .
+
+
+###  http://www.graphle.com/foodOntology#fatTrans_100g
+:fatTrans_100g rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Product ;
+               rdfs:range xsd:float .
+
+
+###  http://www.graphle.com/foodOntology#fat_100g
+:fat_100g rdf:type owl:DatatypeProperty ;
           rdfs:domain :Product ;
           rdfs:range xsd:float .
 
 
-###  http://www.graphle.com/fiber
-:fiber rdf:type owl:DatatypeProperty ;
-       rdfs:domain :Product ;
-       rdfs:range xsd:float .
+###  http://www.graphle.com/foodOntology#fiber_100g
+:fiber_100g rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Product ;
+            rdfs:range xsd:float .
 
 
-###  http://www.graphle.com/ingredientName
+###  http://www.graphle.com/foodOntology#ingredientName
 :ingredientName rdf:type owl:DatatypeProperty ;
-                rdfs:domain :Ingredient ;
-                rdfs:range rdf:langString .
+                rdfs:domain :Ingredient .
 
 
-###  http://www.graphle.com/iron
-:iron rdf:type owl:DatatypeProperty ;
-      rdfs:domain :Product ;
-      rdfs:range xsd:float .
+###  http://www.graphle.com/foodOntology#iron_100g
+:iron_100g rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Product ;
+           rdfs:range xsd:float .
 
 
-###  http://www.graphle.com/nutriscoreGrade
+###  http://www.graphle.com/foodOntology#labelName
+:labelName rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Label .
+
+
+###  http://www.graphle.com/foodOntology#name
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:domain [ rdf:type owl:Class ;
+                    owl:unionOf ( :Brand
+                                  :FoodGroup
+                                  :Product
+                                )
+                  ] ;
+      rdfs:range xsd:string .
+
+
+###  http://www.graphle.com/foodOntology#novaGroup
+:novaGroup rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Product ;
+           rdfs:range xsd:float .
+
+
+###  http://www.graphle.com/foodOntology#nutriscoreGrade
 :nutriscoreGrade rdf:type owl:DatatypeProperty ;
                  rdfs:domain :Product .
 
 
-###  http://www.graphle.com/nutriscoreScore
+###  http://www.graphle.com/foodOntology#nutriscoreScore
 :nutriscoreScore rdf:type owl:DatatypeProperty ;
                  rdfs:domain :Product .
 
 
-###  http://www.graphle.com/owner
+###  http://www.graphle.com/foodOntology#owner
 :owner rdf:type owl:DatatypeProperty ;
        rdfs:domain :Brand ;
        rdfs:range xsd:string .
 
 
-###  http://www.graphle.com/proteins
-:proteins rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Product ;
-          rdfs:range xsd:float .
+###  http://www.graphle.com/foodOntology#packagingName
+:packagingName rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Packaging .
 
 
-###  http://www.graphle.com/salt
-:salt rdf:type owl:DatatypeProperty ;
-      rdfs:domain :Product ;
-      rdfs:range xsd:float .
+###  http://www.graphle.com/foodOntology#proteins_100g
+:proteins_100g rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Product ;
+               rdfs:range xsd:float .
 
 
-###  http://www.graphle.com/servingSize
+###  http://www.graphle.com/foodOntology#salt_100g
+:salt_100g rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Product ;
+           rdfs:range xsd:float .
+
+
+###  http://www.graphle.com/foodOntology#servingSize
 :servingSize rdf:type owl:DatatypeProperty ;
              rdfs:domain :Product ;
              rdfs:range xsd:string .
 
 
-###  http://www.graphle.com/sodium
-:sodium rdf:type owl:DatatypeProperty ;
-        rdfs:domain :Product ;
-        rdfs:range xsd:float .
+###  http://www.graphle.com/foodOntology#sodium_100g
+:sodium_100g rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Product ;
+             rdfs:range xsd:float .
 
 
-###  http://www.graphle.com/sugars
-:sugars rdf:type owl:DatatypeProperty ;
-        rdfs:domain :Product ;
-        rdfs:range xsd:float .
+###  http://www.graphle.com/foodOntology#sugars_100g
+:sugars_100g rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Product ;
+             rdfs:range xsd:float .
 
 
-###  http://www.graphle.com/vitaminA
-:vitaminA rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Product ;
-          rdfs:range xsd:float .
+###  http://www.graphle.com/foodOntology#vitaminA_100g
+:vitaminA_100g rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Product ;
+               rdfs:range xsd:float .
 
 
-###  http://www.graphle.com/vitaminC
-:vitaminC rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Product ;
-          rdfs:range xsd:float .
-
-
-###  http://www.graphle.com//name
-:name rdf:type owl:DatatypeProperty ;
-      rdfs:domain [ rdf:type owl:Class ;
-                    owl:unionOf ( :Brand
-                                  :FoodGroup
-                                  :Packaging
-                                  :Product
-                                )
-                  ] ,
-                  [ rdf:type owl:Restriction ;
-                    owl:onProperty :name ;
-                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                    owl:onDataRange xsd:string
-                  ] ;
-      rdfs:range xsd:string .
+###  http://www.graphle.com/foodOntology#vitaminC_100g
+:vitaminC_100g rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Product ;
+               rdfs:range xsd:float .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.graphle.com//Additive
+###  http://www.graphle.com/foodOntology#Additive
 :Additive rdf:type owl:Class ;
           rdfs:subClassOf :Ingredient ;
           owl:disjointWith :Vitamin .
 
 
-###  http://www.graphle.com//Brand
+###  http://www.graphle.com/foodOntology#Brand
 :Brand rdf:type owl:Class .
 
 
-###  http://www.graphle.com//Country
-:Country rdf:type owl:Class .
-
-
-###  http://www.graphle.com//FoodGroup
+###  http://www.graphle.com/foodOntology#FoodGroup
 :FoodGroup rdf:type owl:Class .
 
 
-###  http://www.graphle.com//Ingredient
+###  http://www.graphle.com/foodOntology#Ingredient
 :Ingredient rdf:type owl:Class .
 
 
-###  http://www.graphle.com//Packaging
+###  http://www.graphle.com/foodOntology#Label
+:Label rdf:type owl:Class .
+
+
+###  http://www.graphle.com/foodOntology#Packaging
 :Packaging rdf:type owl:Class .
 
 
-###  http://www.graphle.com//Product
+###  http://www.graphle.com/foodOntology#Product
 :Product rdf:type owl:Class .
 
 
-###  http://www.graphle.com//Vitamin
+###  http://www.graphle.com/foodOntology#Vitamin
 :Vitamin rdf:type owl:Class ;
          rdfs:subClassOf :Ingredient .
 

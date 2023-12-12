@@ -1,123 +1,123 @@
-@prefix fo: <http://www.graphle.com/foodOntology#> .
+@prefix : <http://www.graphle.com/foodOntology#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-fo:alcoholic-beverages a fo:FoodGroup ;
-    fo:name "Alcoholic Beverages"^^xsd:string .
+:alcoholic-beverages a :FoodGroup ;
+    :name "Alcoholic Beverages"^^xsd:string .
 
-fo:appetizers a fo:FoodGroup ;
-    fo:name "Appetizers"^^xsd:string .
+:appetizers a :FoodGroup ;
+    :name "Appetizers"^^xsd:string .
 
-fo:artificially-sweetened-beverages a fo:FoodGroup ;
-    fo:name "Artificially Sweetened Beverages"^^xsd:string .
+:artificially-sweetened-beverages a :FoodGroup ;
+    :name "Artificially Sweetened Beverages"^^xsd:string .
 
-fo:biscuits-and-cakes a fo:FoodGroup ;
-    fo:name "Biscuits And Cakes"^^xsd:string .
+:biscuits-and-cakes a :FoodGroup ;
+    :name "Biscuits And Cakes"^^xsd:string .
 
-fo:bread a fo:FoodGroup ;
-    fo:name "Bread"^^xsd:string .
+:bread a :FoodGroup ;
+    :name "Bread"^^xsd:string .
 
-fo:breakfast-cereals a fo:FoodGroup ;
-    fo:name "Breakfast Cereals"^^xsd:string .
+:breakfast-cereals a :FoodGroup ;
+    :name "Breakfast Cereals"^^xsd:string .
 
-fo:cereals a fo:FoodGroup ;
-    fo:name "Cereals"^^xsd:string .
+:cereals a :FoodGroup ;
+    :name "Cereals"^^xsd:string .
 
-fo:cereals-and-potatoes a fo:FoodGroup ;
-    fo:name "Cereals And Potatoes"^^xsd:string .
+:cereals-and-potatoes a :FoodGroup ;
+    :name "Cereals And Potatoes"^^xsd:string .
 
-fo:cheese a fo:FoodGroup ;
-    fo:name "Cheese"^^xsd:string .
+:cheese a :FoodGroup ;
+    :name "Cheese"^^xsd:string .
 
-fo:chocolate-products a fo:FoodGroup ;
-    fo:name "Chocolate Products"^^xsd:string .
+:chocolate-products a :FoodGroup ;
+    :name "Chocolate Products"^^xsd:string .
 
-fo:dairy-desserts a fo:FoodGroup ;
-    fo:name "Dairy Desserts"^^xsd:string .
+:dairy-desserts a :FoodGroup ;
+    :name "Dairy Desserts"^^xsd:string .
 
-fo:dressings-and-sauces a fo:FoodGroup ;
-    fo:name "Dressings And Sauces"^^xsd:string .
+:dressings-and-sauces a :FoodGroup ;
+    :name "Dressings And Sauces"^^xsd:string .
 
-fo:dried-fruits a fo:FoodGroup ;
-    fo:name "Dried Fruits"^^xsd:string .
+:dried-fruits a :FoodGroup ;
+    :name "Dried Fruits"^^xsd:string .
 
-fo:eggs a fo:FoodGroup ;
-    fo:name "Eggs"^^xsd:string .
+:eggs a :FoodGroup ;
+    :name "Eggs"^^xsd:string .
 
-fo:fats a fo:FoodGroup ;
-    fo:name "Fats"^^xsd:string .
+:fats a :FoodGroup ;
+    :name "Fats"^^xsd:string .
 
-fo:fatty-fish a fo:FoodGroup ;
-    fo:name "Fatty Fish"^^xsd:string .
+:fatty-fish a :FoodGroup ;
+    :name "Fatty Fish"^^xsd:string .
 
-fo:fish-and-seafood a fo:FoodGroup ;
-    fo:name "Fish And Seafood"^^xsd:string .
+:fish-and-seafood a :FoodGroup ;
+    :name "Fish And Seafood"^^xsd:string .
 
-fo:fruits a fo:FoodGroup ;
-    fo:name "Fruits"^^xsd:string .
+:fruits a :FoodGroup ;
+    :name "Fruits"^^xsd:string .
 
-fo:fruits-and-vegetables a fo:FoodGroup ;
-    fo:name "Fruits And Vegetables"^^xsd:string .
+:fruits-and-vegetables a :FoodGroup ;
+    :name "Fruits And Vegetables"^^xsd:string .
 
-fo:ice-cream a fo:FoodGroup ;
-    fo:name "Ice Cream"^^xsd:string .
+:ice-cream a :FoodGroup ;
+    :name "Ice Cream"^^xsd:string .
 
-fo:lean-fish a fo:FoodGroup ;
-    fo:name "Lean Fish"^^xsd:string .
+:lean-fish a :FoodGroup ;
+    :name "Lean Fish"^^xsd:string .
 
-fo:legumes a fo:FoodGroup ;
-    fo:name "Legumes"^^xsd:string .
+:legumes a :FoodGroup ;
+    :name "Legumes"^^xsd:string .
 
-fo:meat-other-than-poultry a fo:FoodGroup ;
-    fo:name "Meat Other Than Poultry"^^xsd:string .
+:meat-other-than-poultry a :FoodGroup ;
+    :name "Meat Other Than Poultry"^^xsd:string .
 
-fo:milk-and-yogurt a fo:FoodGroup ;
-    fo:name "Milk And Yogurt"^^xsd:string .
+:milk-and-yogurt a :FoodGroup ;
+    :name "Milk And Yogurt"^^xsd:string .
 
-fo:nuts a fo:FoodGroup ;
-    fo:name "Nuts"^^xsd:string .
+:nuts a :FoodGroup ;
+    :name "Nuts"^^xsd:string .
 
-fo:offals a fo:FoodGroup ;
-    fo:name "Offals"^^xsd:string .
+:offals a :FoodGroup ;
+    :name "Offals"^^xsd:string .
 
-fo:one-dish-meals a fo:FoodGroup ;
-    fo:name "One Dish Meals"^^xsd:string .
+:one-dish-meals a :FoodGroup ;
+    :name "One Dish Meals"^^xsd:string .
 
-fo:pastries a fo:FoodGroup ;
-    fo:name "Pastries"^^xsd:string .
+:pastries a :FoodGroup ;
+    :name "Pastries"^^xsd:string .
 
-fo:pizza-pies-and-quiches a fo:FoodGroup ;
-    fo:name "Pizza Pies And Quiches"^^xsd:string .
+:pizza-pies-and-quiches a :FoodGroup ;
+    :name "Pizza Pies And Quiches"^^xsd:string .
 
-fo:plant-based-milk-substitutes a fo:FoodGroup ;
-    fo:name "Plant Based Milk Substitutes"^^xsd:string .
+:plant-based-milk-substitutes a :FoodGroup ;
+    :name "Plant Based Milk Substitutes"^^xsd:string .
 
-fo:potatoes a fo:FoodGroup ;
-    fo:name "Potatoes"^^xsd:string .
+:potatoes a :FoodGroup ;
+    :name "Potatoes"^^xsd:string .
 
-fo:poultry a fo:FoodGroup ;
-    fo:name "Poultry"^^xsd:string .
+:poultry a :FoodGroup ;
+    :name "Poultry"^^xsd:string .
 
-fo:processed-meat a fo:FoodGroup ;
-    fo:name "Processed Meat"^^xsd:string .
+:processed-meat a :FoodGroup ;
+    :name "Processed Meat"^^xsd:string .
 
-fo:salty-and-fatty-products a fo:FoodGroup ;
-    fo:name "Salty And Fatty Products"^^xsd:string .
+:salty-and-fatty-products a :FoodGroup ;
+    :name "Salty And Fatty Products"^^xsd:string .
 
-fo:sandwiches a fo:FoodGroup ;
-    fo:name "Sandwiches"^^xsd:string .
+:sandwiches a :FoodGroup ;
+    :name "Sandwiches"^^xsd:string .
 
-fo:soups a fo:FoodGroup ;
-    fo:name "Soups"^^xsd:string .
+:soups a :FoodGroup ;
+    :name "Soups"^^xsd:string .
 
-fo:sweetened-beverages a fo:FoodGroup ;
-    fo:name "Sweetened Beverages"^^xsd:string .
+:sweetened-beverages a :FoodGroup ;
+    :name "Sweetened Beverages"^^xsd:string .
 
-fo:sweets a fo:FoodGroup ;
-    fo:name "Sweets"^^xsd:string .
+:sweets a :FoodGroup ;
+    :name "Sweets"^^xsd:string .
 
-fo:unsweetened-beverages a fo:FoodGroup ;
-    fo:name "Unsweetened Beverages"^^xsd:string .
+:unsweetened-beverages a :FoodGroup ;
+    :name "Unsweetened Beverages"^^xsd:string .
 
-fo:vegetables a fo:FoodGroup ;
-    fo:name "Vegetables"^^xsd:string .
+:vegetables a :FoodGroup ;
+    :name "Vegetables"^^xsd:string .
 

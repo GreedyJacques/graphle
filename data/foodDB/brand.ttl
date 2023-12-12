@@ -1,2608 +1,2616 @@
-@prefix fo: <http://www.graphle.com/foodOntology#> .
+@prefix : <http://www.graphle.com/foodOntology#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-fo:1-2 a fo:Brand ;
-    fo:name "1 2 "^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:1-2 a :Brand ;
+    :name "1 2 "^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:a-la-orden a fo:Brand ;
-    fo:name "A La Orden"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:a-la-orden a :Brand ;
+    :name "A La Orden"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:a-taste-of-thai a fo:Brand ;
-    fo:name "A Taste Of Thai"^^xsd:string .
+:a-taste-of-thai a :Brand ;
+    :name "A Taste Of Thai"^^xsd:string .
 
-fo:a-w a fo:Brand ;
-    fo:name "A&W"^^xsd:string .
+:a-w a :Brand ;
+    :name "A&W"^^xsd:string .
 
-fo:acetificio-m-de-nigris-s-r-l a fo:Brand ;
-    fo:name "Acetificio M. De Nigris S.R.L."^^xsd:string ;
-    fo:owner "DE NIGRIS"^^xsd:string .
+:acetificio-m-de-nigris-s-r-l a :Brand ;
+    :name "Acetificio M. De Nigris S.R.L."^^xsd:string ;
+    :owner "DE NIGRIS"^^xsd:string .
 
-fo:acetificio-m-de-nigris-srl a fo:Brand ;
-    fo:name "Acetificio M De Nigris Srl"^^xsd:string ;
-    fo:owner "DE NIGRIS"^^xsd:string .
+:acetificio-m-de-nigris-srl a :Brand ;
+    :name "Acetificio M De Nigris Srl"^^xsd:string ;
+    :owner "DE NIGRIS"^^xsd:string .
 
-fo:acetificio-marcello-denigris a fo:Brand ;
-    fo:name "Acetificio Marcello Denigris"^^xsd:string ;
-    fo:owner "Acetificio Marcello Denigris"^^xsd:string .
+:acetificio-marcello-denigris a :Brand ;
+    :name "Acetificio Marcello Denigris"^^xsd:string ;
+    :owner "Acetificio Marcello Denigris"^^xsd:string .
 
-fo:active-food a fo:Brand ;
-    fo:name "Active Food"^^xsd:string .
+:active-food a :Brand ;
+    :name "Active Food"^^xsd:string .
 
-fo:agora a fo:Brand ;
-    fo:name "Agora"^^xsd:string .
+:agora a :Brand ;
+    :name "Agora"^^xsd:string .
 
-fo:ajishima-foods-co-ltd a fo:Brand ;
-    fo:name "Ajishima Foods Co.  Ltd."^^xsd:string ;
-    fo:owner "JFC International Inc."^^xsd:string .
+:ajishima-foods-co-ltd a :Brand ;
+    :name "Ajishima Foods Co.  Ltd."^^xsd:string ;
+    :owner "JFC International Inc."^^xsd:string .
 
-fo:al-seedawi a fo:Brand ;
-    fo:name "Al_Seedawi"^^xsd:string .
+:al-seedawi a :Brand ;
+    :name "Al_Seedawi"^^xsd:string .
 
-fo:ala-orden a fo:Brand ;
-    fo:name "Ala Orden"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:ala-orden a :Brand ;
+    :name "Ala Orden"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:alaska a fo:Brand ;
-    fo:name "Alaska"^^xsd:string ;
-    fo:owner "ALASKA"^^xsd:string .
+:alaska a :Brand ;
+    :name "Alaska"^^xsd:string ;
+    :owner "ALASKA"^^xsd:string .
 
-fo:alice-delice a fo:Brand ;
-    fo:name "Alice Délice"^^xsd:string .
+:alice-delice a :Brand ;
+    :name "Alice Délice"^^xsd:string .
 
-fo:alice-delices a fo:Brand ;
-    fo:name "Alice Delices"^^xsd:string .
+:alice-delices a :Brand ;
+    :name "Alice Delices"^^xsd:string .
 
-fo:alice-et-bio a fo:Brand ;
-    fo:name "Alice Et Bio"^^xsd:string .
+:alice-et-bio a :Brand ;
+    :name "Alice Et Bio"^^xsd:string .
 
-fo:amand-terroir a fo:Brand ;
-    fo:name "Amand Terroir"^^xsd:string .
+:amand-terroir a :Brand ;
+    :name "Amand Terroir"^^xsd:string .
 
-fo:amay-s-bakery-noodle-co-inc a fo:Brand ;
-    fo:name "Amay'S Bakery & Noodle Co.  Inc."^^xsd:string .
+:amay-s-bakery-noodle-co-inc a :Brand ;
+    :name "Amay'S Bakery & Noodle Co.  Inc."^^xsd:string .
 
-fo:amoy a fo:Brand ;
-    fo:name "Amoy"^^xsd:string .
+:amoy a :Brand ;
+    :name "Amoy"^^xsd:string .
 
-fo:angry-birds a fo:Brand ;
-    fo:name "Angry Birds"^^xsd:string ;
-    fo:owner "Healthy Food Brands LLC"^^xsd:string .
+:angry-birds a :Brand ;
+    :name "Angry Birds"^^xsd:string ;
+    :owner "Healthy Food Brands LLC"^^xsd:string .
 
-fo:anilu-import-export-corp a fo:Brand ;
-    fo:name "Anilu Import & Export Corp"^^xsd:string .
+:anilu-import-export-corp a :Brand ;
+    :name "Anilu Import & Export Corp"^^xsd:string .
 
-fo:art-s-mexican-products a fo:Brand ;
-    fo:name "Art'S Mexican Products"^^xsd:string ;
-    fo:owner "Art's Mexican Products, Inc."^^xsd:string .
+:art-s-mexican-products a :Brand ;
+    :name "Art'S Mexican Products"^^xsd:string ;
+    :owner "Art's Mexican Products, Inc."^^xsd:string .
 
-fo:asia-green-garden a fo:Brand ;
-    fo:name "Asia Green Garden"^^xsd:string .
+:asia-green-garden a :Brand ;
+    :name "Asia Green Garden"^^xsd:string .
 
-fo:athena-imports a fo:Brand ;
-    fo:name "Athena Imports"^^xsd:string .
+:athena-imports a :Brand ;
+    :name "Athena Imports"^^xsd:string .
 
-fo:augason-farms a fo:Brand ;
-    fo:name "Augason Farms"^^xsd:string ;
-    fo:owner "Blue Chip Group Inc."^^xsd:string .
+:augason-farms a :Brand ;
+    :name "Augason Farms"^^xsd:string ;
+    :owner "Blue Chip Group Inc."^^xsd:string .
 
-fo:autocrat a fo:Brand ;
-    fo:name "Autocrat"^^xsd:string .
+:aussie a :Brand ;
+    :name "Aussie"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:avocado a fo:Brand ;
-    fo:name "Avocado"^^xsd:string .
+:autocrat a :Brand ;
+    :name "Autocrat"^^xsd:string .
 
-fo:b-r-group-inc a fo:Brand ;
-    fo:name "B R Group Inc."^^xsd:string ;
-    fo:owner "B R Group Inc."^^xsd:string .
+:avocado a :Brand ;
+    :name "Avocado"^^xsd:string .
 
-fo:bake-a-teria-inc a fo:Brand ;
-    fo:name "Bake A Teria  Inc."^^xsd:string ;
-    fo:owner "Bake-A-Teria, Inc."^^xsd:string .
+:b-r-group-inc a :Brand ;
+    :name "B R Group Inc."^^xsd:string ;
+    :owner "B R Group Inc."^^xsd:string .
 
-fo:baked-fresh-goodness a fo:Brand ;
-    fo:name "Baked Fresh Goodness"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:bake-a-teria-inc a :Brand ;
+    :name "Bake A Teria  Inc."^^xsd:string ;
+    :owner "Bake-A-Teria, Inc."^^xsd:string .
 
-fo:bakery-fresh a fo:Brand ;
-    fo:name "Bakery Fresh"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:baked-fresh-goodness a :Brand ;
+    :name "Baked Fresh Goodness"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:bakery-fresh-goodness a fo:Brand ;
-    fo:name "Bakery Fresh Goodness"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:bakery-fresh a :Brand ;
+    :name "Bakery Fresh"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:bakery-fresh-goodnessthe-kroger-co a fo:Brand ;
-    fo:name "Bakery Fresh Goodness,  The Kroger Co."^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:bakery-fresh-goodness a :Brand ;
+    :name "Bakery Fresh Goodness"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:bakin-miracle a fo:Brand ;
-    fo:name "Bakin' Miracle"^^xsd:string ;
-    fo:owner "Little Crow Milling Co."^^xsd:string .
+:bakery-fresh-goodnessthe-kroger-co a :Brand ;
+    :name "Bakery Fresh Goodness,  The Kroger Co."^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:balocco a fo:Brand ;
-    fo:name "Balocco"^^xsd:string ;
-    fo:owner "BALOCCO"^^xsd:string .
+:bakin-miracle a :Brand ;
+    :name "Bakin' Miracle"^^xsd:string ;
+    :owner "Little Crow Milling Co."^^xsd:string .
 
-fo:baraboo-candy a fo:Brand ;
-    fo:name "Baraboo Candy"^^xsd:string ;
-    fo:owner "Baraboo Candy Company, LLC"^^xsd:string .
+:balocco a :Brand ;
+    :name "Balocco"^^xsd:string ;
+    :owner "BALOCCO"^^xsd:string .
 
-fo:baraboo-candy-company-llc a fo:Brand ;
-    fo:name "Baraboo Candy Company  Llc"^^xsd:string ;
-    fo:owner "Baraboo Candy Company, LLC"^^xsd:string .
+:baraboo-candy a :Brand ;
+    :name "Baraboo Candy"^^xsd:string ;
+    :owner "Baraboo Candy Company, LLC"^^xsd:string .
 
-fo:bart-judy-s a fo:Brand ;
-    fo:name "Bart & Judy'S"^^xsd:string ;
-    fo:owner "Petpro Products, Inc."^^xsd:string .
+:baraboo-candy-company-llc a :Brand ;
+    :name "Baraboo Candy Company  Llc"^^xsd:string ;
+    :owner "Baraboo Candy Company, LLC"^^xsd:string .
 
-fo:basic-american-foods a fo:Brand ;
-    fo:name "Basic American Foods"^^xsd:string ;
-    fo:owner "Basic American Foods, Inc."^^xsd:string .
+:bart-judy-s a :Brand ;
+    :name "Bart & Judy'S"^^xsd:string ;
+    :owner "Petpro Products, Inc."^^xsd:string .
 
-fo:basic-american-foods-inc a fo:Brand ;
-    fo:name "Basic American Foods  Inc."^^xsd:string ;
-    fo:owner "Basic American Foods, Inc."^^xsd:string .
+:basic-american-foods a :Brand ;
+    :name "Basic American Foods"^^xsd:string ;
+    :owner "Basic American Foods, Inc."^^xsd:string .
 
-fo:beaver a fo:Brand ;
-    fo:name "Beaver"^^xsd:string .
+:basic-american-foods-inc a :Brand ;
+    :name "Basic American Foods  Inc."^^xsd:string ;
+    :owner "Basic American Foods, Inc."^^xsd:string .
 
-fo:beaverton-foods-inc a fo:Brand ;
-    fo:name "Beaverton Foods  Inc."^^xsd:string ;
-    fo:owner "NAPA VALLEY MUSTARD CO"^^xsd:string .
+:beaver a :Brand ;
+    :name "Beaver"^^xsd:string .
 
-fo:becel a fo:Brand ;
-    fo:name "Becel"^^xsd:string .
+:beaverton-foods-inc a :Brand ;
+    :name "Beaverton Foods  Inc."^^xsd:string ;
+    :owner "NAPA VALLEY MUSTARD CO"^^xsd:string .
 
-fo:becelupfield a fo:Brand ;
-    fo:name "Becel,Upfield"^^xsd:string .
+:becel a :Brand ;
+    :name "Becel"^^xsd:string .
 
-fo:beigel-beigel a fo:Brand ;
-    fo:name "Beigel Beigel"^^xsd:string ;
-    fo:owner "Beigel and Beigel Mazon (1985)"^^xsd:string .
+:becelupfield a :Brand ;
+    :name "Becel,Upfield"^^xsd:string .
 
-fo:bertagni a fo:Brand ;
-    fo:name "Bertagni"^^xsd:string .
+:beigel-beigel a :Brand ;
+    :name "Beigel Beigel"^^xsd:string ;
+    :owner "Beigel and Beigel Mazon (1985)"^^xsd:string .
 
-fo:best-american-foods a fo:Brand ;
-    fo:name "Best American Foods"^^xsd:string ;
-    fo:owner "Basic American Foods, Inc."^^xsd:string .
+:bertagni a :Brand ;
+    :name "Bertagni"^^xsd:string .
 
-fo:best-dressed-associates-inc a fo:Brand ;
-    fo:name "Best Dressed Associates  Inc."^^xsd:string ;
-    fo:owner "Best Dressed Associates, Inc."^^xsd:string .
+:best-american-foods a :Brand ;
+    :name "Best American Foods"^^xsd:string ;
+    :owner "Basic American Foods, Inc."^^xsd:string .
 
-fo:best-health-beverages a fo:Brand ;
-    fo:name "Best Health Beverages"^^xsd:string ;
-    fo:owner "Best Health Beverages"^^xsd:string .
+:best-dressed-associates-inc a :Brand ;
+    :name "Best Dressed Associates  Inc."^^xsd:string ;
+    :owner "Best Dressed Associates, Inc."^^xsd:string .
 
-fo:better-ideas a fo:Brand ;
-    fo:name "Better Ideas"^^xsd:string ;
-    fo:owner "Better Ideas"^^xsd:string .
+:best-health-beverages a :Brand ;
+    :name "Best Health Beverages"^^xsd:string ;
+    :owner "Best Health Beverages"^^xsd:string .
 
-fo:betty-lou-s-inc a fo:Brand ;
-    fo:name "Betty Lou'S Inc."^^xsd:string .
+:better-ideas a :Brand ;
+    :name "Better Ideas"^^xsd:string ;
+    :owner "Better Ideas"^^xsd:string .
 
-fo:big-k a fo:Brand ;
-    fo:name "Big K"^^xsd:string .
+:betty-lou-s-inc a :Brand ;
+    :name "Betty Lou'S Inc."^^xsd:string .
 
-fo:big-kthe-kroger-co a fo:Brand ;
-    fo:name "Big K,  The Kroger Co."^^xsd:string .
+:big-k a :Brand ;
+    :name "Big K"^^xsd:string .
 
-fo:bijou a fo:Brand ;
-    fo:name "Bijou"^^xsd:string .
+:big-kthe-kroger-co a :Brand ;
+    :name "Big K,  The Kroger Co."^^xsd:string .
 
-fo:bill-knapp-s a fo:Brand ;
-    fo:name "Bill Knapp'S"^^xsd:string ;
-    fo:owner "Bake-A-Teria, Inc."^^xsd:string .
+:bijou a :Brand ;
+    :name "Bijou"^^xsd:string .
 
-fo:biotiva a fo:Brand ;
-    fo:name "Biotiva"^^xsd:string .
+:bill-knapp-s a :Brand ;
+    :name "Bill Knapp'S"^^xsd:string ;
+    :owner "Bake-A-Teria, Inc."^^xsd:string .
 
-fo:bisto a fo:Brand ;
-    fo:name "Bisto"^^xsd:string .
+:biotiva a :Brand ;
+    :name "Biotiva"^^xsd:string .
 
-fo:black-forestkroger a fo:Brand ;
-    fo:name "Black Forest,Kroger"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:bisto a :Brand ;
+    :name "Bisto"^^xsd:string .
 
-fo:black-forestrabbit-creek-products a fo:Brand ;
-    fo:name "Black Forest,  Rabbit Creek Products"^^xsd:string ;
-    fo:owner "Rabbit Creek Products, Inc."^^xsd:string .
+:black-forestkroger a :Brand ;
+    :name "Black Forest,Kroger"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:black-forestthe-kroger-co a fo:Brand ;
-    fo:name "Black Forest,  The Kroger Co."^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:black-forestrabbit-creek-products a :Brand ;
+    :name "Black Forest,  Rabbit Creek Products"^^xsd:string ;
+    :owner "Rabbit Creek Products, Inc."^^xsd:string .
 
-fo:blue-chip-group a fo:Brand ;
-    fo:name "Blue Chip Group"^^xsd:string ;
-    fo:owner "Blue Chip Group Inc."^^xsd:string .
+:black-forestthe-kroger-co a :Brand ;
+    :name "Black Forest,  The Kroger Co."^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:blue-mountain a fo:Brand ;
-    fo:name "Blue Mountain"^^xsd:string ;
-    fo:owner "Eve Sales Company"^^xsd:string .
+:blue-chip-group a :Brand ;
+    :name "Blue Chip Group"^^xsd:string ;
+    :owner "Blue Chip Group Inc."^^xsd:string .
 
-fo:blue-mountain-country a fo:Brand ;
-    fo:name "Blue Mountain Country"^^xsd:string ;
-    fo:owner "Eve Sales Company"^^xsd:string .
+:blue-mountain a :Brand ;
+    :name "Blue Mountain"^^xsd:string ;
+    :owner "Eve Sales Company"^^xsd:string .
 
-fo:bluebird-grain a fo:Brand ;
-    fo:name "Bluebird Grain"^^xsd:string .
+:blue-mountain-country a :Brand ;
+    :name "Blue Mountain Country"^^xsd:string ;
+    :owner "Eve Sales Company"^^xsd:string .
 
-fo:bo-frost a fo:Brand ;
-    fo:name "Bo Frost"^^xsd:string .
+:bluebird-grain a :Brand ;
+    :name "Bluebird Grain"^^xsd:string .
 
-fo:bob-s-red-mill a fo:Brand ;
-    fo:name "Bob'S Red Mill"^^xsd:string .
+:bo-frost a :Brand ;
+    :name "Bo Frost"^^xsd:string .
 
-fo:bobbi-s-best-inc a fo:Brand ;
-    fo:name "Bobbi'S Best  Inc."^^xsd:string ;
-    fo:owner "Bobbi's Best, Inc."^^xsd:string .
+:bob-s-red-mill a :Brand ;
+    :name "Bob'S Red Mill"^^xsd:string .
 
-fo:bofrost a fo:Brand ;
-    fo:name "Bofrost"^^xsd:string .
+:bobbi-s-best-inc a :Brand ;
+    :name "Bobbi'S Best  Inc."^^xsd:string ;
+    :owner "Bobbi's Best, Inc."^^xsd:string .
 
-fo:bonarea a fo:Brand ;
-    fo:name "Bonàrea"^^xsd:string .
+:bofrost a :Brand ;
+    :name "Bofrost"^^xsd:string .
 
-fo:bonduelle a fo:Brand ;
-    fo:name "Bonduelle"^^xsd:string .
+:bonarea a :Brand ;
+    :name "Bonàrea"^^xsd:string .
 
-fo:bonfood a fo:Brand ;
-    fo:name "Bonfood"^^xsd:string .
+:bonduelle a :Brand ;
+    :name "Bonduelle"^^xsd:string .
 
-fo:bonne-maman a fo:Brand ;
-    fo:name "Bonne Maman"^^xsd:string .
+:bonfood a :Brand ;
+    :name "Bonfood"^^xsd:string .
 
-fo:book-dynamics a fo:Brand ;
-    fo:name "Book Dynamics"^^xsd:string ;
-    fo:owner "Book Dynamics"^^xsd:string .
+:bonne-maman a :Brand ;
+    :name "Bonne Maman"^^xsd:string .
 
-fo:botan a fo:Brand ;
-    fo:name "Botan"^^xsd:string .
+:book-dynamics a :Brand ;
+    :name "Book Dynamics"^^xsd:string ;
+    :owner "Book Dynamics"^^xsd:string .
 
-fo:bulk a fo:Brand ;
-    fo:name "Bulk"^^xsd:string .
+:botan a :Brand ;
+    :name "Botan"^^xsd:string .
 
-fo:bulk-powders a fo:Brand ;
-    fo:name "Bulk Powders"^^xsd:string .
+:bulk a :Brand ;
+    :name "Bulk"^^xsd:string .
 
-fo:bulkpowder a fo:Brand ;
-    fo:name "Bulkpowder"^^xsd:string .
+:bulk-powders a :Brand ;
+    :name "Bulk Powders"^^xsd:string .
 
-fo:bulkpowders-com a fo:Brand ;
-    fo:name "Bulkpowders.Com"^^xsd:string .
+:bulkpowder a :Brand ;
+    :name "Bulkpowder"^^xsd:string .
 
-fo:bulksupplements-comachter-hof a fo:Brand ;
-    fo:name "Bulksupplements.Com, Achter Hof"^^xsd:string .
+:bulkpowders-com a :Brand ;
+    :name "Bulkpowders.Com"^^xsd:string .
 
-fo:bunge-edible-oil-corporation a fo:Brand ;
-    fo:name "Bunge Edible Oil Corporation"^^xsd:string .
+:bulksupplements-comachter-hof a :Brand ;
+    :name "Bulksupplements.Com, Achter Hof"^^xsd:string .
 
-fo:bunny-luv a fo:Brand ;
-    fo:name "Bunny Luv"^^xsd:string .
+:bunge-edible-oil-corporation a :Brand ;
+    :name "Bunge Edible Oil Corporation"^^xsd:string .
 
-fo:busch-s a fo:Brand ;
-    fo:name "Busch'S"^^xsd:string ;
-    fo:owner "Unilever Home and Personal Care USA"^^xsd:string .
+:bunny-luv a :Brand ;
+    :name "Bunny Luv"^^xsd:string .
 
-fo:butternut-mountain-farm a fo:Brand ;
-    fo:name "Butternut Mountain Farm"^^xsd:string ;
-    fo:owner "Butternut Mountain Farm"^^xsd:string .
+:busch-s a :Brand ;
+    :name "Busch'S"^^xsd:string ;
+    :owner "Unilever Home and Personal Care USA"^^xsd:string .
 
-fo:by-sainsbury-s a fo:Brand ;
-    fo:name "By Sainsbury'S"^^xsd:string .
+:butternut-mountain-farm a :Brand ;
+    :name "Butternut Mountain Farm"^^xsd:string ;
+    :owner "Butternut Mountain Farm"^^xsd:string .
 
-fo:by-sainsbury-ssainsbury-sholland-barrett a fo:Brand ;
-    fo:name "By Sainsbury'S,Sainsbury'S, Holland & Barrett"^^xsd:string .
+:by-sainsbury-s a :Brand ;
+    :name "By Sainsbury'S"^^xsd:string .
 
-fo:candy-crush a fo:Brand ;
-    fo:name "Candy Crush"^^xsd:string .
+:by-sainsbury-ssainsbury-sholland-barrett a :Brand ;
+    :name "By Sainsbury'S,Sainsbury'S, Holland & Barrett"^^xsd:string .
 
-fo:canola-harvest a fo:Brand ;
-    fo:name "Canola Harvest"^^xsd:string ;
-    fo:owner "Heartlight Corp. Of America"^^xsd:string .
+:candy-crush a :Brand ;
+    :name "Candy Crush"^^xsd:string .
 
-fo:caputo a fo:Brand ;
-    fo:name "Caputo"^^xsd:string ;
-    fo:owner "Wiscon Corporation"^^xsd:string .
+:canola-harvest a :Brand ;
+    :name "Canola Harvest"^^xsd:string ;
+    :owner "Heartlight Corp. Of America"^^xsd:string .
 
-fo:carbmaster a fo:Brand ;
-    fo:name "Carbmaster"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:caputo a :Brand ;
+    :name "Caputo"^^xsd:string ;
+    :owner "Wiscon Corporation"^^xsd:string .
 
-fo:caseificio-dell-alta-langa a fo:Brand ;
-    fo:name "Caseificio Dell'Alta Langa"^^xsd:string ;
-    fo:owner "Product's A and H Of Costa Ric"^^xsd:string .
+:carbmaster a :Brand ;
+    :name "Carbmaster"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:cb-s-nuts a fo:Brand ;
-    fo:name "Cb'S Nuts"^^xsd:string .
+:caseificio-dell-alta-langa a :Brand ;
+    :name "Caseificio Dell'Alta Langa"^^xsd:string ;
+    :owner "Product's A and H Of Costa Ric"^^xsd:string .
 
-fo:cean-mist-farms a fo:Brand ;
-    fo:name "Cean Mist Farms"^^xsd:string ;
-    fo:owner "OCEAN MIST FARMS"^^xsd:string .
+:cb-s-nuts a :Brand ;
+    :name "Cb'S Nuts"^^xsd:string .
 
-fo:chaleur-creole a fo:Brand ;
-    fo:name "Chaleur Creole"^^xsd:string .
+:cean-mist-farms a :Brand ;
+    :name "Cean Mist Farms"^^xsd:string ;
+    :owner "OCEAN MIST FARMS"^^xsd:string .
 
-fo:charleston-favorites a fo:Brand ;
-    fo:name "Charleston Favorites"^^xsd:string .
+:chaleur-creole a :Brand ;
+    :name "Chaleur Creole"^^xsd:string .
 
-fo:ching-yeh-pork-fu a fo:Brand ;
-    fo:name "Ching Yeh Pork Fu"^^xsd:string ;
-    fo:owner "Formosa Food Co Inc"^^xsd:string .
+:charleston-favorites a :Brand ;
+    :name "Charleston Favorites"^^xsd:string .
 
-fo:chio a fo:Brand ;
-    fo:name "Chio"^^xsd:string .
+:ching-yeh-pork-fu a :Brand ;
+    :name "Ching Yeh Pork Fu"^^xsd:string ;
+    :owner "Formosa Food Co Inc"^^xsd:string .
 
-fo:chiostro-di-saronno a fo:Brand ;
-    fo:name "Chiostro Di Saronno"^^xsd:string .
+:chio a :Brand ;
+    :name "Chio"^^xsd:string .
 
-fo:chip-mates a fo:Brand ;
-    fo:name "Chip Mates"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:chiostro-di-saronno a :Brand ;
+    :name "Chiostro Di Saronno"^^xsd:string .
 
-fo:chipmates a fo:Brand ;
-    fo:name "Chipmates"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:chip-mates a :Brand ;
+    :name "Chip Mates"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:chipmates-candy a fo:Brand ;
-    fo:name "Chipmates Candy"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:chipmates a :Brand ;
+    :name "Chipmates"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:cinque-formaggi a fo:Brand ;
-    fo:name "Cinque Formaggi"^^xsd:string .
+:chipmates-candy a :Brand ;
+    :name "Chipmates Candy"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:citterio a fo:Brand ;
-    fo:name "Citterio"^^xsd:string .
+:cinque-formaggi a :Brand ;
+    :name "Cinque Formaggi"^^xsd:string .
 
-fo:clearspring a fo:Brand ;
-    fo:name "Clearspring"^^xsd:string .
+:citterio a :Brand ;
+    :name "Citterio"^^xsd:string .
 
-fo:clos-saint-sozy a fo:Brand ;
-    fo:name "Clos Saint Sozy"^^xsd:string .
+:clearspring a :Brand ;
+    :name "Clearspring"^^xsd:string .
 
-fo:clover-organic-farms a fo:Brand ;
-    fo:name "Clover Organic Farms"^^xsd:string .
+:clos-saint-sozy a :Brand ;
+    :name "Clos Saint Sozy"^^xsd:string .
 
-fo:clover-valley a fo:Brand ;
-    fo:name "Clover Valley"^^xsd:string ;
-    fo:owner "Mount Olive Pickle Company Inc."^^xsd:string .
+:clover-organic-farms a :Brand ;
+    :name "Clover Organic Farms"^^xsd:string .
 
-fo:cloverkroger a fo:Brand ;
-    fo:name "Clover,  Kroger"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:clover-valley a :Brand ;
+    :name "Clover Valley"^^xsd:string ;
+    :owner "Mount Olive Pickle Company Inc."^^xsd:string .
 
-fo:coca-cola a fo:Brand ;
-    fo:name "Coca Cola"^^xsd:string .
+:cloverkroger a :Brand ;
+    :name "Clover,  Kroger"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:coco-jaja a fo:Brand ;
-    fo:name "Coco Jaja"^^xsd:string .
+:coca-cola a :Brand ;
+    :name "Coca Cola"^^xsd:string .
 
-fo:coconut-tree-brand a fo:Brand ;
-    fo:name "Coconut Tree Brand"^^xsd:string .
+:coco-jaja a :Brand ;
+    :name "Coco Jaja"^^xsd:string .
 
-fo:colorado-proud a fo:Brand ;
-    fo:name "Colorado Proud"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:coconut-tree-brand a :Brand ;
+    :name "Coconut Tree Brand"^^xsd:string .
 
-fo:confetteria a fo:Brand ;
-    fo:name "Confetteria"^^xsd:string ;
-    fo:owner "Ferrero U.S.A., Incorporated"^^xsd:string .
+:colorado-proud a :Brand ;
+    :name "Colorado Proud"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:confiserie-heidel a fo:Brand ;
-    fo:name "Confiserie Heidel"^^xsd:string .
+:confetteria a :Brand ;
+    :name "Confetteria"^^xsd:string ;
+    :owner "Ferrero U.S.A., Incorporated"^^xsd:string .
 
-fo:cook-s-palm a fo:Brand ;
-    fo:name "Cook'S Palm"^^xsd:string ;
-    fo:owner "Palm Apiaries"^^xsd:string .
+:confiserie-heidel a :Brand ;
+    :name "Confiserie Heidel"^^xsd:string .
 
-fo:cookies a fo:Brand ;
-    fo:name "Cookies"^^xsd:string ;
-    fo:owner "COOKIES"^^xsd:string .
+:cook-s-palm a :Brand ;
+    :name "Cook'S Palm"^^xsd:string ;
+    :owner "Palm Apiaries"^^xsd:string .
 
-fo:coombs-family a fo:Brand ;
-    fo:name "Coombs Family"^^xsd:string .
+:cookies a :Brand ;
+    :name "Cookies"^^xsd:string ;
+    :owner "COOKIES"^^xsd:string .
 
-fo:country-club a fo:Brand ;
-    fo:name "Country Club"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:coombs-family a :Brand ;
+    :name "Coombs Family"^^xsd:string .
 
-fo:country-oven a fo:Brand ;
-    fo:name "Country Oven"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:country-club a :Brand ;
+    :name "Country Club"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:crescentflaky a fo:Brand ;
-    fo:name "Crescent,  Flaky"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:country-oven a :Brand ;
+    :name "Country Oven"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:crescentkroger a fo:Brand ;
-    fo:name "Crescent,  Kroger"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:crescentflaky a :Brand ;
+    :name "Crescent,  Flaky"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:crescentroundy-s a fo:Brand ;
-    fo:name "Crescent,  Roundy'S"^^xsd:string ;
-    fo:owner "ROUNDY'S"^^xsd:string .
+:crescentkroger a :Brand ;
+    :name "Crescent,  Kroger"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:crispkroger a fo:Brand ;
-    fo:name "Crisp,  Kroger"^^xsd:string .
+:crescentroundy-s a :Brand ;
+    :name "Crescent,  Roundy'S"^^xsd:string ;
+    :owner "ROUNDY'S"^^xsd:string .
 
-fo:croco a fo:Brand ;
-    fo:name "Croco"^^xsd:string .
+:crispkroger a :Brand ;
+    :name "Crisp,  Kroger"^^xsd:string .
 
-fo:crous a fo:Brand ;
-    fo:name "Crous"^^xsd:string .
+:croco a :Brand ;
+    :name "Croco"^^xsd:string .
 
-fo:crous-languedoc-roussillon a fo:Brand ;
-    fo:name "Crous Languedoc Roussillon"^^xsd:string .
+:crous a :Brand ;
+    :name "Crous"^^xsd:string .
 
-fo:crous-languedoc-roussilloncrous-resto a fo:Brand ;
-    fo:name "Crous Languedoc Roussillon, Crous Resto'"^^xsd:string .
+:crous-languedoc-roussillon a :Brand ;
+    :name "Crous Languedoc Roussillon"^^xsd:string .
 
-fo:crous-languedoc-roussilloncrous-restobriau a fo:Brand ;
-    fo:name "Crous Languedoc Roussillon, Crous Resto', Briau"^^xsd:string .
+:crous-languedoc-roussilloncrous-resto a :Brand ;
+    :name "Crous Languedoc Roussillon, Crous Resto'"^^xsd:string .
 
-fo:crous-languedoc-roussilloncrous-restocrous a fo:Brand ;
-    fo:name "Crous Languedoc Roussillon,Crous Resto', Crous"^^xsd:string .
+:crous-languedoc-roussilloncrous-restobriau a :Brand ;
+    :name "Crous Languedoc Roussillon, Crous Resto', Briau"^^xsd:string .
 
-fo:crous-resto a fo:Brand ;
-    fo:name "Crous Resto"^^xsd:string .
+:crous-languedoc-roussilloncrous-restocrous a :Brand ;
+    :name "Crous Languedoc Roussillon,Crous Resto', Crous"^^xsd:string .
 
-fo:crous-restocrous-languedoc-roussillon a fo:Brand ;
-    fo:name "Crous Resto',Crous Languedoc Roussillon"^^xsd:string .
+:crous-resto a :Brand ;
+    :name "Crous Resto"^^xsd:string .
 
-fo:crous-restocrous-languedoc-roussilloncrous a fo:Brand ;
-    fo:name "Crous Resto',Crous Languedoc Roussillon, Crous"^^xsd:string .
+:crous-restocrous-languedoc-roussillon a :Brand ;
+    :name "Crous Resto',Crous Languedoc Roussillon"^^xsd:string .
 
-fo:crousresto a fo:Brand ;
-    fo:name "Crousresto'"^^xsd:string .
+:crous-restocrous-languedoc-roussilloncrous a :Brand ;
+    :name "Crous Resto',Crous Languedoc Roussillon, Crous"^^xsd:string .
 
-fo:cyril-lignac a fo:Brand ;
-    fo:name "Cyril Lignac"^^xsd:string .
+:crousresto a :Brand ;
+    :name "Crousresto'"^^xsd:string .
 
-fo:d-sabor a fo:Brand ;
-    fo:name "D'Sabor"^^xsd:string ;
-    fo:owner "D'SABOR"^^xsd:string .
+:cyril-lignac a :Brand ;
+    :name "Cyril Lignac"^^xsd:string .
 
-fo:da-gastone-s-r-l a fo:Brand ;
-    fo:name "Da Gastone S. R. L."^^xsd:string .
+:d-sabor a :Brand ;
+    :name "D'Sabor"^^xsd:string ;
+    :owner "D'SABOR"^^xsd:string .
 
-fo:daddy-s-muesli a fo:Brand ;
-    fo:name "Daddy'S Muesli"^^xsd:string .
+:da-gastone-s-r-l a :Brand ;
+    :name "Da Gastone S. R. L."^^xsd:string .
 
-fo:daucy a fo:Brand ;
-    fo:name "Daucy"^^xsd:string .
+:daddy-s-muesli a :Brand ;
+    :name "Daddy'S Muesli"^^xsd:string .
 
-fo:de-nigris a fo:Brand ;
-    fo:name "De Nigris"^^xsd:string ;
-    fo:owner "DE NIGRIS"^^xsd:string .
+:daucy a :Brand ;
+    :name "Daucy"^^xsd:string .
 
-fo:dean-s a fo:Brand ;
-    fo:name "Dean'S"^^xsd:string .
+:de-nigris a :Brand ;
+    :name "De Nigris"^^xsd:string ;
+    :owner "DE NIGRIS"^^xsd:string .
 
-fo:dear-muesli a fo:Brand ;
-    fo:name "Dear Muesli"^^xsd:string .
+:dean-s a :Brand ;
+    :name "Dean'S"^^xsd:string .
 
-fo:del-monte-quality a fo:Brand ;
-    fo:name "Del Monte Quality"^^xsd:string .
+:dear-muesli a :Brand ;
+    :name "Dear Muesli"^^xsd:string .
 
-fo:delice-de-france-inc a fo:Brand ;
-    fo:name "Delice De France Inc."^^xsd:string ;
-    fo:owner "Delice De France Inc."^^xsd:string .
+:del-monte-quality a :Brand ;
+    :name "Del Monte Quality"^^xsd:string .
 
-fo:delices-du-lac-saint-jean a fo:Brand ;
-    fo:name "Délices Du Lac Saint Jean"^^xsd:string .
+:delice-de-france-inc a :Brand ;
+    :name "Delice De France Inc."^^xsd:string ;
+    :owner "Delice De France Inc."^^xsd:string .
 
-fo:dener a fo:Brand ;
-    fo:name "Dener"^^xsd:string .
+:delices-du-lac-saint-jean a :Brand ;
+    :name "Délices Du Lac Saint Jean"^^xsd:string .
 
-fo:diamond a fo:Brand ;
-    fo:name "Diamond"^^xsd:string ;
-    fo:owner "Diamond Foods, Inc."^^xsd:string .
+:dener a :Brand ;
+    :name "Dener"^^xsd:string .
 
-fo:diamond-foods a fo:Brand ;
-    fo:name "Diamond Foods"^^xsd:string ;
-    fo:owner "Diamond Foods, Inc."^^xsd:string .
+:diamond a :Brand ;
+    :name "Diamond"^^xsd:string ;
+    :owner "Diamond Foods, Inc."^^xsd:string .
 
-fo:diamond-foods-inc a fo:Brand ;
-    fo:name "Diamond Foods  Inc."^^xsd:string ;
-    fo:owner "Diamond Foods, Inc."^^xsd:string .
+:diamond-foods a :Brand ;
+    :name "Diamond Foods"^^xsd:string ;
+    :owner "Diamond Foods, Inc."^^xsd:string .
 
-fo:diamond-of-california a fo:Brand ;
-    fo:name "Diamond Of California"^^xsd:string ;
-    fo:owner "Diamond Foods, Inc."^^xsd:string .
+:diamond-foods-inc a :Brand ;
+    :name "Diamond Foods  Inc."^^xsd:string ;
+    :owner "Diamond Foods, Inc."^^xsd:string .
 
-fo:diamonddiamond-foods-inc a fo:Brand ;
-    fo:name "Diamond,  Diamond Foods  Inc."^^xsd:string .
+:diamond-of-california a :Brand ;
+    :name "Diamond Of California"^^xsd:string ;
+    :owner "Diamond Foods, Inc."^^xsd:string .
 
-fo:diamonddiamond-of-california a fo:Brand ;
-    fo:name "Diamond,  Diamond Of California"^^xsd:string ;
-    fo:owner "Diamond Foods, Inc."^^xsd:string .
+:diamonddiamond-foods-inc a :Brand ;
+    :name "Diamond,  Diamond Foods  Inc."^^xsd:string .
 
-fo:diaz-foods a fo:Brand ;
-    fo:name "Diaz Foods"^^xsd:string ;
-    fo:owner "Diaz Foods"^^xsd:string .
+:diamonddiamond-of-california a :Brand ;
+    :name "Diamond,  Diamond Of California"^^xsd:string ;
+    :owner "Diamond Foods, Inc."^^xsd:string .
 
-fo:diego-s-chips a fo:Brand ;
-    fo:name "Diego'S Chips"^^xsd:string ;
-    fo:owner "Front Range Snacks, Inc."^^xsd:string .
+:diaz-foods a :Brand ;
+    :name "Diaz Foods"^^xsd:string ;
+    :owner "Diaz Foods"^^xsd:string .
 
-fo:dietworld a fo:Brand ;
-    fo:name "Dietworld"^^xsd:string .
+:diego-s-chips a :Brand ;
+    :name "Diego'S Chips"^^xsd:string ;
+    :owner "Front Range Snacks, Inc."^^xsd:string .
 
-fo:dillon-s a fo:Brand ;
-    fo:name "Dillon'S"^^xsd:string ;
-    fo:owner "DILLON'S"^^xsd:string .
+:dietworld a :Brand ;
+    :name "Dietworld"^^xsd:string .
 
-fo:dillons a fo:Brand ;
-    fo:name "Dillons"^^xsd:string .
+:dillon-s a :Brand ;
+    :name "Dillon'S"^^xsd:string ;
+    :owner "DILLON'S"^^xsd:string .
 
-fo:dillonsdillon a fo:Brand ;
-    fo:name "Dillons, Dillon"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:dillons a :Brand ;
+    :name "Dillons"^^xsd:string .
 
-fo:dillonskroger a fo:Brand ;
-    fo:name "Dillons,Kroger"^^xsd:string .
+:dillonsdillon a :Brand ;
+    :name "Dillons, Dillon"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:distinctive-foods-llc a fo:Brand ;
-    fo:name "Distinctive Foods  Llc"^^xsd:string ;
-    fo:owner "Boston Man Marketing Inc."^^xsd:string .
+:dillonskroger a :Brand ;
+    :name "Dillons,Kroger"^^xsd:string .
 
-fo:divinethe-father-s-table-llc a fo:Brand ;
-    fo:name "Divine,  The Father'S Table Llc"^^xsd:string ;
-    fo:owner "The Father's Table LLC"^^xsd:string .
+:distinctive-foods-llc a :Brand ;
+    :name "Distinctive Foods  Llc"^^xsd:string ;
+    :owner "Boston Man Marketing Inc."^^xsd:string .
 
-fo:dolciaria-stocco a fo:Brand ;
-    fo:name "Dolciaria Stocco"^^xsd:string ;
-    fo:owner "DOLCIARIA STOCCO"^^xsd:string .
+:divinethe-father-s-table-llc a :Brand ;
+    :name "Divine,  The Father'S Table Llc"^^xsd:string ;
+    :owner "The Father's Table LLC"^^xsd:string .
 
-fo:duerr-s a fo:Brand ;
-    fo:name "Duerr S"^^xsd:string .
+:dolciaria-stocco a :Brand ;
+    :name "Dolciaria Stocco"^^xsd:string ;
+    :owner "DOLCIARIA STOCCO"^^xsd:string .
 
-fo:duncan-hines a fo:Brand ;
-    fo:name "Duncan Hines"^^xsd:string ;
-    fo:owner "ROUNDY'S"^^xsd:string .
+:duerr-s a :Brand ;
+    :name "Duerr S"^^xsd:string .
 
-fo:dynasty a fo:Brand ;
-    fo:name "Dynasty"^^xsd:string .
+:duncan-hines a :Brand ;
+    :name "Duncan Hines"^^xsd:string ;
+    :owner "ROUNDY'S"^^xsd:string .
 
-fo:dynastyjfc-international-inc a fo:Brand ;
-    fo:name "Dynasty,  Jfc International Inc."^^xsd:string ;
-    fo:owner "JFC International Inc."^^xsd:string .
+:dynasty a :Brand ;
+    :name "Dynasty"^^xsd:string .
 
-fo:earth-s-best a fo:Brand ;
-    fo:name "Earth'S Best"^^xsd:string .
+:dynastyjfc-international-inc a :Brand ;
+    :name "Dynasty,  Jfc International Inc."^^xsd:string ;
+    :owner "JFC International Inc."^^xsd:string .
 
-fo:easter-unlimited-inc a fo:Brand ;
-    fo:name "Easter Unlimited Inc."^^xsd:string .
+:earth-s-best a :Brand ;
+    :name "Earth'S Best"^^xsd:string .
 
-fo:eat-well a fo:Brand ;
-    fo:name "Eat Well"^^xsd:string .
+:easter-unlimited-inc a :Brand ;
+    :name "Easter Unlimited Inc."^^xsd:string .
 
-fo:eco-dent a fo:Brand ;
-    fo:name "Eco Dent"^^xsd:string ;
-    fo:owner "Lotus Brands, Inc."^^xsd:string .
+:eat-well a :Brand ;
+    :name "Eat Well"^^xsd:string .
 
-fo:eden a fo:Brand ;
-    fo:name "Eden"^^xsd:string .
+:eco-dent a :Brand ;
+    :name "Eco Dent"^^xsd:string ;
+    :owner "Lotus Brands, Inc."^^xsd:string .
 
-fo:el-gallito a fo:Brand ;
-    fo:name "El Gallito"^^xsd:string ;
-    fo:owner "EL GALLITO"^^xsd:string .
+:eden a :Brand ;
+    :name "Eden"^^xsd:string .
 
-fo:emer-ald a fo:Brand ;
-    fo:name "Emer'Ald"^^xsd:string ;
-    fo:owner "Diamond Foods, Inc."^^xsd:string .
+:el-gallito a :Brand ;
+    :name "El Gallito"^^xsd:string ;
+    :owner "EL GALLITO"^^xsd:string .
 
-fo:emerald a fo:Brand ;
-    fo:name "Emerald"^^xsd:string ;
-    fo:owner "Diamond Foods, Inc."^^xsd:string .
+:emer-ald a :Brand ;
+    :name "Emer'Ald"^^xsd:string ;
+    :owner "Diamond Foods, Inc."^^xsd:string .
 
-fo:emeralddiamond-foods-inc a fo:Brand ;
-    fo:name "Emerald,  Diamond Foods  Inc."^^xsd:string .
+:emerald a :Brand ;
+    :name "Emerald"^^xsd:string ;
+    :owner "Diamond Foods, Inc."^^xsd:string .
 
-fo:emerge a fo:Brand ;
-    fo:name "Emerge"^^xsd:string .
+:emeralddiamond-foods-inc a :Brand ;
+    :name "Emerald,  Diamond Foods  Inc."^^xsd:string .
 
-fo:emily-veg-thins a fo:Brand ;
-    fo:name "Emily Veg Thins"^^xsd:string .
+:emerge a :Brand ;
+    :name "Emerge"^^xsd:string .
 
-fo:equal-exchange a fo:Brand ;
-    fo:name "Equal Exchange"^^xsd:string .
+:emily-veg-thins a :Brand ;
+    :name "Emily Veg Thins"^^xsd:string .
 
-fo:essential-everyday a fo:Brand ;
-    fo:name "Essential Everyday"^^xsd:string .
+:equal-exchange a :Brand ;
+    :name "Equal Exchange"^^xsd:string .
 
-fo:eve-sales-company a fo:Brand ;
-    fo:name "Eve Sales Company"^^xsd:string .
+:essential-everyday a :Brand ;
+    :name "Essential Everyday"^^xsd:string .
 
-fo:ever-green-nursery-corp a fo:Brand ;
-    fo:name "Ever Green Nursery Corp."^^xsd:string ;
-    fo:owner "Ever-Green Nursery Corp."^^xsd:string .
+:eve-sales-company a :Brand ;
+    :name "Eve Sales Company"^^xsd:string .
 
-fo:everyday-favorites a fo:Brand ;
-    fo:name "Everyday Favorites"^^xsd:string ;
-    fo:owner "Maplehurst Bakeries, LLC"^^xsd:string .
+:ever-green-nursery-corp a :Brand ;
+    :name "Ever Green Nursery Corp."^^xsd:string ;
+    :owner "Ever-Green Nursery Corp."^^xsd:string .
 
-fo:f-x-matt-brewing-co a fo:Brand ;
-    fo:name "F. X. Matt Brewing Co."^^xsd:string .
+:everyday-favorites a :Brand ;
+    :name "Everyday Favorites"^^xsd:string ;
+    :owner "Maplehurst Bakeries, LLC"^^xsd:string .
 
-fo:fairhaven a fo:Brand ;
-    fo:name "Fairhaven"^^xsd:string .
+:f-x-matt-brewing-co a :Brand ;
+    :name "F. X. Matt Brewing Co."^^xsd:string .
 
-fo:farmhouse-biscuits-ltd a fo:Brand ;
-    fo:name "Farmhouse Biscuits Ltd."^^xsd:string .
+:fairhaven a :Brand ;
+    :name "Fairhaven"^^xsd:string .
 
-fo:fast-shake a fo:Brand ;
-    fo:name "Fast Shake"^^xsd:string ;
-    fo:owner "Little Crow Milling Co."^^xsd:string .
+:farmhouse-biscuits-ltd a :Brand ;
+    :name "Farmhouse Biscuits Ltd."^^xsd:string .
 
-fo:ferme-de-la-fremondiere a fo:Brand ;
-    fo:name "Ferme De La Frémondière"^^xsd:string .
+:fast-shake a :Brand ;
+    :name "Fast Shake"^^xsd:string ;
+    :owner "Little Crow Milling Co."^^xsd:string .
 
-fo:ferrero a fo:Brand ;
-    fo:name "Ferrero"^^xsd:string .
+:ferme-de-la-fremondiere a :Brand ;
+    :name "Ferme De La Frémondière"^^xsd:string .
 
-fo:ferrero-collection a fo:Brand ;
-    fo:name "Ferrero Collection"^^xsd:string ;
-    fo:owner "Ferrero U.S.A., Incorporated"^^xsd:string .
+:ferrero a :Brand ;
+    :name "Ferrero"^^xsd:string .
 
-fo:ferrero-collectionferrero-u-s-a-incorporated a fo:Brand ;
-    fo:name "Ferrero Collection,Ferrero U.S.A.  Incorporated"^^xsd:string ;
-    fo:owner "Ferrero U.S.A., Incorporated"^^xsd:string .
+:ferrero-collection a :Brand ;
+    :name "Ferrero Collection"^^xsd:string ;
+    :owner "Ferrero U.S.A., Incorporated"^^xsd:string .
 
-fo:ferrero-rocher a fo:Brand ;
-    fo:name "Ferrero Rocher"^^xsd:string ;
-    fo:owner "Ferrero U.S.A., Incorporated"^^xsd:string .
+:ferrero-collectionferrero-u-s-a-incorporated a :Brand ;
+    :name "Ferrero Collection,Ferrero U.S.A.  Incorporated"^^xsd:string ;
+    :owner "Ferrero U.S.A., Incorporated"^^xsd:string .
 
-fo:ferrero-u-s-a-incorporated a fo:Brand ;
-    fo:name "Ferrero U.S.A.  Incorporated"^^xsd:string ;
-    fo:owner "Ferrero U.S.A., Incorporated"^^xsd:string .
+:ferrero-rocher a :Brand ;
+    :name "Ferrero Rocher"^^xsd:string ;
+    :owner "Ferrero U.S.A., Incorporated"^^xsd:string .
 
-fo:ferreroferrero-rocher a fo:Brand ;
-    fo:name "Ferrero,  Ferrero Rocher"^^xsd:string ;
-    fo:owner "Ferrero U.S.A., Incorporated"^^xsd:string .
+:ferrero-u-s-a-incorporated a :Brand ;
+    :name "Ferrero U.S.A.  Incorporated"^^xsd:string ;
+    :owner "Ferrero U.S.A., Incorporated"^^xsd:string .
 
-fo:ferreroferrero-u-s-a-incorporated a fo:Brand ;
-    fo:name "Ferrero,  Ferrero U.S.A.  Incorporated"^^xsd:string ;
-    fo:owner "Ferrero U.S.A., Incorporated"^^xsd:string .
+:ferreroferrero-rocher a :Brand ;
+    :name "Ferrero,  Ferrero Rocher"^^xsd:string ;
+    :owner "Ferrero U.S.A., Incorporated"^^xsd:string .
 
-fo:ferreronutella a fo:Brand ;
-    fo:name "Ferrero,Nutella"^^xsd:string .
+:ferreroferrero-u-s-a-incorporated a :Brand ;
+    :name "Ferrero,  Ferrero U.S.A.  Incorporated"^^xsd:string ;
+    :owner "Ferrero U.S.A., Incorporated"^^xsd:string .
 
-fo:ferreronutellakroger a fo:Brand ;
-    fo:name "Ferrero,Nutella,Kroger"^^xsd:string ;
-    fo:owner "Ferrero U.S.A., Incorporated"^^xsd:string .
+:ferreronutella a :Brand ;
+    :name "Ferrero,Nutella"^^xsd:string .
 
-fo:fiesta-pacific-products-inc a fo:Brand ;
-    fo:name "Fiesta Pacific Products Inc."^^xsd:string .
+:ferreronutellakroger a :Brand ;
+    :name "Ferrero,Nutella,Kroger"^^xsd:string ;
+    :owner "Ferrero U.S.A., Incorporated"^^xsd:string .
 
-fo:fischer-s a fo:Brand ;
-    fo:name "Fischer'S"^^xsd:string .
+:fiesta-pacific-products-inc a :Brand ;
+    :name "Fiesta Pacific Products Inc."^^xsd:string .
 
-fo:fischfass a fo:Brand ;
-    fo:name "Fischfass"^^xsd:string .
+:fischer-s a :Brand ;
+    :name "Fischer'S"^^xsd:string .
 
-fo:flavorful-favorites a fo:Brand ;
-    fo:name "Flavorful Favorites"^^xsd:string ;
-    fo:owner "FLAVORFUL FAVORITES"^^xsd:string .
+:fischfass a :Brand ;
+    :name "Fischfass"^^xsd:string .
 
-fo:fleury-michon a fo:Brand ;
-    fo:name "Fleury Michon"^^xsd:string .
+:flavorful-favorites a :Brand ;
+    :name "Flavorful Favorites"^^xsd:string ;
+    :owner "FLAVORFUL FAVORITES"^^xsd:string .
 
-fo:food-club a fo:Brand ;
-    fo:name "Food Club"^^xsd:string .
+:fleury-michon a :Brand ;
+    :name "Fleury Michon"^^xsd:string .
 
-fo:foodtastic-nature a fo:Brand ;
-    fo:name "Foodtastic Nature"^^xsd:string .
+:food-club a :Brand ;
+    :name "Food Club"^^xsd:string .
 
-fo:foodtown a fo:Brand ;
-    fo:name "Foodtown"^^xsd:string ;
-    fo:owner "Foodtown, Inc."^^xsd:string .
+:foodtastic-nature a :Brand ;
+    :name "Foodtastic Nature"^^xsd:string .
 
-fo:foodtown-inc a fo:Brand ;
-    fo:name "Foodtown  Inc."^^xsd:string ;
-    fo:owner "Foodtown, Inc."^^xsd:string .
+:foodtown a :Brand ;
+    :name "Foodtown"^^xsd:string ;
+    :owner "Foodtown, Inc."^^xsd:string .
 
-fo:foodtownfoodtown-inc a fo:Brand ;
-    fo:name "Foodtown,  Foodtown  Inc."^^xsd:string ;
-    fo:owner "Foodtown, Inc."^^xsd:string .
+:foodtown-inc a :Brand ;
+    :name "Foodtown  Inc."^^xsd:string ;
+    :owner "Foodtown, Inc."^^xsd:string .
 
-fo:foodtwon a fo:Brand ;
-    fo:name "Foodtwon"^^xsd:string ;
-    fo:owner "FOODTWON"^^xsd:string .
+:foodtownfoodtown-inc a :Brand ;
+    :name "Foodtown,  Foodtown  Inc."^^xsd:string ;
+    :owner "Foodtown, Inc."^^xsd:string .
 
-fo:foreign-candy-co-inc a fo:Brand ;
-    fo:name "Foreign Candy Co. Inc."^^xsd:string ;
-    fo:owner "Foreign Candy Co. Inc."^^xsd:string .
+:foodtwon a :Brand ;
+    :name "Foodtwon"^^xsd:string ;
+    :owner "FOODTWON"^^xsd:string .
 
-fo:formosa-food-co-inc a fo:Brand ;
-    fo:name "Formosa Food Co Inc"^^xsd:string ;
-    fo:owner "Formosa Food Co Inc"^^xsd:string .
+:foreign-candy-co-inc a :Brand ;
+    :name "Foreign Candy Co. Inc."^^xsd:string ;
+    :owner "Foreign Candy Co. Inc."^^xsd:string .
 
-fo:fortwenger a fo:Brand ;
-    fo:name "Fortwenger"^^xsd:string .
+:formosa-food-co-inc a :Brand ;
+    :name "Formosa Food Co Inc"^^xsd:string ;
+    :owner "Formosa Food Co Inc"^^xsd:string .
 
-fo:franz a fo:Brand ;
-    fo:name "Franz"^^xsd:string .
+:fortwenger a :Brand ;
+    :name "Fortwenger"^^xsd:string .
 
-fo:fred-mayer a fo:Brand ;
-    fo:name "Fred Mayer"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:franz a :Brand ;
+    :name "Franz"^^xsd:string .
 
-fo:fred-meyer a fo:Brand ;
-    fo:name "Fred Meyer"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:fred-mayer a :Brand ;
+    :name "Fred Mayer"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:fredmeyer a fo:Brand ;
-    fo:name "Fredmeyer"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:fred-meyer a :Brand ;
+    :name "Fred Meyer"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:fresh a fo:Brand ;
-    fo:name "Fresh"^^xsd:string ;
-    fo:owner "FRESH"^^xsd:string .
+:fredmeyer a :Brand ;
+    :name "Fredmeyer"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:fresh-easy a fo:Brand ;
-    fo:name "Fresh & Easy"^^xsd:string .
+:fresh a :Brand ;
+    :name "Fresh"^^xsd:string ;
+    :owner "FRESH"^^xsd:string .
 
-fo:fresh-food-market a fo:Brand ;
-    fo:name "Fresh Food Market"^^xsd:string ;
-    fo:owner "FRESH FOOD MARKET"^^xsd:string .
+:fresh-aisle a :Brand ;
+    :name "Fresh Aisle"^^xsd:string .
 
-fo:fresh-foods-market a fo:Brand ;
-    fo:name "Fresh Foods Market"^^xsd:string ;
-    fo:owner "FRESH FOODS MARKET"^^xsd:string .
+:fresh-easy a :Brand ;
+    :name "Fresh & Easy"^^xsd:string .
 
-fo:fresh-foods-marketthe-kroger-co a fo:Brand ;
-    fo:name "Fresh Foods Market,  The Kroger Co."^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:fresh-food-market a :Brand ;
+    :name "Fresh Food Market"^^xsd:string ;
+    :owner "FRESH FOOD MARKET"^^xsd:string .
 
-fo:fresh-selections a fo:Brand ;
-    fo:name "Fresh Selections"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:fresh-foods-market a :Brand ;
+    :name "Fresh Foods Market"^^xsd:string ;
+    :owner "FRESH FOODS MARKET"^^xsd:string .
 
-fo:front-range-snacks-inc a fo:Brand ;
-    fo:name "Front Range Snacks  Inc."^^xsd:string ;
-    fo:owner "Front Range Snacks, Inc."^^xsd:string .
+:fresh-foods-marketthe-kroger-co a :Brand ;
+    :name "Fresh Foods Market,  The Kroger Co."^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:fruit-ninja a fo:Brand ;
-    fo:name "Fruit Ninja"^^xsd:string ;
-    fo:owner "FRUIT NINJA"^^xsd:string .
+:fresh-selections a :Brand ;
+    :name "Fresh Selections"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:fry-s a fo:Brand ;
-    fo:name "Fry'S"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:front-range-snacks-inc a :Brand ;
+    :name "Front Range Snacks  Inc."^^xsd:string ;
+    :owner "Front Range Snacks, Inc."^^xsd:string .
 
-fo:fryin-magic a fo:Brand ;
-    fo:name "Fryin' Magic"^^xsd:string ;
-    fo:owner "Little Crow Milling Co."^^xsd:string .
+:fruit-ninja a :Brand ;
+    :name "Fruit Ninja"^^xsd:string ;
+    :owner "FRUIT NINJA"^^xsd:string .
 
-fo:funny-frisch-snack a fo:Brand ;
-    fo:name "Funny Frisch Snack"^^xsd:string .
+:fry-s a :Brand ;
+    :name "Fry'S"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:gardentime a fo:Brand ;
-    fo:name "Gardentime"^^xsd:string .
+:fryin-magic a :Brand ;
+    :name "Fryin' Magic"^^xsd:string ;
+    :owner "Little Crow Milling Co."^^xsd:string .
 
-fo:gazebo-room a fo:Brand ;
-    fo:name "Gazebo Room"^^xsd:string .
+:funny-frisch-snack a :Brand ;
+    :name "Funny Frisch Snack"^^xsd:string .
 
-fo:genius a fo:Brand ;
-    fo:name "Genius"^^xsd:string .
+:gardentime a :Brand ;
+    :name "Gardentime"^^xsd:string .
 
-fo:george-s a fo:Brand ;
-    fo:name "George'S"^^xsd:string ;
-    fo:owner "George's Sauce"^^xsd:string .
+:gazebo-room a :Brand ;
+    :name "Gazebo Room"^^xsd:string .
 
-fo:george-s-sauces a fo:Brand ;
-    fo:name "George'S Sauces"^^xsd:string ;
-    fo:owner "George's Sauce"^^xsd:string .
+:genius a :Brand ;
+    :name "Genius"^^xsd:string .
 
-fo:ghiott a fo:Brand ;
-    fo:name "Ghiott"^^xsd:string .
+:george-s a :Brand ;
+    :name "George'S"^^xsd:string ;
+    :owner "George's Sauce"^^xsd:string .
 
-fo:giantfresh-easy a fo:Brand ;
-    fo:name "Giant,  Fresh & Easy"^^xsd:string .
+:george-s-sauces a :Brand ;
+    :name "George'S Sauces"^^xsd:string ;
+    :owner "George's Sauce"^^xsd:string .
 
-fo:ginbis-four-sea-foods-shantou-co-ltd a fo:Brand ;
-    fo:name "Ginbis Four Sea Foods (Shantou) Co .Ltd."^^xsd:string .
+:ghiott a :Brand ;
+    :name "Ghiott"^^xsd:string .
 
-fo:gloryfeel a fo:Brand ;
-    fo:name "Gloryfeel"^^xsd:string .
+:giantfresh-easy a :Brand ;
+    :name "Giant,  Fresh & Easy"^^xsd:string .
 
-fo:gloryfeelselbstgemacht a fo:Brand ;
-    fo:name "Gloryfeel, Selbstgemacht"^^xsd:string .
+:ginbis-four-sea-foods-shantou-co-ltd a :Brand ;
+    :name "Ginbis Four Sea Foods (Shantou) Co .Ltd."^^xsd:string .
 
-fo:golden-island-jerky-inc a fo:Brand ;
-    fo:name "Golden Island Jerky Inc."^^xsd:string ;
-    fo:owner "Formosa Food Co Inc"^^xsd:string .
+:gloryfeel a :Brand ;
+    :name "Gloryfeel"^^xsd:string .
 
-fo:golden-temple a fo:Brand ;
-    fo:name "Golden Temple"^^xsd:string .
+:gloryfeelselbstgemacht a :Brand ;
+    :name "Gloryfeel, Selbstgemacht"^^xsd:string .
 
-fo:goode-s-bakery-co-inc a fo:Brand ;
-    fo:name "Goode'S Bakery & Co.  Inc."^^xsd:string .
+:golden-island-jerky-inc a :Brand ;
+    :name "Golden Island Jerky Inc."^^xsd:string ;
+    :owner "Formosa Food Co Inc"^^xsd:string .
 
-fo:grainaissance a fo:Brand ;
-    fo:name "Grainaissance"^^xsd:string ;
-    fo:owner "GRAINAISSANCE"^^xsd:string .
+:golden-temple a :Brand ;
+    :name "Golden Temple"^^xsd:string .
 
-fo:grande-formato a fo:Brand ;
-    fo:name "Grande Formato"^^xsd:string .
+:goode-s-bakery-co-inc a :Brand ;
+    :name "Goode'S Bakery & Co.  Inc."^^xsd:string .
 
-fo:grizzlies a fo:Brand ;
-    fo:name "Grizzlies"^^xsd:string .
+:grainaissance a :Brand ;
+    :name "Grainaissance"^^xsd:string ;
+    :owner "GRAINAISSANCE"^^xsd:string .
 
-fo:guiltless-gourmet a fo:Brand ;
-    fo:name "Guiltless Gourmet"^^xsd:string ;
-    fo:owner "Guiltless Gourmet Inc."^^xsd:string .
+:grande-formato a :Brand ;
+    :name "Grande Formato"^^xsd:string .
 
-fo:guiltless-gourmet-inc a fo:Brand ;
-    fo:name "Guiltless Gourmet Inc."^^xsd:string ;
-    fo:owner "Guiltless Gourmet Inc."^^xsd:string .
+:grizzlies a :Brand ;
+    :name "Grizzlies"^^xsd:string .
 
-fo:guistos a fo:Brand ;
-    fo:name "Guistos"^^xsd:string .
+:guiltless-gourmet a :Brand ;
+    :name "Guiltless Gourmet"^^xsd:string ;
+    :owner "Guiltless Gourmet Inc."^^xsd:string .
 
-fo:gutbio a fo:Brand ;
-    fo:name "Gutbio"^^xsd:string .
+:guiltless-gourmet-inc a :Brand ;
+    :name "Guiltless Gourmet Inc."^^xsd:string ;
+    :owner "Guiltless Gourmet Inc."^^xsd:string .
 
-fo:hapi a fo:Brand ;
-    fo:name "Hapi"^^xsd:string ;
-    fo:owner "JFC International Inc."^^xsd:string .
+:guistos a :Brand ;
+    :name "Guistos"^^xsd:string .
 
-fo:hapi-snacks a fo:Brand ;
-    fo:name "Hapi Snacks"^^xsd:string ;
-    fo:owner "JFC International Inc."^^xsd:string .
+:gutbio a :Brand ;
+    :name "Gutbio"^^xsd:string .
 
-fo:hapi-trading a fo:Brand ;
-    fo:name "Hapi Trading"^^xsd:string .
+:hapi a :Brand ;
+    :name "Hapi"^^xsd:string ;
+    :owner "JFC International Inc."^^xsd:string .
 
-fo:haribo a fo:Brand ;
-    fo:name "Haribo"^^xsd:string .
+:hapi-snacks a :Brand ;
+    :name "Hapi Snacks"^^xsd:string ;
+    :owner "JFC International Inc."^^xsd:string .
 
-fo:hariboharibo-gmbh-co-kg a fo:Brand ;
-    fo:name "Haribo,  Haribo Gmbh & Co. Kg"^^xsd:string ;
-    fo:owner "HARIBO"^^xsd:string .
+:hapi-trading a :Brand ;
+    :name "Hapi Trading"^^xsd:string .
 
-fo:harvest-time a fo:Brand ;
-    fo:name "Harvest Time"^^xsd:string ;
-    fo:owner "Maplehurst Bakeries, LLC"^^xsd:string .
+:haribo a :Brand ;
+    :name "Haribo"^^xsd:string .
 
-fo:healthy-food-brands-llc a fo:Brand ;
-    fo:name "Healthy Food Brands Llc"^^xsd:string ;
-    fo:owner "Healthy Food Brands LLC"^^xsd:string .
+:hariboharibo-gmbh-co-kg a :Brand ;
+    :name "Haribo,  Haribo Gmbh & Co. Kg"^^xsd:string ;
+    :owner "HARIBO"^^xsd:string .
 
-fo:heidel a fo:Brand ;
-    fo:name "Heidel"^^xsd:string ;
-    fo:owner "HEIDEL"^^xsd:string .
+:harvest-time a :Brand ;
+    :name "Harvest Time"^^xsd:string ;
+    :owner "Maplehurst Bakeries, LLC"^^xsd:string .
 
-fo:heidel-confiserie a fo:Brand ;
-    fo:name "Heidel Confiserie"^^xsd:string ;
-    fo:owner "HEIDEL CONFISERIE"^^xsd:string .
+:healthy-food-brands-llc a :Brand ;
+    :name "Healthy Food Brands Llc"^^xsd:string ;
+    :owner "Healthy Food Brands LLC"^^xsd:string .
 
-fo:heimatgutaldi a fo:Brand ;
-    fo:name "Heimatgut, Aldi"^^xsd:string .
+:heidel a :Brand ;
+    :name "Heidel"^^xsd:string ;
+    :owner "HEIDEL"^^xsd:string .
 
-fo:heinz a fo:Brand ;
-    fo:name "Heinz"^^xsd:string .
+:heidel-confiserie a :Brand ;
+    :name "Heidel Confiserie"^^xsd:string ;
+    :owner "HEIDEL CONFISERIE"^^xsd:string .
 
-fo:hemis-fares a fo:Brand ;
-    fo:name "Hemis Fares"^^xsd:string ;
-    fo:owner "HEMIS FARES"^^xsd:string .
+:heimatgutaldi a :Brand ;
+    :name "Heimatgut, Aldi"^^xsd:string .
 
-fo:hemisfares a fo:Brand ;
-    fo:name "Hemisfares"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:heinz a :Brand ;
+    :name "Heinz"^^xsd:string .
 
-fo:heritage-farm a fo:Brand ;
-    fo:name "Heritage Farm"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:hemis-fares a :Brand ;
+    :name "Hemis Fares"^^xsd:string ;
+    :owner "HEMIS FARES"^^xsd:string .
 
-fo:hershey a fo:Brand ;
-    fo:name "Hershey"^^xsd:string ;
-    fo:owner "Leaf, Inc."^^xsd:string .
+:hemisfares a :Brand ;
+    :name "Hemisfares"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:herta a fo:Brand ;
-    fo:name "Herta"^^xsd:string .
+:heritage-farm a :Brand ;
+    :name "Heritage Farm"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:hime a fo:Brand ;
-    fo:name "Hime"^^xsd:string .
+:hershey a :Brand ;
+    :name "Hershey"^^xsd:string ;
+    :owner "Leaf, Inc."^^xsd:string .
 
-fo:hime-brand a fo:Brand ;
-    fo:name "Hime Brand"^^xsd:string ;
-    fo:owner "JFC International Inc."^^xsd:string .
+:herta a :Brand ;
+    :name "Herta"^^xsd:string .
 
-fo:hofer-almare-sea-food a fo:Brand ;
-    fo:name "Hofer Almare Sea Food"^^xsd:string .
+:hime a :Brand ;
+    :name "Hime"^^xsd:string .
 
-fo:hol-grain a fo:Brand ;
-    fo:name "Hol Grain"^^xsd:string ;
-    fo:owner "HOL-GRAIN"^^xsd:string .
+:hime-brand a :Brand ;
+    :name "Hime Brand"^^xsd:string ;
+    :owner "JFC International Inc."^^xsd:string .
 
-fo:holiday-merriment a fo:Brand ;
-    fo:name "Holiday Merriment"^^xsd:string ;
-    fo:owner "HOLIDAY MERRIMENT"^^xsd:string .
+:hofer-almare-sea-food a :Brand ;
+    :name "Hofer Almare Sea Food"^^xsd:string .
 
-fo:house-of-webster a fo:Brand ;
-    fo:name "House Of Webster"^^xsd:string ;
-    fo:owner "HOUSE OF WEBSTER"^^xsd:string .
+:hol-grain a :Brand ;
+    :name "Hol Grain"^^xsd:string ;
+    :owner "HOL-GRAIN"^^xsd:string .
 
-fo:hu a fo:Brand ;
-    fo:name "Hu"^^xsd:string ;
-    fo:owner "B R Group Inc."^^xsd:string .
+:holiday-merriment a :Brand ;
+    :name "Holiday Merriment"^^xsd:string ;
+    :owner "HOLIDAY MERRIMENT"^^xsd:string .
 
-fo:huy-fong-foods-inc a fo:Brand ;
-    fo:name "Huy Fong Foods  Inc."^^xsd:string .
+:house-of-webster a :Brand ;
+    :name "House Of Webster"^^xsd:string ;
+    :owner "HOUSE OF WEBSTER"^^xsd:string .
 
-fo:idaho-spuds a fo:Brand ;
-    fo:name "Idaho Spuds"^^xsd:string .
+:hu a :Brand ;
+    :name "Hu"^^xsd:string ;
+    :owner "B R Group Inc."^^xsd:string .
 
-fo:imperial a fo:Brand ;
-    fo:name "Imperial"^^xsd:string ;
-    fo:owner "Lipton"^^xsd:string .
+:huy-fong-foods-inc a :Brand ;
+    :name "Huy Fong Foods  Inc."^^xsd:string .
 
-fo:imperial-dragon a fo:Brand ;
-    fo:name "Imperial Dragon"^^xsd:string .
+:idaho-spuds a :Brand ;
+    :name "Idaho Spuds"^^xsd:string .
 
-fo:indianola-pecan-house-inc a fo:Brand ;
-    fo:name "Indianola Pecan House Inc."^^xsd:string ;
-    fo:owner "Indianola Pecan House Inc."^^xsd:string .
+:imperial a :Brand ;
+    :name "Imperial"^^xsd:string ;
+    :owner "Lipton"^^xsd:string .
 
-fo:innocent a fo:Brand ;
-    fo:name "Innocent"^^xsd:string .
+:imperial-dragon a :Brand ;
+    :name "Imperial Dragon"^^xsd:string .
 
-fo:innovative-candy-concepts a fo:Brand ;
-    fo:name "Innovative Candy Concepts"^^xsd:string .
+:indianola-pecan-house-inc a :Brand ;
+    :name "Indianola Pecan House Inc."^^xsd:string ;
+    :owner "Indianola Pecan House Inc."^^xsd:string .
 
-fo:inter-american-products a fo:Brand ;
-    fo:name "Inter American Products"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:innocent a :Brand ;
+    :name "Innocent"^^xsd:string .
 
-fo:intermarche a fo:Brand ;
-    fo:name "Intermarché"^^xsd:string .
+:innovative-candy-concepts a :Brand ;
+    :name "Innovative Candy Concepts"^^xsd:string .
 
-fo:j-basket a fo:Brand ;
-    fo:name "J Basket"^^xsd:string .
+:inter-american-products a :Brand ;
+    :name "Inter American Products"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:jack-daniel-sindianola-pecan-house-inc a fo:Brand ;
-    fo:name "Jack Daniel'S,  Indianola Pecan House Inc."^^xsd:string ;
-    fo:owner "Indianola Pecan House Inc."^^xsd:string .
+:intermarche a :Brand ;
+    :name "Intermarché"^^xsd:string .
 
-fo:jaja a fo:Brand ;
-    fo:name "Jaja"^^xsd:string .
+:j-basket a :Brand ;
+    :name "J Basket"^^xsd:string .
 
-fo:jelly-bellyroundy-s a fo:Brand ;
-    fo:name "Jelly Belly,  Roundy'S"^^xsd:string ;
-    fo:owner "ROUNDY'S"^^xsd:string .
+:jack-daniel-sindianola-pecan-house-inc a :Brand ;
+    :name "Jack Daniel'S,  Indianola Pecan House Inc."^^xsd:string ;
+    :owner "Indianola Pecan House Inc."^^xsd:string .
 
-fo:jeppi-nut-company a fo:Brand ;
-    fo:name "Jeppi Nut Company"^^xsd:string ;
-    fo:owner "Jeppi Nut Company"^^xsd:string .
+:jaja a :Brand ;
+    :name "Jaja"^^xsd:string .
 
-fo:jewel-osco a fo:Brand ;
-    fo:name "Jewel Osco"^^xsd:string ;
-    fo:owner "JEWEL OSCO"^^xsd:string .
+:jelly-bellyroundy-s a :Brand ;
+    :name "Jelly Belly,  Roundy'S"^^xsd:string ;
+    :owner "ROUNDY'S"^^xsd:string .
 
-fo:jewel-oscolong-grove-confectionery-co a fo:Brand ;
-    fo:name "Jewel Osco,  Long Grove Confectionery Co."^^xsd:string ;
-    fo:owner "Long Grove Confectionery Co."^^xsd:string .
+:jeppi-nut-company a :Brand ;
+    :name "Jeppi Nut Company"^^xsd:string ;
+    :owner "Jeppi Nut Company"^^xsd:string .
 
-fo:jfc a fo:Brand ;
-    fo:name "Jfc"^^xsd:string ;
-    fo:owner "JFC International Inc."^^xsd:string .
+:jewel-osco a :Brand ;
+    :name "Jewel Osco"^^xsd:string ;
+    :owner "JEWEL OSCO"^^xsd:string .
 
-fo:jfc-international a fo:Brand ;
-    fo:name "Jfc International"^^xsd:string ;
-    fo:owner "JFC International Inc."^^xsd:string .
+:jewel-oscolong-grove-confectionery-co a :Brand ;
+    :name "Jewel Osco,  Long Grove Confectionery Co."^^xsd:string ;
+    :owner "Long Grove Confectionery Co."^^xsd:string .
 
-fo:jfc-international-inc a fo:Brand ;
-    fo:name "Jfc International Inc."^^xsd:string ;
-    fo:owner "JFC International Inc."^^xsd:string .
+:jfc a :Brand ;
+    :name "Jfc"^^xsd:string ;
+    :owner "JFC International Inc."^^xsd:string .
 
-fo:jfc-international-inckomenoya a fo:Brand ;
-    fo:name "Jfc International Inc.,Komenoya"^^xsd:string .
+:jfc-international a :Brand ;
+    :name "Jfc International"^^xsd:string ;
+    :owner "JFC International Inc."^^xsd:string .
 
-fo:jfcajishima-foods-co-ltd a fo:Brand ;
-    fo:name "Jfc,  Ajishima Foods Co.  Ltd."^^xsd:string ;
-    fo:owner "JFC International Inc."^^xsd:string .
+:jfc-international-inc a :Brand ;
+    :name "Jfc International Inc."^^xsd:string ;
+    :owner "JFC International Inc."^^xsd:string .
 
-fo:jfcjfc-international-inc a fo:Brand ;
-    fo:name "Jfc,  Jfc International Inc."^^xsd:string .
+:jfc-international-inckomenoya a :Brand ;
+    :name "Jfc International Inc.,Komenoya"^^xsd:string .
 
-fo:joe-s-diner a fo:Brand ;
-    fo:name "Joe'S Diner"^^xsd:string .
+:jfcajishima-foods-co-ltd a :Brand ;
+    :name "Jfc,  Ajishima Foods Co.  Ltd."^^xsd:string ;
+    :owner "JFC International Inc."^^xsd:string .
 
-fo:jolly-rancher a fo:Brand ;
-    fo:name "Jolly Rancher"^^xsd:string ;
-    fo:owner "Leaf, Inc."^^xsd:string .
+:jfcjfc-international-inc a :Brand ;
+    :name "Jfc,  Jfc International Inc."^^xsd:string .
 
-fo:jolly-rancherhershey a fo:Brand ;
-    fo:name "Jolly Rancher,Hershey"^^xsd:string ;
-    fo:owner "Leaf, Inc."^^xsd:string .
+:joe-s-diner a :Brand ;
+    :name "Joe'S Diner"^^xsd:string .
 
-fo:jolly-ranchers a fo:Brand ;
-    fo:name "Jolly Ranchers"^^xsd:string .
+:jolly-rancher a :Brand ;
+    :name "Jolly Rancher"^^xsd:string ;
+    :owner "Leaf, Inc."^^xsd:string .
 
-fo:k-menu a fo:Brand ;
-    fo:name "K Menu"^^xsd:string .
+:jolly-rancherhershey a :Brand ;
+    :name "Jolly Rancher,Hershey"^^xsd:string ;
+    :owner "Leaf, Inc."^^xsd:string .
 
-fo:kamoi-shokuhin-kogyo-co-ltd a fo:Brand ;
-    fo:name "Kamoi Shokuhin Kogyo Co.  Ltd."^^xsd:string ;
-    fo:owner "JFC International Inc."^^xsd:string .
+:jolly-ranchers a :Brand ;
+    :name "Jolly Ranchers"^^xsd:string .
 
-fo:kanimi a fo:Brand ;
-    fo:name "Kanimi"^^xsd:string .
+:k-menu a :Brand ;
+    :name "K Menu"^^xsd:string .
 
-fo:karelea a fo:Brand ;
-    fo:name "Karelea"^^xsd:string .
+:kamoi-shokuhin-kogyo-co-ltd a :Brand ;
+    :name "Kamoi Shokuhin Kogyo Co.  Ltd."^^xsd:string ;
+    :owner "JFC International Inc."^^xsd:string .
 
-fo:kasugai a fo:Brand ;
-    fo:name "Kasugai"^^xsd:string ;
-    fo:owner "JFC International Inc."^^xsd:string .
+:kanimi a :Brand ;
+    :name "Kanimi"^^xsd:string .
 
-fo:kazidomi a fo:Brand ;
-    fo:name "Kazidomi"^^xsd:string .
+:karelea a :Brand ;
+    :name "Karelea"^^xsd:string .
 
-fo:keepsake a fo:Brand ;
-    fo:name "Keepsake"^^xsd:string .
+:kasugai a :Brand ;
+    :name "Kasugai"^^xsd:string ;
+    :owner "JFC International Inc."^^xsd:string .
 
-fo:kendall-farms a fo:Brand ;
-    fo:name "Kendall Farms"^^xsd:string .
+:kazidomi a :Brand ;
+    :name "Kazidomi"^^xsd:string .
 
-fo:kettlekettle-foods a fo:Brand ;
-    fo:name "Kettle,  Kettle Foods"^^xsd:string .
+:keepsake a :Brand ;
+    :name "Keepsake"^^xsd:string .
 
-fo:kettlekroger a fo:Brand ;
-    fo:name "Kettle,  Kroger"^^xsd:string .
+:kendall-farms a :Brand ;
+    :name "Kendall Farms"^^xsd:string .
 
-fo:kid-picks a fo:Brand ;
-    fo:name "Kid Picks"^^xsd:string .
+:kettlekettle-foods a :Brand ;
+    :name "Kettle,  Kettle Foods"^^xsd:string .
 
-fo:kikkoman a fo:Brand ;
-    fo:name "Kikkoman"^^xsd:string ;
-    fo:owner "JFC International Inc."^^xsd:string .
+:kettlekroger a :Brand ;
+    :name "Kettle,  Kroger"^^xsd:string .
 
-fo:kikkomanjfc-international-inc a fo:Brand ;
-    fo:name "Kikkoman,  Jfc International Inc."^^xsd:string ;
-    fo:owner "JFC International Inc."^^xsd:string .
+:kid-picks a :Brand ;
+    :name "Kid Picks"^^xsd:string .
 
-fo:kikkomankikkoman-corporation a fo:Brand ;
-    fo:name "Kikkoman,  Kikkoman Corporation"^^xsd:string .
+:kikkoman a :Brand ;
+    :name "Kikkoman"^^xsd:string ;
+    :owner "JFC International Inc."^^xsd:string .
 
-fo:kimura a fo:Brand ;
-    fo:name "Kimura"^^xsd:string ;
-    fo:owner "JFC International Inc."^^xsd:string .
+:kikkomanjfc-international-inc a :Brand ;
+    :name "Kikkoman,  Jfc International Inc."^^xsd:string ;
+    :owner "JFC International Inc."^^xsd:string .
 
-fo:kinder a fo:Brand ;
-    fo:name "Kinder"^^xsd:string .
+:kikkomankikkoman-corporation a :Brand ;
+    :name "Kikkoman,  Kikkoman Corporation"^^xsd:string .
 
-fo:king-scoppers a fo:Brand ;
-    fo:name "King Scoppers"^^xsd:string .
+:kimura a :Brand ;
+    :name "Kimura"^^xsd:string ;
+    :owner "JFC International Inc."^^xsd:string .
 
-fo:king-soopera a fo:Brand ;
-    fo:name "King Soopera"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:kinder a :Brand ;
+    :name "Kinder"^^xsd:string .
 
-fo:king-soopers a fo:Brand ;
-    fo:name "King Soopers"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:king-scoppers a :Brand ;
+    :name "King Scoppers"^^xsd:string .
 
-fo:king-soopers-city-market a fo:Brand ;
-    fo:name "King Soopers City Market"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:king-soopera a :Brand ;
+    :name "King Soopera"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:kirkland-signature a fo:Brand ;
-    fo:name "Kirkland Signature"^^xsd:string .
+:king-soopers a :Brand ;
+    :name "King Soopers"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:kitchen-academy a fo:Brand ;
-    fo:name "Kitchen Academy"^^xsd:string .
+:king-soopers-city-market a :Brand ;
+    :name "King Soopers City Market"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:knorr a fo:Brand ;
-    fo:name "Knorr"^^xsd:string .
+:kirkland-signature a :Brand ;
+    :name "Kirkland Signature"^^xsd:string .
 
-fo:kroeger a fo:Brand ;
-    fo:name "Kroeger"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:kitchen-academy a :Brand ;
+    :name "Kitchen Academy"^^xsd:string .
 
-fo:krogee a fo:Brand ;
-    fo:name "Krogee"^^xsd:string .
+:knorr a :Brand ;
+    :name "Knorr"^^xsd:string .
 
-fo:kroger a fo:Brand ;
-    fo:name "Kroger"^^xsd:string .
+:kroeger a :Brand ;
+    :name "Kroeger"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:kroger-cokrogerthe-kroger-co a fo:Brand ;
-    fo:name "Kroger Co., Kroger, The Kroger Co."^^xsd:string .
+:krogee a :Brand ;
+    :name "Krogee"^^xsd:string .
 
-fo:krogerfred-meyer a fo:Brand ;
-    fo:name "Kroger,Fred Meyer"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:kroger a :Brand ;
+    :name "Kroger"^^xsd:string .
 
-fo:krogerkroger-co a fo:Brand ;
-    fo:name "Kroger,  Kroger Co"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:kroger-cokrogerthe-kroger-co a :Brand ;
+    :name "Kroger Co., Kroger, The Kroger Co."^^xsd:string .
 
-fo:krogerprivate-selection a fo:Brand ;
-    fo:name "Kroger,Private Selection"^^xsd:string .
+:krogeraussie a :Brand ;
+    :name "Kroger, Aussie"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:krogersioux-city a fo:Brand ;
-    fo:name "Kroger, Sioux City"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:krogerfred-meyer a :Brand ;
+    :name "Kroger,Fred Meyer"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:krogerthe-kroger-co a fo:Brand ;
-    fo:name "Kroger,  The Kroger Co."^^xsd:string .
+:krogerkroger-co a :Brand ;
+    :name "Kroger,  Kroger Co"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:krogerthe-kroger-corose-ssprouts-farmers-market a fo:Brand ;
-    fo:name "Kroger,  The Kroger Co., Rose'S, Sprouts Farmers Market"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:krogerprivate-selection a :Brand ;
+    :name "Kroger,Private Selection"^^xsd:string .
 
-fo:ksf-acquisition-corporation a fo:Brand ;
-    fo:name "Ksf Acquisition Corporation"^^xsd:string ;
-    fo:owner "KSF Acquisition Corporation"^^xsd:string .
+:krogersioux-city a :Brand ;
+    :name "Kroger, Sioux City"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:kuchenmeister a fo:Brand ;
-    fo:name "Kuchenmeister"^^xsd:string .
+:krogerthe-kroger-co a :Brand ;
+    :name "Kroger,  The Kroger Co."^^xsd:string .
 
-fo:kuhne a fo:Brand ;
-    fo:name "Kuhne"^^xsd:string .
+:krogerthe-kroger-corose-ssprouts-farmers-market a :Brand ;
+    :name "Kroger,  The Kroger Co., Rose'S, Sprouts Farmers Market"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:kuzushi a fo:Brand ;
-    fo:name "Kuzushi"^^xsd:string ;
-    fo:owner "KUZUSHI"^^xsd:string .
+:ksf-acquisition-corporation a :Brand ;
+    :name "Ksf Acquisition Corporation"^^xsd:string ;
+    :owner "KSF Acquisition Corporation"^^xsd:string .
 
-fo:kyoshin-confectioner-co-ltd a fo:Brand ;
-    fo:name "Kyoshin Confectioner Co.  Ltd."^^xsd:string .
+:kuchenmeister a :Brand ;
+    :name "Kuchenmeister"^^xsd:string .
 
-fo:la-bergerie a fo:Brand ;
-    fo:name "La Bergerie"^^xsd:string .
+:kuhne a :Brand ;
+    :name "Kuhne"^^xsd:string .
 
-fo:la-campaniere a fo:Brand ;
-    fo:name "La Campanière"^^xsd:string .
+:kuzushi a :Brand ;
+    :name "Kuzushi"^^xsd:string ;
+    :owner "KUZUSHI"^^xsd:string .
 
-fo:la-pata-yan a fo:Brand ;
-    fo:name "La Pata Yan"^^xsd:string .
+:kyoshin-confectioner-co-ltd a :Brand ;
+    :name "Kyoshin Confectioner Co.  Ltd."^^xsd:string .
 
-fo:la-pedriza a fo:Brand ;
-    fo:name "La Pedriza"^^xsd:string ;
-    fo:owner "Francisco Jose Sanchez Fernand"^^xsd:string .
+:la-bergerie a :Brand ;
+    :name "La Bergerie"^^xsd:string .
 
-fo:lactaid a fo:Brand ;
-    fo:name "Lactaid"^^xsd:string ;
-    fo:owner "Transfusion Beverages, Inc."^^xsd:string .
+:la-campaniere a :Brand ;
+    :name "La Campanière"^^xsd:string .
 
-fo:lagg-s a fo:Brand ;
-    fo:name "Lagg'S"^^xsd:string ;
-    fo:owner "LAGG'S"^^xsd:string .
+:la-pata-yan a :Brand ;
+    :name "La Pata Yan"^^xsd:string .
 
-fo:lambertz a fo:Brand ;
-    fo:name "Lambertz"^^xsd:string ;
-    fo:owner "LAMBERTZ"^^xsd:string .
+:la-pedriza a :Brand ;
+    :name "La Pedriza"^^xsd:string ;
+    :owner "Francisco Jose Sanchez Fernand"^^xsd:string .
 
-fo:lawry-smccormick-company-inc a fo:Brand ;
-    fo:name "Lawry'S,  Mccormick & Company  Inc."^^xsd:string .
+:lactaid a :Brand ;
+    :name "Lactaid"^^xsd:string ;
+    :owner "Transfusion Beverages, Inc."^^xsd:string .
 
-fo:le-gauloisle-gaulois-professionnel a fo:Brand ;
-    fo:name "Le Gaulois,Le Gaulois Professionnel"^^xsd:string .
+:lagg-s a :Brand ;
+    :name "Lagg'S"^^xsd:string ;
+    :owner "LAGG'S"^^xsd:string .
 
-fo:le-marsigny a fo:Brand ;
-    fo:name "Le Marsigny"^^xsd:string .
+:lambertz a :Brand ;
+    :name "Lambertz"^^xsd:string ;
+    :owner "LAMBERTZ"^^xsd:string .
 
-fo:le-moulin-de-moreau a fo:Brand ;
-    fo:name "Le Moulin De Moreau"^^xsd:string .
+:lawry-smccormick-company-inc a :Brand ;
+    :name "Lawry'S,  Mccormick & Company  Inc."^^xsd:string .
 
-fo:leaf-inc a fo:Brand ;
-    fo:name "Leaf  Inc."^^xsd:string .
+:le-gauloisle-gaulois-professionnel a :Brand ;
+    :name "Le Gaulois,Le Gaulois Professionnel"^^xsd:string .
 
-fo:lee-kum-keelee-kum-kee-usa-foods-inc a fo:Brand ;
-    fo:name "Lee Kum Kee,  Lee Kum Kee (Usa) Foods Inc."^^xsd:string .
+:le-marsigny a :Brand ;
+    :name "Le Marsigny"^^xsd:string .
 
-fo:legacy-manufacturing-co a fo:Brand ;
-    fo:name "Legacy Manufacturing Co."^^xsd:string ;
-    fo:owner "Legacy Manufacturing Co."^^xsd:string .
+:le-moulin-de-moreau a :Brand ;
+    :name "Le Moulin De Moreau"^^xsd:string .
 
-fo:legion a fo:Brand ;
-    fo:name "Legion"^^xsd:string .
+:leaf-inc a :Brand ;
+    :name "Leaf  Inc."^^xsd:string .
 
-fo:les-5-fermes a fo:Brand ;
-    fo:name "Les 5 Fermes"^^xsd:string .
+:lee-kum-keelee-kum-kee-usa-foods-inc a :Brand ;
+    :name "Lee Kum Kee,  Lee Kum Kee (Usa) Foods Inc."^^xsd:string .
 
-fo:les-accents-du-soleil a fo:Brand ;
-    fo:name "Les Accents Du Soleil"^^xsd:string .
+:legacy-manufacturing-co a :Brand ;
+    :name "Legacy Manufacturing Co."^^xsd:string ;
+    :owner "Legacy Manufacturing Co."^^xsd:string .
 
-fo:lindt a fo:Brand ;
-    fo:name "Lindt"^^xsd:string .
+:legion a :Brand ;
+    :name "Legion"^^xsd:string .
 
-fo:lindt-lindor a fo:Brand ;
-    fo:name "Lindt Lindor"^^xsd:string ;
-    fo:owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
+:les-5-fermes a :Brand ;
+    :name "Les 5 Fermes"^^xsd:string .
 
-fo:lindt-sprungli a fo:Brand ;
-    fo:name "Lindt & Sprungli"^^xsd:string ;
-    fo:owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
+:les-accents-du-soleil a :Brand ;
+    :name "Les Accents Du Soleil"^^xsd:string .
 
-fo:lindt-sprungli-gmbh a fo:Brand ;
-    fo:name "Lindt & Sprungli Gmbh"^^xsd:string ;
-    fo:owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
+:lindt a :Brand ;
+    :name "Lindt"^^xsd:string .
 
-fo:lindt-sprungli-inc a fo:Brand ;
-    fo:name "Lindt & Sprungli Inc."^^xsd:string ;
-    fo:owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
+:lindt-lindor a :Brand ;
+    :name "Lindt Lindor"^^xsd:string ;
+    :owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
 
-fo:lindt-sprungli-sas a fo:Brand ;
-    fo:name "Lindt & Sprungli Sas"^^xsd:string ;
-    fo:owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
+:lindt-sprungli a :Brand ;
+    :name "Lindt & Sprungli"^^xsd:string ;
+    :owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
 
-fo:lindt-sprungli-schweiz-ag a fo:Brand ;
-    fo:name "Lindt & Sprungli (Schweiz) Ag"^^xsd:string ;
-    fo:owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
+:lindt-sprungli-gmbh a :Brand ;
+    :name "Lindt & Sprungli Gmbh"^^xsd:string ;
+    :owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
 
-fo:lindt-sprungli-usa-inc a fo:Brand ;
-    fo:name "Lindt & Sprungli (Usa) Inc."^^xsd:string ;
-    fo:owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
+:lindt-sprungli-inc a :Brand ;
+    :name "Lindt & Sprungli Inc."^^xsd:string ;
+    :owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
 
-fo:lindt-sprunglilindt a fo:Brand ;
-    fo:name "Lindt & Sprüngli, Lindt"^^xsd:string .
+:lindt-sprungli-sas a :Brand ;
+    :name "Lindt & Sprungli Sas"^^xsd:string ;
+    :owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
 
-fo:lindtexcellence a fo:Brand ;
-    fo:name "Lindt,Excellence"^^xsd:string .
+:lindt-sprungli-schweiz-ag a :Brand ;
+    :name "Lindt & Sprungli (Schweiz) Ag"^^xsd:string ;
+    :owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
 
-fo:lindtlindor a fo:Brand ;
-    fo:name "Lindt,Lindor"^^xsd:string ;
-    fo:owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
+:lindt-sprungli-usa-inc a :Brand ;
+    :name "Lindt & Sprungli (Usa) Inc."^^xsd:string ;
+    :owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
 
-fo:lindtlindt-excellent a fo:Brand ;
-    fo:name "Lindt,Lindt Excellent"^^xsd:string .
+:lindt-sprunglilindt a :Brand ;
+    :name "Lindt & Sprüngli, Lindt"^^xsd:string .
 
-fo:lindtlindt-sprungli a fo:Brand ;
-    fo:name "Lindt, Lindt & Sprüngli"^^xsd:string ;
-    fo:owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
+:lindtexcellence a :Brand ;
+    :name "Lindt,Excellence"^^xsd:string .
 
-fo:lindtlindt-sprungli-gmbh a fo:Brand ;
-    fo:name "Lindt,  Lindt & Sprungli Gmbh"^^xsd:string ;
-    fo:owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
+:lindtlindor a :Brand ;
+    :name "Lindt,Lindor"^^xsd:string ;
+    :owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
 
-fo:lindtlindt-sprungli-sas a fo:Brand ;
-    fo:name "Lindt, Lindt & Sprungli Sas"^^xsd:string ;
-    fo:owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
+:lindtlindt-excellent a :Brand ;
+    :name "Lindt,Lindt Excellent"^^xsd:string .
 
-fo:lindtlindt-sprungli-schweiz-ag a fo:Brand ;
-    fo:name "Lindt,  Lindt & Sprungli (Schweiz) Ag"^^xsd:string ;
-    fo:owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
+:lindtlindt-sprungli a :Brand ;
+    :name "Lindt, Lindt & Sprüngli"^^xsd:string ;
+    :owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
 
-fo:lindtlindt-sprungli-usa-inc a fo:Brand ;
-    fo:name "Lindt,  Lindt & Sprungli (Usa) Inc."^^xsd:string ;
-    fo:owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
+:lindtlindt-sprungli-gmbh a :Brand ;
+    :name "Lindt,  Lindt & Sprungli Gmbh"^^xsd:string ;
+    :owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
 
-fo:lindtpolo-leathergoods a fo:Brand ;
-    fo:name "Lindt,  Polo Leathergoods"^^xsd:string ;
-    fo:owner "Polo Leathergoods"^^xsd:string .
+:lindtlindt-sprungli-sas a :Brand ;
+    :name "Lindt, Lindt & Sprungli Sas"^^xsd:string ;
+    :owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
 
-fo:ling-ling a fo:Brand ;
-    fo:name "Ling Ling"^^xsd:string ;
-    fo:owner "Windsor Quality Food Products Ltd."^^xsd:string .
+:lindtlindt-sprungli-schweiz-ag a :Brand ;
+    :name "Lindt,  Lindt & Sprungli (Schweiz) Ag"^^xsd:string ;
+    :owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
 
-fo:lionor a fo:Brand ;
-    fo:name "Lionor"^^xsd:string .
+:lindtlindt-sprungli-usa-inc a :Brand ;
+    :name "Lindt,  Lindt & Sprungli (Usa) Inc."^^xsd:string ;
+    :owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
 
-fo:lipton a fo:Brand ;
-    fo:name "Lipton"^^xsd:string ;
-    fo:owner "Lipton"^^xsd:string .
+:lindtpolo-leathergoods a :Brand ;
+    :name "Lindt,  Polo Leathergoods"^^xsd:string ;
+    :owner "Polo Leathergoods"^^xsd:string .
 
-fo:long-grove-chocolates a fo:Brand ;
-    fo:name "Long Grove Chocolates"^^xsd:string .
+:ling-ling a :Brand ;
+    :name "Ling Ling"^^xsd:string ;
+    :owner "Windsor Quality Food Products Ltd."^^xsd:string .
 
-fo:long-grove-confectionery a fo:Brand ;
-    fo:name "Long Grove Confectionery"^^xsd:string ;
-    fo:owner "Long Grove Confectionery Co."^^xsd:string .
+:lionor a :Brand ;
+    :name "Lionor"^^xsd:string .
 
-fo:long-grove-confectionery-co a fo:Brand ;
-    fo:name "Long Grove Confectionery Co."^^xsd:string ;
-    fo:owner "Long Grove Confectionery Co."^^xsd:string .
+:lipton a :Brand ;
+    :name "Lipton"^^xsd:string ;
+    :owner "Lipton"^^xsd:string .
 
-fo:los-pericos a fo:Brand ;
-    fo:name "Los Pericos"^^xsd:string ;
-    fo:owner "Los Pericos Food Products"^^xsd:string .
+:long-grove-chocolates a :Brand ;
+    :name "Long Grove Chocolates"^^xsd:string .
 
-fo:lotus-brands-inc a fo:Brand ;
-    fo:name "Lotus Brands  Inc."^^xsd:string ;
-    fo:owner "Lotus Brands, Inc."^^xsd:string .
+:long-grove-confectionery a :Brand ;
+    :name "Long Grove Confectionery"^^xsd:string ;
+    :owner "Long Grove Confectionery Co."^^xsd:string .
 
-fo:loue a fo:Brand ;
-    fo:name "Loué"^^xsd:string .
+:long-grove-confectionery-co a :Brand ;
+    :name "Long Grove Confectionery Co."^^xsd:string ;
+    :owner "Long Grove Confectionery Co."^^xsd:string .
 
-fo:lucky-shing-co-ltd a fo:Brand ;
-    fo:name "Lucky Shing Co.  Ltd."^^xsd:string ;
-    fo:owner "LUCKY SHING CO., LTD."^^xsd:string .
+:los-pericos a :Brand ;
+    :name "Los Pericos"^^xsd:string ;
+    :owner "Los Pericos Food Products"^^xsd:string .
 
-fo:lucky-shing-enterprise-co-ltd a fo:Brand ;
-    fo:name "Lucky Shing Enterprise Co.  Ltd."^^xsd:string ;
-    fo:owner "COCONUT TREE BRAND"^^xsd:string .
+:lotus-brands-inc a :Brand ;
+    :name "Lotus Brands  Inc."^^xsd:string ;
+    :owner "Lotus Brands, Inc."^^xsd:string .
 
-fo:lundberg a fo:Brand ;
-    fo:name "Lundberg"^^xsd:string .
+:loue a :Brand ;
+    :name "Loué"^^xsd:string .
 
-fo:m-m-smarsmars-chocolat a fo:Brand ;
-    fo:name "M&M'S,Mars,Mars Chocolat"^^xsd:string .
+:lucky-shing-co-ltd a :Brand ;
+    :name "Lucky Shing Co.  Ltd."^^xsd:string ;
+    :owner "LUCKY SHING CO., LTD."^^xsd:string .
 
-fo:m-s a fo:Brand ;
-    fo:name "M&S"^^xsd:string .
+:lucky-shing-enterprise-co-ltd a :Brand ;
+    :name "Lucky Shing Enterprise Co.  Ltd."^^xsd:string ;
+    :owner "COCONUT TREE BRAND"^^xsd:string .
 
-fo:m-s-food a fo:Brand ;
-    fo:name "M&S Food"^^xsd:string .
+:lundberg a :Brand ;
+    :name "Lundberg"^^xsd:string .
 
-fo:m-s-foodmarks-and-spencermarks-spencer a fo:Brand ;
-    fo:name "M&S Food, Marks And Spencer, Marks & Spencer"^^xsd:string .
+:m-m-smarsmars-chocolat a :Brand ;
+    :name "M&M'S,Mars,Mars Chocolat"^^xsd:string .
 
-fo:m-s-foodmarks-spencer a fo:Brand ;
-    fo:name "M&S Food, Marks & Spencer"^^xsd:string .
+:m-s a :Brand ;
+    :name "M&S"^^xsd:string .
 
-fo:m-smarks-spencer a fo:Brand ;
-    fo:name "M&S,Marks & Spencer"^^xsd:string .
+:m-s-food a :Brand ;
+    :name "M&S Food"^^xsd:string .
 
-fo:madelaine-chocolate-novelties a fo:Brand ;
-    fo:name "Madelaine Chocolate Novelties"^^xsd:string ;
-    fo:owner "Madelaine Chocolate Novelties"^^xsd:string .
+:m-s-foodmarks-and-spencermarks-spencer a :Brand ;
+    :name "M&S Food, Marks And Spencer, Marks & Spencer"^^xsd:string .
 
-fo:madelaine-chocolate-novelties-inc a fo:Brand ;
-    fo:name "Madelaine Chocolate Novelties  Inc"^^xsd:string ;
-    fo:owner "Madelaine Chocolate Novelties"^^xsd:string .
+:m-s-foodmarks-spencer a :Brand ;
+    :name "M&S Food, Marks & Spencer"^^xsd:string .
 
-fo:madhava a fo:Brand ;
-    fo:name "Madhava"^^xsd:string .
+:m-smarks-spencer a :Brand ;
+    :name "M&S,Marks & Spencer"^^xsd:string .
 
-fo:maharishi-ayurveda-prod-int-l a fo:Brand ;
-    fo:name "Maharishi Ayurveda Prod Int'L."^^xsd:string .
+:madelaine-chocolate-novelties a :Brand ;
+    :name "Madelaine Chocolate Novelties"^^xsd:string ;
+    :owner "Madelaine Chocolate Novelties"^^xsd:string .
 
-fo:maitre-truffout a fo:Brand ;
-    fo:name "Maitre Truffout"^^xsd:string ;
-    fo:owner "MAITRE TRUFFOUT"^^xsd:string .
+:madelaine-chocolate-novelties-inc a :Brand ;
+    :name "Madelaine Chocolate Novelties  Inc"^^xsd:string ;
+    :owner "Madelaine Chocolate Novelties"^^xsd:string .
 
-fo:majestic a fo:Brand ;
-    fo:name "Majestic"^^xsd:string ;
-    fo:owner "Mount Olive Pickle Company Inc."^^xsd:string .
+:madhava a :Brand ;
+    :name "Madhava"^^xsd:string .
 
-fo:mamie-nova a fo:Brand ;
-    fo:name "Mamie Nova"^^xsd:string .
+:maharishi-ayurveda-prod-int-l a :Brand ;
+    :name "Maharishi Ayurveda Prod Int'L."^^xsd:string .
 
-fo:manager-s-special a fo:Brand ;
-    fo:name "Manager'S Special"^^xsd:string .
+:maitre-truffout a :Brand ;
+    :name "Maitre Truffout"^^xsd:string ;
+    :owner "MAITRE TRUFFOUT"^^xsd:string .
 
-fo:maplehurst-bakeries a fo:Brand ;
-    fo:name "Maplehurst Bakeries"^^xsd:string ;
-    fo:owner "Maplehurst Bakeries, LLC"^^xsd:string .
+:majestic a :Brand ;
+    :name "Majestic"^^xsd:string ;
+    :owner "Mount Olive Pickle Company Inc."^^xsd:string .
 
-fo:maplehurst-bakeries-llc a fo:Brand ;
-    fo:name "Maplehurst Bakeries  Llc"^^xsd:string ;
-    fo:owner "Maplehurst Bakeries, LLC"^^xsd:string .
+:mamie-nova a :Brand ;
+    :name "Mamie Nova"^^xsd:string .
 
-fo:maranathathe-hain-celestial-group-inc a fo:Brand ;
-    fo:name "Maranatha,  The Hain Celestial Group  Inc."^^xsd:string .
+:manager-s-special a :Brand ;
+    :name "Manager'S Special"^^xsd:string .
 
-fo:marconi-brand a fo:Brand ;
-    fo:name "Marconi Brand"^^xsd:string ;
-    fo:owner "Arizona Natural Resources, Inc."^^xsd:string .
+:maplehurst-bakeries a :Brand ;
+    :name "Maplehurst Bakeries"^^xsd:string ;
+    :owner "Maplehurst Bakeries, LLC"^^xsd:string .
 
-fo:mariano-s a fo:Brand ;
-    fo:name "Mariano'S"^^xsd:string ;
-    fo:owner "MARIANO'S"^^xsd:string .
+:maplehurst-bakeries-llc a :Brand ;
+    :name "Maplehurst Bakeries  Llc"^^xsd:string ;
+    :owner "Maplehurst Bakeries, LLC"^^xsd:string .
 
-fo:marin a fo:Brand ;
-    fo:name "Marin"^^xsd:string .
+:maranathathe-hain-celestial-group-inc a :Brand ;
+    :name "Maranatha,  The Hain Celestial Group  Inc."^^xsd:string .
 
-fo:marks-and-spencer a fo:Brand ;
-    fo:name "Marks And Spencer"^^xsd:string .
+:marconi-brand a :Brand ;
+    :name "Marconi Brand"^^xsd:string ;
+    :owner "Arizona Natural Resources, Inc."^^xsd:string .
 
-fo:marks-and-spencerm-s a fo:Brand ;
-    fo:name "Marks And Spencer,M&S"^^xsd:string .
+:mariano-s a :Brand ;
+    :name "Mariano'S"^^xsd:string ;
+    :owner "MARIANO'S"^^xsd:string .
 
-fo:marks-and-spencermarks-spencer a fo:Brand ;
-    fo:name "Marks And Spencer,Marks & Spencer"^^xsd:string .
+:marin a :Brand ;
+    :name "Marin"^^xsd:string .
 
-fo:marks-spencer a fo:Brand ;
-    fo:name "Marks & Spencer"^^xsd:string .
+:marks-and-spencer a :Brand ;
+    :name "Marks And Spencer"^^xsd:string .
 
-fo:marks-spencer-foodsmarks-spencer a fo:Brand ;
-    fo:name "Marks & Spencer Foods, Marks & Spencer"^^xsd:string .
+:marks-and-spencerm-s a :Brand ;
+    :name "Marks And Spencer,M&S"^^xsd:string .
 
-fo:marks-spencerdisney a fo:Brand ;
-    fo:name "Marks & Spencer,Disney"^^xsd:string .
+:marks-and-spencermarks-spencer a :Brand ;
+    :name "Marks And Spencer,Marks & Spencer"^^xsd:string .
 
-fo:marks-spencerm-s a fo:Brand ;
-    fo:name "Marks & Spencer,M&S"^^xsd:string .
+:marks-spencer a :Brand ;
+    :name "Marks & Spencer"^^xsd:string .
 
-fo:marks-spencerm-swaitrose a fo:Brand ;
-    fo:name "Marks & Spencer,M&S, Waitrose"^^xsd:string .
+:marks-spencer-foodsmarks-spencer a :Brand ;
+    :name "Marks & Spencer Foods, Marks & Spencer"^^xsd:string .
 
-fo:marks-spencermarks-and-spencer a fo:Brand ;
-    fo:name "Marks & Spencer,Marks And Spencer"^^xsd:string .
+:marks-spencerdisney a :Brand ;
+    :name "Marks & Spencer,Disney"^^xsd:string .
 
-fo:marks-spencermarks-spencer a fo:Brand ;
-    fo:name "Marks&Spencer,Marks & Spencer"^^xsd:string .
+:marks-spencerm-s a :Brand ;
+    :name "Marks & Spencer,M&S"^^xsd:string .
 
-fo:marks-spenceryesto a fo:Brand ;
-    fo:name "Marks & Spencer, Yesto"^^xsd:string .
+:marks-spencerm-swaitrose a :Brand ;
+    :name "Marks & Spencer,M&S, Waitrose"^^xsd:string .
 
-fo:marks-spencerมารคแอนดสเปนเซอร a fo:Brand ;
-    fo:name "Marks & Spencer,มาร์คแอนด์สเปนเซอร์"^^xsd:string .
+:marks-spencermarks-and-spencer a :Brand ;
+    :name "Marks & Spencer,Marks And Spencer"^^xsd:string .
 
-fo:marmite a fo:Brand ;
-    fo:name "Marmite"^^xsd:string .
+:marks-spencermarks-spencer a :Brand ;
+    :name "Marks&Spencer,Marks & Spencer"^^xsd:string .
 
-fo:maruthon a fo:Brand ;
-    fo:name "Maruthon"^^xsd:string .
+:marks-spenceryesto a :Brand ;
+    :name "Marks & Spencer, Yesto"^^xsd:string .
 
-fo:mashed-potatoes a fo:Brand ;
-    fo:name "Mashed Potatoes"^^xsd:string ;
-    fo:owner "Basic American Foods, Inc."^^xsd:string .
+:marks-spencerมารคแอนดสเปนเซอร a :Brand ;
+    :name "Marks & Spencer,มาร์คแอนด์สเปนเซอร์"^^xsd:string .
 
-fo:maxfield a fo:Brand ;
-    fo:name "Maxfield"^^xsd:string ;
-    fo:owner "Abdallah, Inc."^^xsd:string .
+:marmite a :Brand ;
+    :name "Marmite"^^xsd:string .
 
-fo:mcsteven-s a fo:Brand ;
-    fo:name "Mcsteven'S"^^xsd:string .
+:maruthon a :Brand ;
+    :name "Maruthon"^^xsd:string .
 
-fo:mcsteven-s-inc a fo:Brand ;
-    fo:name "Mcsteven'S Inc."^^xsd:string ;
-    fo:owner "McSteven's Inc."^^xsd:string .
+:mashed-potatoes a :Brand ;
+    :name "Mashed Potatoes"^^xsd:string ;
+    :owner "Basic American Foods, Inc."^^xsd:string .
 
-fo:mcvitie-s a fo:Brand ;
-    fo:name "Mcvitie'S"^^xsd:string ;
-    fo:owner "MCVITIE'S"^^xsd:string .
+:maxfield a :Brand ;
+    :name "Maxfield"^^xsd:string ;
+    :owner "Abdallah, Inc."^^xsd:string .
 
-fo:meiji-seika-s-pte-ltd a fo:Brand ;
-    fo:name "Meiji Seika (S) Pte Ltd"^^xsd:string ;
-    fo:owner "MEIJI"^^xsd:string .
+:mcsteven-s a :Brand ;
+    :name "Mcsteven'S"^^xsd:string .
 
-fo:meijimeiji-seika-s-pte-ltd a fo:Brand ;
-    fo:name "Meiji,  Meiji Seika (S) Pte. Ltd."^^xsd:string ;
-    fo:owner "Ritenour Enterprises Diversified, Inc."^^xsd:string .
+:mcsteven-s-inc a :Brand ;
+    :name "Mcsteven'S Inc."^^xsd:string ;
+    :owner "McSteven's Inc."^^xsd:string .
 
-fo:mezzettag-l-mezzetta-inc a fo:Brand ;
-    fo:name "Mezzetta,  G.L. Mezzetta  Inc."^^xsd:string .
+:mcvitie-s a :Brand ;
+    :name "Mcvitie'S"^^xsd:string ;
+    :owner "MCVITIE'S"^^xsd:string .
 
-fo:miels-villeneuve a fo:Brand ;
-    fo:name "Miels Villeneuve"^^xsd:string .
+:meiji-seika-s-pte-ltd a :Brand ;
+    :name "Meiji Seika (S) Pte Ltd"^^xsd:string ;
+    :owner "MEIJI"^^xsd:string .
 
-fo:milkyway a fo:Brand ;
-    fo:name "Milkyway"^^xsd:string ;
-    fo:owner "MILKYWAY"^^xsd:string .
+:meijimeiji-seika-s-pte-ltd a :Brand ;
+    :name "Meiji,  Meiji Seika (S) Pte. Ltd."^^xsd:string ;
+    :owner "Ritenour Enterprises Diversified, Inc."^^xsd:string .
 
-fo:miracle-maize a fo:Brand ;
-    fo:name "Miracle Maize"^^xsd:string ;
-    fo:owner "Little Crow Milling Co."^^xsd:string .
+:mezzettag-l-mezzetta-inc a :Brand ;
+    :name "Mezzetta,  G.L. Mezzetta  Inc."^^xsd:string .
 
-fo:mont-amore a fo:Brand ;
-    fo:name "Mont Amore"^^xsd:string ;
-    fo:owner "MONT AMORE"^^xsd:string .
+:miels-villeneuve a :Brand ;
+    :name "Miels Villeneuve"^^xsd:string .
 
-fo:morita a fo:Brand ;
-    fo:name "Morita"^^xsd:string .
+:milkyway a :Brand ;
+    :name "Milkyway"^^xsd:string ;
+    :owner "MILKYWAY"^^xsd:string .
 
-fo:mount-olive-pickle-company-incmt-olive a fo:Brand ;
-    fo:name "Mount Olive Pickle Company Inc, Mt Olive"^^xsd:string ;
-    fo:owner "Mount Olive Pickle Company Inc."^^xsd:string .
+:miracle-maize a :Brand ;
+    :name "Miracle Maize"^^xsd:string ;
+    :owner "Little Crow Milling Co."^^xsd:string .
 
-fo:mountain-dairy a fo:Brand ;
-    fo:name "Mountain Dairy"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:mont-amore a :Brand ;
+    :name "Mont Amore"^^xsd:string ;
+    :owner "MONT AMORE"^^xsd:string .
 
-fo:mrs-filbert-s a fo:Brand ;
-    fo:name "Mrs Filbert’S"^^xsd:string .
+:morita a :Brand ;
+    :name "Morita"^^xsd:string .
 
-fo:mt-olive a fo:Brand ;
-    fo:name "Mt. Olive"^^xsd:string ;
-    fo:owner "Walton's Flies"^^xsd:string .
+:mount-olive-pickle-company-incmt-olive a :Brand ;
+    :name "Mount Olive Pickle Company Inc, Mt Olive"^^xsd:string ;
+    :owner "Mount Olive Pickle Company Inc."^^xsd:string .
 
-fo:mt-olive-pickle-company-inc a fo:Brand ;
-    fo:name "Mt. Olive Pickle Company  Inc."^^xsd:string ;
-    fo:owner "Mount Olive Pickle Company Inc."^^xsd:string .
+:mountain-dairy a :Brand ;
+    :name "Mountain Dairy"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:mt-olivemount-olive-pickle-company-inc a fo:Brand ;
-    fo:name "Mt. Olive,  Mount Olive Pickle Company Inc."^^xsd:string ;
-    fo:owner "Mount Olive Pickle Company Inc."^^xsd:string .
+:mrs-filbert-s a :Brand ;
+    :name "Mrs Filbert’S"^^xsd:string .
 
-fo:mt-olivemt-olive-pickle-company-inc a fo:Brand ;
-    fo:name "Mt. Olive,  Mt. Olive Pickle Company  Inc."^^xsd:string ;
-    fo:owner "Mount Olive Pickle Company Inc."^^xsd:string .
+:mt-olive a :Brand ;
+    :name "Mt. Olive"^^xsd:string ;
+    :owner "Walton's Flies"^^xsd:string .
 
-fo:mx3 a fo:Brand ;
-    fo:name "Mx3"^^xsd:string .
+:mt-olive-pickle-company-inc a :Brand ;
+    :name "Mt. Olive Pickle Company  Inc."^^xsd:string ;
+    :owner "Mount Olive Pickle Company Inc."^^xsd:string .
 
-fo:myojo a fo:Brand ;
-    fo:name "Myojo"^^xsd:string .
+:mt-olivemount-olive-pickle-company-inc a :Brand ;
+    :name "Mt. Olive,  Mount Olive Pickle Company Inc."^^xsd:string ;
+    :owner "Mount Olive Pickle Company Inc."^^xsd:string .
 
-fo:myojo-foods-co-ltd a fo:Brand ;
-    fo:name "Myojo Foods Co. Ltd."^^xsd:string ;
-    fo:owner "JFC International Inc."^^xsd:string .
+:mt-olivemt-olive-pickle-company-inc a :Brand ;
+    :name "Mt. Olive,  Mt. Olive Pickle Company  Inc."^^xsd:string ;
+    :owner "Mount Olive Pickle Company Inc."^^xsd:string .
 
-fo:nagai a fo:Brand ;
-    fo:name "Nagai"^^xsd:string ;
-    fo:owner "JFC International Inc."^^xsd:string .
+:mx3 a :Brand ;
+    :name "Mx3"^^xsd:string .
 
-fo:naked a fo:Brand ;
-    fo:name "Naked"^^xsd:string .
+:myojo a :Brand ;
+    :name "Myojo"^^xsd:string .
 
-fo:nakedeasley-enterprises-inc a fo:Brand ;
-    fo:name "Naked,  Easley Enterprises  Inc."^^xsd:string .
+:myojo-foods-co-ltd a :Brand ;
+    :name "Myojo Foods Co. Ltd."^^xsd:string ;
+    :owner "JFC International Inc."^^xsd:string .
 
-fo:nakednaked-juice a fo:Brand ;
-    fo:name "Naked,  Naked Juice"^^xsd:string .
+:nagai a :Brand ;
+    :name "Nagai"^^xsd:string ;
+    :owner "JFC International Inc."^^xsd:string .
 
-fo:nan a fo:Brand ;
-    fo:name "Nan"^^xsd:string .
+:naked a :Brand ;
+    :name "Naked"^^xsd:string .
 
-fo:napoleon a fo:Brand ;
-    fo:name "Napoleon"^^xsd:string .
+:nakedeasley-enterprises-inc a :Brand ;
+    :name "Naked,  Easley Enterprises  Inc."^^xsd:string .
 
-fo:natura4ever a fo:Brand ;
-    fo:name "Natura4Ever"^^xsd:string .
+:nakednaked-juice a :Brand ;
+    :name "Naked,  Naked Juice"^^xsd:string .
 
-fo:naturacereal a fo:Brand ;
-    fo:name "Naturacereal"^^xsd:string .
+:napoleon a :Brand ;
+    :name "Napoleon"^^xsd:string .
 
-fo:naturale-bio a fo:Brand ;
-    fo:name "Naturale Bio"^^xsd:string .
+:natura4ever a :Brand ;
+    :name "Natura4Ever"^^xsd:string .
 
-fo:naturalia a fo:Brand ;
-    fo:name "Naturalia"^^xsd:string .
+:naturacereal a :Brand ;
+    :name "Naturacereal"^^xsd:string .
 
-fo:naturally-freferred a fo:Brand ;
-    fo:name "Naturally Freferred"^^xsd:string ;
-    fo:owner "NATURALLY FREFERRED"^^xsd:string .
+:naturale-bio a :Brand ;
+    :name "Naturale Bio"^^xsd:string .
 
-fo:naturally-preferred a fo:Brand ;
-    fo:name "Naturally Preferred"^^xsd:string ;
-    fo:owner "NATURALLY PREFERRED"^^xsd:string .
+:naturalia a :Brand ;
+    :name "Naturalia"^^xsd:string .
 
-fo:nature-cie a fo:Brand ;
-    fo:name "Nature & Cie"^^xsd:string .
+:naturally-freferred a :Brand ;
+    :name "Naturally Freferred"^^xsd:string ;
+    :owner "NATURALLY FREFERRED"^^xsd:string .
 
-fo:nestle a fo:Brand ;
-    fo:name "Nestle"^^xsd:string .
+:naturally-preferred a :Brand ;
+    :name "Naturally Preferred"^^xsd:string ;
+    :owner "NATURALLY PREFERRED"^^xsd:string .
 
-fo:new-england-naturals a fo:Brand ;
-    fo:name "New England Naturals"^^xsd:string .
+:nature-cie a :Brand ;
+    :name "Nature & Cie"^^xsd:string .
 
-fo:nishiki a fo:Brand ;
-    fo:name "Nishiki"^^xsd:string ;
-    fo:owner "NISHIKI"^^xsd:string .
+:nestle a :Brand ;
+    :name "Nestle"^^xsd:string .
 
-fo:nishiki-brand a fo:Brand ;
-    fo:name "Nishiki Brand"^^xsd:string ;
-    fo:owner "NISHIKI"^^xsd:string .
+:new-england-naturals a :Brand ;
+    :name "New England Naturals"^^xsd:string .
 
-fo:nissin a fo:Brand ;
-    fo:name "Nissin"^^xsd:string .
+:nishiki a :Brand ;
+    :name "Nishiki"^^xsd:string ;
+    :owner "NISHIKI"^^xsd:string .
 
-fo:no-brand a fo:Brand ;
-    fo:name "No Brand"^^xsd:string .
+:nishiki-brand a :Brand ;
+    :name "Nishiki Brand"^^xsd:string ;
+    :owner "NISHIKI"^^xsd:string .
 
-fo:no-cocino-mas a fo:Brand ;
-    fo:name "No Cocino Más"^^xsd:string .
+:nissin a :Brand ;
+    :name "Nissin"^^xsd:string .
 
-fo:no-mnaufacturer a fo:Brand ;
-    fo:name "No Mnaufacturer"^^xsd:string .
+:no-brand a :Brand ;
+    :name "No Brand"^^xsd:string .
 
-fo:northgate a fo:Brand ;
-    fo:name "Northgate"^^xsd:string .
+:no-cocino-mas a :Brand ;
+    :name "No Cocino Más"^^xsd:string .
 
-fo:northgate-market a fo:Brand ;
-    fo:name "Northgate Market"^^xsd:string .
+:no-mnaufacturer a :Brand ;
+    :name "No Mnaufacturer"^^xsd:string .
 
-fo:northwest-classic a fo:Brand ;
-    fo:name "Northwest Classic"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:northgate a :Brand ;
+    :name "Northgate"^^xsd:string .
 
-fo:not-a-branded-item a fo:Brand ;
-    fo:name "Not A Branded Item"^^xsd:string .
+:northgate-market a :Brand ;
+    :name "Northgate Market"^^xsd:string .
 
-fo:nuovo a fo:Brand ;
-    fo:name "Nuovo"^^xsd:string ;
-    fo:owner "Nuovo Pasta Productions Ltd"^^xsd:string .
+:northwest-classic a :Brand ;
+    :name "Northwest Classic"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:nuovo-pasta a fo:Brand ;
-    fo:name "Nuovo Pasta"^^xsd:string .
+:not-a-branded-item a :Brand ;
+    :name "Not A Branded Item"^^xsd:string .
 
-fo:nuovo-pasta-production-ltd a fo:Brand ;
-    fo:name "Nuovo Pasta Production Ltd"^^xsd:string .
+:nuovo a :Brand ;
+    :name "Nuovo"^^xsd:string ;
+    :owner "Nuovo Pasta Productions Ltd"^^xsd:string .
 
-fo:nuovo-pasta-productions-ltd a fo:Brand ;
-    fo:name "Nuovo Pasta Productions Ltd"^^xsd:string ;
-    fo:owner "Nuovo Pasta Productions Ltd"^^xsd:string .
+:nuovo-pasta a :Brand ;
+    :name "Nuovo Pasta"^^xsd:string .
 
-fo:nutella a fo:Brand ;
-    fo:name "Nutella"^^xsd:string .
+:nuovo-pasta-production-ltd a :Brand ;
+    :name "Nuovo Pasta Production Ltd"^^xsd:string .
 
-fo:nutella-ferrero a fo:Brand ;
-    fo:name "Nutella Ferrero"^^xsd:string ;
-    fo:owner "NUTELLA FERRERO"^^xsd:string .
+:nuovo-pasta-productions-ltd a :Brand ;
+    :name "Nuovo Pasta Productions Ltd"^^xsd:string ;
+    :owner "Nuovo Pasta Productions Ltd"^^xsd:string .
 
-fo:nutellaferrero a fo:Brand ;
-    fo:name "Nutella,Ferrero"^^xsd:string .
+:nutella a :Brand ;
+    :name "Nutella"^^xsd:string .
 
-fo:nutri-co a fo:Brand ;
-    fo:name "Nutri&Co"^^xsd:string .
+:nutella-ferrero a :Brand ;
+    :name "Nutella Ferrero"^^xsd:string ;
+    :owner "NUTELLA FERRERO"^^xsd:string .
 
-fo:ocean-mist a fo:Brand ;
-    fo:name "Ocean Mist"^^xsd:string ;
-    fo:owner "OCEAN MIST FARMS"^^xsd:string .
+:nutellaferrero a :Brand ;
+    :name "Nutella,Ferrero"^^xsd:string .
 
-fo:ocean-mist-farms a fo:Brand ;
-    fo:name "Ocean Mist Farms"^^xsd:string ;
-    fo:owner "OCEAN MIST FARMS"^^xsd:string .
+:nutri-co a :Brand ;
+    :name "Nutri&Co"^^xsd:string .
 
-fo:ocean-spray a fo:Brand ;
-    fo:name "Ocean Spray"^^xsd:string .
+:ocean-mist a :Brand ;
+    :name "Ocean Mist"^^xsd:string ;
+    :owner "OCEAN MIST FARMS"^^xsd:string .
 
-fo:old-mansion-foods a fo:Brand ;
-    fo:name "Old Mansion Foods"^^xsd:string ;
-    fo:owner "DASH OF SASH"^^xsd:string .
+:ocean-mist-farms a :Brand ;
+    :name "Ocean Mist Farms"^^xsd:string ;
+    :owner "OCEAN MIST FARMS"^^xsd:string .
 
-fo:olde-thompson a fo:Brand ;
-    fo:name "Olde Thompson"^^xsd:string ;
-    fo:owner "OLDE THOMPSON"^^xsd:string .
+:ocean-spray a :Brand ;
+    :name "Ocean Spray"^^xsd:string .
 
-fo:original-cream-cheese a fo:Brand ;
-    fo:name "Original Cream Cheese"^^xsd:string .
+:old-mansion-foods a :Brand ;
+    :name "Old Mansion Foods"^^xsd:string ;
+    :owner "DASH OF SASH"^^xsd:string .
 
-fo:orlando-greco a fo:Brand ;
-    fo:name "Orlando Greco"^^xsd:string ;
-    fo:owner "Wiscon Corporation"^^xsd:string .
+:olde-thompson a :Brand ;
+    :name "Olde Thompson"^^xsd:string ;
+    :owner "OLDE THOMPSON"^^xsd:string .
 
-fo:p-t a fo:Brand ;
-    fo:name "P$$T..."^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:original-cream-cheese a :Brand ;
+    :name "Original Cream Cheese"^^xsd:string .
 
-fo:p-t-big-savings-pass-it-on a fo:Brand ;
-    fo:name "P$$T... Big Savings... Pass It On"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:orlando-greco a :Brand ;
+    :name "Orlando Greco"^^xsd:string ;
+    :owner "Wiscon Corporation"^^xsd:string .
 
-fo:pacific a fo:Brand ;
-    fo:name "Pacific"^^xsd:string .
+:p-t a :Brand ;
+    :name "P$$T..."^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:pacific-coast-selections a fo:Brand ;
-    fo:name "Pacific Coast Selections"^^xsd:string ;
-    fo:owner "McSteven's Inc."^^xsd:string .
+:p-t-big-savings-pass-it-on a :Brand ;
+    :name "P$$T... Big Savings... Pass It On"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:pappy-s a fo:Brand ;
-    fo:name "Pappy'S"^^xsd:string ;
-    fo:owner "Pappy's Fine Foods"^^xsd:string .
+:pacific a :Brand ;
+    :name "Pacific"^^xsd:string .
 
-fo:pappy-s-fine-foods a fo:Brand ;
-    fo:name "Pappy'S Fine Foods"^^xsd:string ;
-    fo:owner "Pappy's Fine Foods"^^xsd:string .
+:pacific-coast-selections a :Brand ;
+    :name "Pacific Coast Selections"^^xsd:string ;
+    :owner "McSteven's Inc."^^xsd:string .
 
-fo:party-pail a fo:Brand ;
-    fo:name "Party Pail"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:pappy-s a :Brand ;
+    :name "Pappy'S"^^xsd:string ;
+    :owner "Pappy's Fine Foods"^^xsd:string .
 
-fo:patak-s a fo:Brand ;
-    fo:name "Patak'S"^^xsd:string .
+:pappy-s-fine-foods a :Brand ;
+    :name "Pappy'S Fine Foods"^^xsd:string ;
+    :owner "Pappy's Fine Foods"^^xsd:string .
 
-fo:paul-linh a fo:Brand ;
-    fo:name "Paul & Linh"^^xsd:string .
+:party-pail a :Brand ;
+    :name "Party Pail"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:pcc a fo:Brand ;
-    fo:name "Pcc"^^xsd:string .
+:patak-s a :Brand ;
+    :name "Patak'S"^^xsd:string .
 
-fo:pcc-farmland-trust a fo:Brand ;
-    fo:name "Pcc Farmland Trust"^^xsd:string .
+:paul-linh a :Brand ;
+    :name "Paul & Linh"^^xsd:string .
 
-fo:peakfection a fo:Brand ;
-    fo:name "Peakfection"^^xsd:string .
+:pcc a :Brand ;
+    :name "Pcc"^^xsd:string .
 
-fo:penguin-software-inc a fo:Brand ;
-    fo:name "Penguin Software Inc"^^xsd:string .
+:pcc-farmland-trust a :Brand ;
+    :name "Pcc Farmland Trust"^^xsd:string .
 
-fo:petpro-products-inc a fo:Brand ;
-    fo:name "Petpro Products  Inc."^^xsd:string ;
-    fo:owner "Petpro Products, Inc."^^xsd:string .
+:peakfection a :Brand ;
+    :name "Peakfection"^^xsd:string .
 
-fo:phong-kee-roasted-peanut-co a fo:Brand ;
-    fo:name "Phong Kee Roasted Peanut Co."^^xsd:string ;
-    fo:owner "Phong Kee Roasted Peanut Co."^^xsd:string .
+:penguin-software-inc a :Brand ;
+    :name "Penguin Software Inc"^^xsd:string .
 
-fo:pilgrim-joe-s a fo:Brand ;
-    fo:name "Pilgrim Joe'S"^^xsd:string ;
-    fo:owner "Evansville Brewing Company Inc"^^xsd:string .
+:petpro-products-inc a :Brand ;
+    :name "Petpro Products  Inc."^^xsd:string ;
+    :owner "Petpro Products, Inc."^^xsd:string .
 
-fo:plasmon a fo:Brand ;
-    fo:name "Plasmon"^^xsd:string .
+:phong-kee-roasted-peanut-co a :Brand ;
+    :name "Phong Kee Roasted Peanut Co."^^xsd:string ;
+    :owner "Phong Kee Roasted Peanut Co."^^xsd:string .
 
-fo:poppies a fo:Brand ;
-    fo:name "Poppies"^^xsd:string ;
-    fo:owner "Biscuiterie Poppies N.V."^^xsd:string .
+:pilgrim-joe-s a :Brand ;
+    :name "Pilgrim Joe'S"^^xsd:string ;
+    :owner "Evansville Brewing Company Inc"^^xsd:string .
 
-fo:poppies-int a fo:Brand ;
-    fo:name "Poppies Int."^^xsd:string ;
-    fo:owner "Biscuiterie Poppies N.V."^^xsd:string .
+:plasmon a :Brand ;
+    :name "Plasmon"^^xsd:string .
 
-fo:poppies-int-nv a fo:Brand ;
-    fo:name "Poppies Int. Nv."^^xsd:string ;
-    fo:owner "Biscuiterie Poppies N.V."^^xsd:string .
+:poppies a :Brand ;
+    :name "Poppies"^^xsd:string ;
+    :owner "Biscuiterie Poppies N.V."^^xsd:string .
 
-fo:poppies-international-inc a fo:Brand ;
-    fo:name "Poppies International  Inc."^^xsd:string .
+:poppies-int a :Brand ;
+    :name "Poppies Int."^^xsd:string ;
+    :owner "Biscuiterie Poppies N.V."^^xsd:string .
 
-fo:portland-specialty-baking a fo:Brand ;
-    fo:name "Portland Specialty Baking"^^xsd:string ;
-    fo:owner "Portland Specialty Baking LLC"^^xsd:string .
+:poppies-int-nv a :Brand ;
+    :name "Poppies Int. Nv."^^xsd:string ;
+    :owner "Biscuiterie Poppies N.V."^^xsd:string .
 
-fo:private-collection a fo:Brand ;
-    fo:name "Private Collection"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:poppies-international-inc a :Brand ;
+    :name "Poppies International  Inc."^^xsd:string .
 
-fo:private-select a fo:Brand ;
-    fo:name "Private Select"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:portland-specialty-baking a :Brand ;
+    :name "Portland Specialty Baking"^^xsd:string ;
+    :owner "Portland Specialty Baking LLC"^^xsd:string .
 
-fo:private-selection a fo:Brand ;
-    fo:name "Private Selection"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:private-collection a :Brand ;
+    :name "Private Collection"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:private-selectionprivate-selections a fo:Brand ;
-    fo:name "Private Selection,  Private Selections"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:private-select a :Brand ;
+    :name "Private Select"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:private-selections a fo:Brand ;
-    fo:name "Private Selections"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:private-selection a :Brand ;
+    :name "Private Selection"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:private-selectionskroger a fo:Brand ;
-    fo:name "Private Selections,Kroger"^^xsd:string .
+:private-selectionprivate-selections a :Brand ;
+    :name "Private Selection,  Private Selections"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:private-selectionthe-kroger-co a fo:Brand ;
-    fo:name "Private Selection,  The Kroger Co."^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:private-selections a :Brand ;
+    :name "Private Selections"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:privaye-selection a fo:Brand ;
-    fo:name "Privaye Selection"^^xsd:string .
+:private-selectionskroger a :Brand ;
+    :name "Private Selections,Kroger"^^xsd:string .
 
-fo:productos-la-aguadillana a fo:Brand ;
-    fo:name "Productos La Aguadillana"^^xsd:string ;
-    fo:owner "Productos La Aguadillana Inc."^^xsd:string .
+:private-selectionthe-kroger-co a :Brand ;
+    :name "Private Selection,  The Kroger Co."^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:prrivate-selection a fo:Brand ;
-    fo:name "Prrivate Selection"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:privaye-selection a :Brand ;
+    :name "Privaye Selection"^^xsd:string .
 
-fo:psst a fo:Brand ;
-    fo:name "Psst..."^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:productos-la-aguadillana a :Brand ;
+    :name "Productos La Aguadillana"^^xsd:string ;
+    :owner "Productos La Aguadillana Inc."^^xsd:string .
 
-fo:qfc a fo:Brand ;
-    fo:name "Qfc"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:prrivate-selection a :Brand ;
+    :name "Prrivate Selection"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:quaker a fo:Brand ;
-    fo:name "Quaker"^^xsd:string .
+:psst a :Brand ;
+    :name "Psst..."^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:quality-dairy a fo:Brand ;
-    fo:name "Quality Dairy"^^xsd:string .
+:qfc a :Brand ;
+    :name "Qfc"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:quality-foods a fo:Brand ;
-    fo:name "Quality Foods"^^xsd:string ;
-    fo:owner "Quality Foods From The Sea Inc"^^xsd:string .
+:quaker a :Brand ;
+    :name "Quaker"^^xsd:string .
 
-fo:quality-foods-from-the-sea-inc a fo:Brand ;
-    fo:name "Quality Foods From The Sea  Inc."^^xsd:string ;
-    fo:owner "QUALITY FOODS"^^xsd:string .
+:quality-dairy a :Brand ;
+    :name "Quality Dairy"^^xsd:string .
 
-fo:r-l-zeigler-company-inc a fo:Brand ;
-    fo:name "R. L. Zeigler Company Inc."^^xsd:string ;
-    fo:owner "R. L. Zeigler Company Inc."^^xsd:string .
+:quality-foods a :Brand ;
+    :name "Quality Foods"^^xsd:string ;
+    :owner "Quality Foods From The Sea Inc"^^xsd:string .
 
-fo:rabbit-creek a fo:Brand ;
-    fo:name "Rabbit Creek"^^xsd:string ;
-    fo:owner "Rabbit Creek Products, Inc."^^xsd:string .
+:quality-foods-from-the-sea-inc a :Brand ;
+    :name "Quality Foods From The Sea  Inc."^^xsd:string ;
+    :owner "QUALITY FOODS"^^xsd:string .
 
-fo:rabbit-creek-gourmet a fo:Brand ;
-    fo:name "Rabbit Creek Gourmet"^^xsd:string ;
-    fo:owner "Rabbit Creek Products, Inc."^^xsd:string .
+:r-l-zeigler-company-inc a :Brand ;
+    :name "R. L. Zeigler Company Inc."^^xsd:string ;
+    :owner "R. L. Zeigler Company Inc."^^xsd:string .
 
-fo:rabbit-creek-products a fo:Brand ;
-    fo:name "Rabbit Creek Products"^^xsd:string ;
-    fo:owner "Rabbit Creek Products, Inc."^^xsd:string .
+:rabbit-creek a :Brand ;
+    :name "Rabbit Creek"^^xsd:string ;
+    :owner "Rabbit Creek Products, Inc."^^xsd:string .
 
-fo:rabbit-greek a fo:Brand ;
-    fo:name "Rabbit Greek"^^xsd:string ;
-    fo:owner "RABBIT GREEK"^^xsd:string .
+:rabbit-creek-gourmet a :Brand ;
+    :name "Rabbit Creek Gourmet"^^xsd:string ;
+    :owner "Rabbit Creek Products, Inc."^^xsd:string .
 
-fo:rainbow-candies a fo:Brand ;
-    fo:name "Rainbow Candies"^^xsd:string .
+:rabbit-creek-products a :Brand ;
+    :name "Rabbit Creek Products"^^xsd:string ;
+    :owner "Rabbit Creek Products, Inc."^^xsd:string .
 
-fo:ralph-s a fo:Brand ;
-    fo:name "Ralph'S"^^xsd:string .
+:rabbit-greek a :Brand ;
+    :name "Rabbit Greek"^^xsd:string ;
+    :owner "RABBIT GREEK"^^xsd:string .
 
-fo:ralphs a fo:Brand ;
-    fo:name "Ralphs"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:rainbow-candies a :Brand ;
+    :name "Rainbow Candies"^^xsd:string .
 
-fo:ralphskroger a fo:Brand ;
-    fo:name "Ralphs,Kroger"^^xsd:string .
+:ralph-s a :Brand ;
+    :name "Ralph'S"^^xsd:string .
 
-fo:reed-s a fo:Brand ;
-    fo:name "Reed'S"^^xsd:string ;
-    fo:owner "Reed's, Inc."^^xsd:string .
+:ralphs a :Brand ;
+    :name "Ralphs"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:reed-s-ginger-candy a fo:Brand ;
-    fo:name "Reed'S Ginger Candy"^^xsd:string ;
-    fo:owner "Reed's, Inc."^^xsd:string .
+:ralphskroger a :Brand ;
+    :name "Ralphs,Kroger"^^xsd:string .
 
-fo:reed-s-inc a fo:Brand ;
-    fo:name "Reed'S  Inc."^^xsd:string .
+:reed-s a :Brand ;
+    :name "Reed'S"^^xsd:string ;
+    :owner "Reed's, Inc."^^xsd:string .
 
-fo:reese a fo:Brand ;
-    fo:name "Reese"^^xsd:string .
+:reed-s-ginger-candy a :Brand ;
+    :name "Reed'S Ginger Candy"^^xsd:string ;
+    :owner "Reed's, Inc."^^xsd:string .
 
-fo:rice-mill-inc a fo:Brand ;
-    fo:name "Rice Mill  Inc."^^xsd:string .
+:reed-s-inc a :Brand ;
+    :name "Reed'S  Inc."^^xsd:string .
 
-fo:riceland a fo:Brand ;
-    fo:name "Riceland"^^xsd:string .
+:reese a :Brand ;
+    :name "Reese"^^xsd:string .
 
-fo:ritter-sport a fo:Brand ;
-    fo:name "Ritter Sport"^^xsd:string .
+:rice-mill-inc a :Brand ;
+    :name "Rice Mill  Inc."^^xsd:string .
 
-fo:ritter-sportalfred-ritter-gmbh-co a fo:Brand ;
-    fo:name "Ritter Sport,  Alfred Ritter Gmbh & Co"^^xsd:string ;
-    fo:owner "RITTER SPORT"^^xsd:string .
+:riceland a :Brand ;
+    :name "Riceland"^^xsd:string .
 
-fo:ritter-sportalfred-ritter-gmbh-co-kg a fo:Brand ;
-    fo:name "Ritter Sport,  Alfred Ritter Gmbh & Co. Kg"^^xsd:string .
+:ritter-sport a :Brand ;
+    :name "Ritter Sport"^^xsd:string .
 
-fo:robertson-s a fo:Brand ;
-    fo:name "Robertson S"^^xsd:string .
+:ritter-sportalfred-ritter-gmbh-co a :Brand ;
+    :name "Ritter Sport,  Alfred Ritter Gmbh & Co"^^xsd:string ;
+    :owner "RITTER SPORT"^^xsd:string .
 
-fo:rocky-mountain-popcorn a fo:Brand ;
-    fo:name "Rocky Mountain Popcorn"^^xsd:string ;
-    fo:owner "Front Range Snacks, Inc."^^xsd:string .
+:ritter-sportalfred-ritter-gmbh-co-kg a :Brand ;
+    :name "Ritter Sport,  Alfred Ritter Gmbh & Co. Kg"^^xsd:string .
 
-fo:rose-s a fo:Brand ;
-    fo:name "Rose’S"^^xsd:string .
+:robertson-s a :Brand ;
+    :name "Robertson S"^^xsd:string .
 
-fo:roudy-s a fo:Brand ;
-    fo:name "Roudy'S"^^xsd:string .
+:rocky-mountain-popcorn a :Brand ;
+    :name "Rocky Mountain Popcorn"^^xsd:string ;
+    :owner "Front Range Snacks, Inc."^^xsd:string .
 
-fo:round-s-select a fo:Brand ;
-    fo:name "Round'S Select"^^xsd:string ;
-    fo:owner "ROUND'S SELECT"^^xsd:string .
+:rose-s a :Brand ;
+    :name "Rose’S"^^xsd:string .
 
-fo:rounday-s a fo:Brand ;
-    fo:name "Rounday'S"^^xsd:string ;
-    fo:owner "ROUNDAY'S"^^xsd:string .
+:roudy-s a :Brand ;
+    :name "Roudy'S"^^xsd:string .
 
-fo:roundy-s a fo:Brand ;
-    fo:name "Roundy'S"^^xsd:string ;
-    fo:owner "ROUNDY'S"^^xsd:string .
+:round-s-select a :Brand ;
+    :name "Round'S Select"^^xsd:string ;
+    :owner "ROUND'S SELECT"^^xsd:string .
 
-fo:roundy-s-select a fo:Brand ;
-    fo:name "Roundy'S Select"^^xsd:string ;
-    fo:owner "ROUNDY'S SELECT"^^xsd:string .
+:rounday-s a :Brand ;
+    :name "Rounday'S"^^xsd:string ;
+    :owner "ROUNDAY'S"^^xsd:string .
 
-fo:roundy-s-supermarkets a fo:Brand ;
-    fo:name "Roundy'S Supermarkets"^^xsd:string ;
-    fo:owner "ROUNDY'S SUPERMARKETS"^^xsd:string .
+:roundy-s a :Brand ;
+    :name "Roundy'S"^^xsd:string ;
+    :owner "ROUNDY'S"^^xsd:string .
 
-fo:roundy-s-supermarkets-inc a fo:Brand ;
-    fo:name "Roundy'S Supermarkets  Inc."^^xsd:string .
+:roundy-s-select a :Brand ;
+    :name "Roundy'S Select"^^xsd:string ;
+    :owner "ROUNDY'S SELECT"^^xsd:string .
 
-fo:roundy-salbamene-confectionary-group a fo:Brand ;
-    fo:name "Roundy'S,  Albamene Confectionary Group"^^xsd:string ;
-    fo:owner "ROUNDY'S"^^xsd:string .
+:roundy-s-supermarkets a :Brand ;
+    :name "Roundy'S Supermarkets"^^xsd:string ;
+    :owner "ROUNDY'S SUPERMARKETS"^^xsd:string .
 
-fo:roundy-salbanese-confectionery-group a fo:Brand ;
-    fo:name "Roundy'S,  Albanese Confectionery Group"^^xsd:string ;
-    fo:owner "ALBANESE CONFECTIONERY GROUP"^^xsd:string .
+:roundy-s-supermarkets-inc a :Brand ;
+    :name "Roundy'S Supermarkets  Inc."^^xsd:string .
 
-fo:roundy-sgki a fo:Brand ;
-    fo:name "Roundy'S,  Gki"^^xsd:string .
+:roundy-salbamene-confectionary-group a :Brand ;
+    :name "Roundy'S,  Albamene Confectionary Group"^^xsd:string ;
+    :owner "ROUNDY'S"^^xsd:string .
 
-fo:roundy-sroundy-s-select a fo:Brand ;
-    fo:name "Roundy'S,  Roundy'S Select"^^xsd:string ;
-    fo:owner "ROUNDY'S SELECT"^^xsd:string .
+:roundy-salbanese-confectionery-group a :Brand ;
+    :name "Roundy'S,  Albanese Confectionery Group"^^xsd:string ;
+    :owner "ALBANESE CONFECTIONERY GROUP"^^xsd:string .
 
-fo:roundy-sroundy-s-supermarkets a fo:Brand ;
-    fo:name "Roundy'S,  Roundy'S Supermarkets"^^xsd:string ;
-    fo:owner "ROUNDY'S SUPERMARKETS"^^xsd:string .
+:roundy-sgki a :Brand ;
+    :name "Roundy'S,  Gki"^^xsd:string .
 
-fo:roundy-sroundy-s-supermarkets-inc a fo:Brand ;
-    fo:name "Roundy'S,  Roundy'S Supermarkets  Inc"^^xsd:string ;
-    fo:owner "ROUNDY'S SUPERMARKETS, INC"^^xsd:string .
+:roundy-sroundy-s-select a :Brand ;
+    :name "Roundy'S,  Roundy'S Select"^^xsd:string ;
+    :owner "ROUNDY'S SELECT"^^xsd:string .
 
-fo:roundys a fo:Brand ;
-    fo:name "Roundys"^^xsd:string ;
-    fo:owner "ROUNDYS"^^xsd:string .
+:roundy-sroundy-s-supermarkets a :Brand ;
+    :name "Roundy'S,  Roundy'S Supermarkets"^^xsd:string ;
+    :owner "ROUNDY'S SUPERMARKETS"^^xsd:string .
 
-fo:roundys-supermarket a fo:Brand ;
-    fo:name "Roundys Supermarket"^^xsd:string ;
-    fo:owner "ROUNDYS SUPERMARKET"^^xsd:string .
+:roundy-sroundy-s-supermarkets-inc a :Brand ;
+    :name "Roundy'S,  Roundy'S Supermarkets  Inc"^^xsd:string ;
+    :owner "ROUNDY'S SUPERMARKETS, INC"^^xsd:string .
 
-fo:royco a fo:Brand ;
-    fo:name "Royco"^^xsd:string .
+:roundys a :Brand ;
+    :name "Roundys"^^xsd:string ;
+    :owner "ROUNDYS"^^xsd:string .
 
-fo:rummo a fo:Brand ;
-    fo:name "Rummo"^^xsd:string ;
-    fo:owner "Rummo Spa--Molino & Pastificio"^^xsd:string .
+:roundys-supermarket a :Brand ;
+    :name "Roundys Supermarket"^^xsd:string ;
+    :owner "ROUNDYS SUPERMARKET"^^xsd:string .
 
-fo:ryan-orchards a fo:Brand ;
-    fo:name "Ryan Orchards"^^xsd:string ;
-    fo:owner "RYAN'S"^^xsd:string .
+:royco a :Brand ;
+    :name "Royco"^^xsd:string .
 
-fo:ryan-s a fo:Brand ;
-    fo:name "Ryan'S"^^xsd:string .
+:rummo a :Brand ;
+    :name "Rummo"^^xsd:string ;
+    :owner "Rummo Spa--Molino & Pastificio"^^xsd:string .
 
-fo:s-b a fo:Brand ;
-    fo:name "S&B"^^xsd:string .
+:ryan-orchards a :Brand ;
+    :name "Ryan Orchards"^^xsd:string ;
+    :owner "RYAN'S"^^xsd:string .
 
-fo:sacrebleu a fo:Brand ;
-    fo:name "Sacrebleu!"^^xsd:string .
+:ryan-s a :Brand ;
+    :name "Ryan'S"^^xsd:string .
 
-fo:sahm-in-international-company a fo:Brand ;
-    fo:name "Sahm In International Company"^^xsd:string .
+:s-b a :Brand ;
+    :name "S&B"^^xsd:string .
 
-fo:sainsbury-s a fo:Brand ;
-    fo:name "Sainsbury'S"^^xsd:string .
+:sacrebleu a :Brand ;
+    :name "Sacrebleu!"^^xsd:string .
 
-fo:sainsbury-sby-sainsbury-s a fo:Brand ;
-    fo:name "Sainsbury'S, By Sainsbury'S"^^xsd:string .
+:sahm-in-international-company a :Brand ;
+    :name "Sahm In International Company"^^xsd:string .
 
-fo:sainsbury-ssainsburys a fo:Brand ;
-    fo:name "Sainsbury'S, Sainsburys"^^xsd:string .
+:sainsbury-s a :Brand ;
+    :name "Sainsbury'S"^^xsd:string .
 
-fo:sainsbury-ssainsburyssainsbury-s-taste-the-differencetaste-the-difference a fo:Brand ;
-    fo:name "Sainsbury'S, Sainsburys, Sainsbury’S Taste The Difference, Taste The Difference"^^xsd:string .
+:sainsbury-sby-sainsbury-s a :Brand ;
+    :name "Sainsbury'S, By Sainsbury'S"^^xsd:string .
 
-fo:sainsbury-staste-the-difference a fo:Brand ;
-    fo:name "Sainsbury'S,Taste The Difference"^^xsd:string .
+:sainsbury-ssainsburys a :Brand ;
+    :name "Sainsbury'S, Sainsburys"^^xsd:string .
 
-fo:sainsburys a fo:Brand ;
-    fo:name "Sainsburys"^^xsd:string .
+:sainsbury-ssainsburyssainsbury-s-taste-the-differencetaste-the-difference a :Brand ;
+    :name "Sainsbury'S, Sainsburys, Sainsbury’S Taste The Difference, Taste The Difference"^^xsd:string .
 
-fo:saladine a fo:Brand ;
-    fo:name "Saladine"^^xsd:string ;
-    fo:owner "SALADINE"^^xsd:string .
+:sainsbury-staste-the-difference a :Brand ;
+    :name "Sainsbury'S,Taste The Difference"^^xsd:string .
 
-fo:salaisons-de-pradelles a fo:Brand ;
-    fo:name "Salaisons De Pradelles"^^xsd:string .
+:sainsburys a :Brand ;
+    :name "Sainsburys"^^xsd:string .
 
-fo:salud-viva a fo:Brand ;
-    fo:name "Salud Viva"^^xsd:string .
+:saladine a :Brand ;
+    :name "Saladine"^^xsd:string ;
+    :owner "SALADINE"^^xsd:string .
 
-fo:saludviva a fo:Brand ;
-    fo:name "Saludviva"^^xsd:string .
+:salaisons-de-pradelles a :Brand ;
+    :name "Salaisons De Pradelles"^^xsd:string .
 
-fo:sapporo-ichiban a fo:Brand ;
-    fo:name "Sapporo Ichiban"^^xsd:string .
+:salud-viva a :Brand ;
+    :name "Salud Viva"^^xsd:string .
 
-fo:saranac a fo:Brand ;
-    fo:name "Saranac"^^xsd:string ;
-    fo:owner "F. X. Matt Brewing Co."^^xsd:string .
+:saludviva a :Brand ;
+    :name "Saludviva"^^xsd:string .
 
-fo:seafarer a fo:Brand ;
-    fo:name "Seafarer"^^xsd:string ;
-    fo:owner "SEAFARER"^^xsd:string .
+:sapporo-ichiban a :Brand ;
+    :name "Sapporo Ichiban"^^xsd:string .
 
-fo:seitenbacher a fo:Brand ;
-    fo:name "Seitenbacher"^^xsd:string .
+:saranac a :Brand ;
+    :name "Saranac"^^xsd:string ;
+    :owner "F. X. Matt Brewing Co."^^xsd:string .
 
-fo:senor-gusto a fo:Brand ;
-    fo:name "Senor Gusto"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:seafarer a :Brand ;
+    :name "Seafarer"^^xsd:string ;
+    :owner "SEAFARER"^^xsd:string .
 
-fo:sevenhills-wholefoods a fo:Brand ;
-    fo:name "Sevenhills Wholefoods"^^xsd:string .
+:seitenbacher a :Brand ;
+    :name "Seitenbacher"^^xsd:string .
 
-fo:shamrock-celebration a fo:Brand ;
-    fo:name "Shamrock Celebration"^^xsd:string ;
-    fo:owner "SHAMROCK CELEBRATION"^^xsd:string .
+:senor-gusto a :Brand ;
+    :name "Senor Gusto"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:sharon-s a fo:Brand ;
-    fo:name "Sharon'S"^^xsd:string ;
-    fo:owner "Sharon's Sorbet, Inc."^^xsd:string .
+:sevenhills-wholefoods a :Brand ;
+    :name "Sevenhills Wholefoods"^^xsd:string .
 
-fo:sharon-s-sorbetsharon-s a fo:Brand ;
-    fo:name "Sharon'S Sorbet,Sharon'S"^^xsd:string ;
-    fo:owner "Sharon's Sorbet, Inc."^^xsd:string .
+:shamrock-celebration a :Brand ;
+    :name "Shamrock Celebration"^^xsd:string ;
+    :owner "SHAMROCK CELEBRATION"^^xsd:string .
 
-fo:sharwood-s a fo:Brand ;
-    fo:name "Sharwood'S"^^xsd:string .
+:sharon-s a :Brand ;
+    :name "Sharon'S"^^xsd:string ;
+    :owner "Sharon's Sorbet, Inc."^^xsd:string .
 
-fo:shur-fine a fo:Brand ;
-    fo:name "Shur Fine"^^xsd:string ;
-    fo:owner "Topco Associates, Inc."^^xsd:string .
+:sharon-s-sorbetsharon-s a :Brand ;
+    :name "Sharon'S Sorbet,Sharon'S"^^xsd:string ;
+    :owner "Sharon's Sorbet, Inc."^^xsd:string .
 
-fo:shurfine a fo:Brand ;
-    fo:name "Shurfine"^^xsd:string ;
-    fo:owner "Topco Associates, Inc."^^xsd:string .
+:sharwood-s a :Brand ;
+    :name "Sharwood'S"^^xsd:string .
 
-fo:shurfinetopco-associates-inc a fo:Brand ;
-    fo:name "Shurfine,  Topco Associates  Inc."^^xsd:string ;
-    fo:owner "Topco Associates, Inc."^^xsd:string .
+:shur-fine a :Brand ;
+    :name "Shur Fine"^^xsd:string ;
+    :owner "Topco Associates, Inc."^^xsd:string .
 
-fo:signaturelindt a fo:Brand ;
-    fo:name "Signature,  Lindt"^^xsd:string ;
-    fo:owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
+:shurfine a :Brand ;
+    :name "Shurfine"^^xsd:string ;
+    :owner "Topco Associates, Inc."^^xsd:string .
 
-fo:signaturelindt-sprungli-schweiz-ag a fo:Brand ;
-    fo:name "Signature,  Lindt & Sprungli (Schweiz) Ag"^^xsd:string ;
-    fo:owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
+:shurfinetopco-associates-inc a :Brand ;
+    :name "Shurfine,  Topco Associates  Inc."^^xsd:string ;
+    :owner "Topco Associates, Inc."^^xsd:string .
 
-fo:signaturelindt-sprungli-usa-inc a fo:Brand ;
-    fo:name "Signature,  Lindt & Sprungli (Usa) Inc"^^xsd:string ;
-    fo:owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
+:signaturelindt a :Brand ;
+    :name "Signature,  Lindt"^^xsd:string ;
+    :owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
 
-fo:simple-organic-truththe-kroger-cosimple-truth-organic a fo:Brand ;
-    fo:name "Simple Organic Truth, The Kroger Co., Simple Truth Organic"^^xsd:string .
+:signaturelindt-sprungli-schweiz-ag a :Brand ;
+    :name "Signature,  Lindt & Sprungli (Schweiz) Ag"^^xsd:string ;
+    :owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
 
-fo:simple-truch-organicsimple-truth-organic a fo:Brand ;
-    fo:name "Simple Truch Organic,Simple Truth Organic"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:signaturelindt-sprungli-usa-inc a :Brand ;
+    :name "Signature,  Lindt & Sprungli (Usa) Inc"^^xsd:string ;
+    :owner "Lindt & Sprungli (Schweiz) AG"^^xsd:string .
 
-fo:simple-true-organic a fo:Brand ;
-    fo:name "Simple True Organic"^^xsd:string .
+:simple-organic-truththe-kroger-cosimple-truth-organic a :Brand ;
+    :name "Simple Organic Truth, The Kroger Co., Simple Truth Organic"^^xsd:string .
 
-fo:simple-truth a fo:Brand ;
-    fo:name "Simple Truth"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:simple-truch-organicsimple-truth-organic a :Brand ;
+    :name "Simple Truch Organic,Simple Truth Organic"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:simple-truth-kroger a fo:Brand ;
-    fo:name "Simple Truth Kroger,"^^xsd:string .
+:simple-true-organic a :Brand ;
+    :name "Simple True Organic"^^xsd:string .
 
-fo:simple-truth-organic a fo:Brand ;
-    fo:name "Simple Truth Organic"^^xsd:string .
+:simple-truth a :Brand ;
+    :name "Simple Truth"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:simple-truth-organickroger a fo:Brand ;
-    fo:name "Simple Truth Organic,Kroger"^^xsd:string .
+:simple-truth-kroger a :Brand ;
+    :name "Simple Truth Kroger,"^^xsd:string .
 
-fo:simple-truth-organickrogerthe-kroger-cosimple-truth a fo:Brand ;
-    fo:name "Simple Truth Organic,Kroger, The Kroger Co., Simple Truth"^^xsd:string .
+:simple-truth-organic a :Brand ;
+    :name "Simple Truth Organic"^^xsd:string .
 
-fo:simple-truth-organicsimple-truth a fo:Brand ;
-    fo:name "Simple Truth Organic,  Simple Truth"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:simple-truth-organickroger a :Brand ;
+    :name "Simple Truth Organic,Kroger"^^xsd:string .
 
-fo:simple-truth-organicsimple-truththe-kroger-co a fo:Brand ;
-    fo:name "Simple Truth Organic,Simple Truth,The Kroger Co."^^xsd:string .
+:simple-truth-organickrogerthe-kroger-cosimple-truth a :Brand ;
+    :name "Simple Truth Organic,Kroger, The Kroger Co., Simple Truth"^^xsd:string .
 
-fo:simple-truth-organicthe-kroger-co a fo:Brand ;
-    fo:name "Simple Truth Organic, The Kroger Co."^^xsd:string .
+:simple-truth-organicsimple-truth a :Brand ;
+    :name "Simple Truth Organic,  Simple Truth"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:simple-truthsimple-truth-organicthe-kroger-co a fo:Brand ;
-    fo:name "Simple Truth, Simple Truth Organic, The Kroger Co."^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:simple-truth-organicsimple-truththe-kroger-co a :Brand ;
+    :name "Simple Truth Organic,Simple Truth,The Kroger Co."^^xsd:string .
 
-fo:simple-truthsweet-and-shimmer a fo:Brand ;
-    fo:name "Simple Truth, Sweet And Shimmer"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:simple-truth-organicthe-kroger-co a :Brand ;
+    :name "Simple Truth Organic, The Kroger Co."^^xsd:string .
 
-fo:simple-truththe-kroger-co a fo:Brand ;
-    fo:name "Simple Truth, The Kroger Co."^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:simple-truthsimple-truth-organicthe-kroger-co a :Brand ;
+    :name "Simple Truth, Simple Truth Organic, The Kroger Co."^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:simply-roundy-s a fo:Brand ;
-    fo:name "Simply Roundy'S"^^xsd:string .
+:simple-truthsweet-and-shimmer a :Brand ;
+    :name "Simple Truth, Sweet And Shimmer"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:simply-roundy-s-organic a fo:Brand ;
-    fo:name "Simply Roundy'S Organic"^^xsd:string ;
-    fo:owner "SIMPLY ROUNDY'S ORGANIC"^^xsd:string .
+:simple-truththe-kroger-co a :Brand ;
+    :name "Simple Truth, The Kroger Co."^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:simply-roundy-sgki a fo:Brand ;
-    fo:name "Simply Roundy'S,  Gki"^^xsd:string ;
-    fo:owner "SIMPLY ROUNDY'S"^^xsd:string .
+:simply-roundy-s a :Brand ;
+    :name "Simply Roundy'S"^^xsd:string .
 
-fo:simply-roundy-ssimply-roundy-s-organic a fo:Brand ;
-    fo:name "Simply Roundy'S,  Simply Roundy'S Organic"^^xsd:string ;
-    fo:owner "SIMPLY ROUNDY'S"^^xsd:string .
+:simply-roundy-s-organic a :Brand ;
+    :name "Simply Roundy'S Organic"^^xsd:string ;
+    :owner "SIMPLY ROUNDY'S ORGANIC"^^xsd:string .
 
-fo:simply-roundys a fo:Brand ;
-    fo:name "Simply Roundys"^^xsd:string ;
-    fo:owner "SIMPLY ROUNDYS"^^xsd:string .
+:simply-roundy-sgki a :Brand ;
+    :name "Simply Roundy'S,  Gki"^^xsd:string ;
+    :owner "SIMPLY ROUNDY'S"^^xsd:string .
 
-fo:simply-truth a fo:Brand ;
-    fo:name "Simply Truth"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:simply-roundy-ssimply-roundy-s-organic a :Brand ;
+    :name "Simply Roundy'S,  Simply Roundy'S Organic"^^xsd:string ;
+    :owner "SIMPLY ROUNDY'S"^^xsd:string .
 
-fo:simplykroger a fo:Brand ;
-    fo:name "Simply,  Kroger"^^xsd:string .
+:simply-roundys a :Brand ;
+    :name "Simply Roundys"^^xsd:string ;
+    :owner "SIMPLY ROUNDYS"^^xsd:string .
 
-fo:simplysimply-natural-foods-llc a fo:Brand ;
-    fo:name "Simply,  Simply Natural Foods  Llc."^^xsd:string ;
-    fo:owner "Healthy Food Brands LLC"^^xsd:string .
+:simply-truth a :Brand ;
+    :name "Simply Truth"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:simplysimply-roundys a fo:Brand ;
-    fo:name "Simply,  Simply Roundys"^^xsd:string ;
-    fo:owner "SIMPLY ROUNDYS"^^xsd:string .
+:simplykroger a :Brand ;
+    :name "Simply,  Kroger"^^xsd:string .
 
-fo:simplysimply-truth a fo:Brand ;
-    fo:name "Simply,  Simply Truth"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:simplysimply-natural-foods-llc a :Brand ;
+    :name "Simply,  Simply Natural Foods  Llc."^^xsd:string ;
+    :owner "Healthy Food Brands LLC"^^xsd:string .
 
-fo:simplythe-kroger-co a fo:Brand ;
-    fo:name "Simply,  The Kroger Co."^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:simplysimply-roundys a :Brand ;
+    :name "Simply,  Simply Roundys"^^xsd:string ;
+    :owner "SIMPLY ROUNDYS"^^xsd:string .
 
-fo:skippy a fo:Brand ;
-    fo:name "Skippy"^^xsd:string .
+:simplysimply-truth a :Brand ;
+    :name "Simply,  Simply Truth"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:slim-fast a fo:Brand ;
-    fo:name "Slim Fast"^^xsd:string .
+:simplythe-kroger-co a :Brand ;
+    :name "Simply,  The Kroger Co."^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:slim-fast-advanced-energy a fo:Brand ;
-    fo:name "Slim Fast Advanced Energy"^^xsd:string ;
-    fo:owner "KSF Acquisition Corporation"^^xsd:string .
+:skippy a :Brand ;
+    :name "Skippy"^^xsd:string .
 
-fo:slimfast a fo:Brand ;
-    fo:name "Slimfast"^^xsd:string .
+:slim-fast a :Brand ;
+    :name "Slim Fast"^^xsd:string .
 
-fo:smart-way a fo:Brand ;
-    fo:name "Smart Way"^^xsd:string .
+:slim-fast-advanced-energy a :Brand ;
+    :name "Slim Fast Advanced Energy"^^xsd:string ;
+    :owner "KSF Acquisition Corporation"^^xsd:string .
 
-fo:smith-s a fo:Brand ;
-    fo:name "Smith'S"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:slimfast a :Brand ;
+    :name "Slimfast"^^xsd:string .
 
-fo:smith-skroger a fo:Brand ;
-    fo:name "Smith'S,Kroger"^^xsd:string .
+:smart-way a :Brand ;
+    :name "Smart Way"^^xsd:string .
 
-fo:smithi-s a fo:Brand ;
-    fo:name "Smithi'S"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:smith-s a :Brand ;
+    :name "Smith'S"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:sobehealthy-food-brands-llc a fo:Brand ;
-    fo:name "Sobe,  Healthy Food Brands Llc"^^xsd:string ;
-    fo:owner "Healthy Food Brands LLC"^^xsd:string .
+:smith-skroger a :Brand ;
+    :name "Smith'S,Kroger"^^xsd:string .
 
-fo:sodebo a fo:Brand ;
-    fo:name "Sodebo"^^xsd:string .
+:smithi-s a :Brand ;
+    :name "Smithi'S"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:sorini a fo:Brand ;
-    fo:name "Sorini"^^xsd:string ;
-    fo:owner "SORINI"^^xsd:string .
+:sobehealthy-food-brands-llc a :Brand ;
+    :name "Sobe,  Healthy Food Brands Llc"^^xsd:string ;
+    :owner "Healthy Food Brands LLC"^^xsd:string .
 
-fo:sorini-italia a fo:Brand ;
-    fo:name "Sorini Italia"^^xsd:string ;
-    fo:owner "SORINI ITALIA"^^xsd:string .
+:sodebo a :Brand ;
+    :name "Sodebo"^^xsd:string .
 
-fo:sovivo a fo:Brand ;
-    fo:name "Sovivo"^^xsd:string .
+:sorini a :Brand ;
+    :name "Sorini"^^xsd:string ;
+    :owner "SORINI"^^xsd:string .
 
-fo:specialita-le-italiane a fo:Brand ;
-    fo:name "Specialita Le Italiane"^^xsd:string ;
-    fo:owner "SPECIALITA LE ITALIANE"^^xsd:string .
+:sorini-italia a :Brand ;
+    :name "Sorini Italia"^^xsd:string ;
+    :owner "SORINI ITALIA"^^xsd:string .
 
-fo:specialty-bakers a fo:Brand ;
-    fo:name "Specialty Bakers"^^xsd:string ;
-    fo:owner "Eight O'Clock Coffee"^^xsd:string .
+:sovivo a :Brand ;
+    :name "Sovivo"^^xsd:string .
 
-fo:spring-celebration a fo:Brand ;
-    fo:name "Spring Celebration"^^xsd:string ;
-    fo:owner "SPRING CELEBRATION"^^xsd:string .
+:specialita-le-italiane a :Brand ;
+    :name "Specialita Le Italiane"^^xsd:string ;
+    :owner "SPECIALITA LE ITALIANE"^^xsd:string .
 
-fo:springdale a fo:Brand ;
-    fo:name "Springdale"^^xsd:string .
+:specialty-bakers a :Brand ;
+    :name "Specialty Bakers"^^xsd:string ;
+    :owner "Eight O'Clock Coffee"^^xsd:string .
 
-fo:squire-boone-caverns-inc a fo:Brand ;
-    fo:name "Squire Boone Caverns  Inc."^^xsd:string ;
-    fo:owner "Squire Boone Caverns, Inc."^^xsd:string .
+:spring-celebration a :Brand ;
+    :name "Spring Celebration"^^xsd:string ;
+    :owner "SPRING CELEBRATION"^^xsd:string .
 
-fo:sterling-silver a fo:Brand ;
-    fo:name "Sterling Silver"^^xsd:string ;
-    fo:owner "STERLING SILVER"^^xsd:string .
+:springdale a :Brand ;
+    :name "Springdale"^^xsd:string .
 
-fo:storz a fo:Brand ;
-    fo:name "Storz"^^xsd:string ;
-    fo:owner "STORZ"^^xsd:string .
+:squire-boone-caverns-inc a :Brand ;
+    :name "Squire Boone Caverns  Inc."^^xsd:string ;
+    :owner "Squire Boone Caverns, Inc."^^xsd:string .
 
-fo:storz-chocolade a fo:Brand ;
-    fo:name "Storz Chocolade"^^xsd:string .
+:sterling-silver a :Brand ;
+    :name "Sterling Silver"^^xsd:string ;
+    :owner "STERLING SILVER"^^xsd:string .
 
-fo:sucesores-de-jose-jesus-restre a fo:Brand ;
-    fo:name "Sucesores De Jose Jesus Restre"^^xsd:string .
+:storz a :Brand ;
+    :name "Storz"^^xsd:string ;
+    :owner "STORZ"^^xsd:string .
 
-fo:sun-bird a fo:Brand ;
-    fo:name "Sun Bird"^^xsd:string .
+:storz-chocolade a :Brand ;
+    :name "Storz Chocolade"^^xsd:string .
 
-fo:sunridge a fo:Brand ;
-    fo:name "Sunridge"^^xsd:string .
+:sucesores-de-jose-jesus-restre a :Brand ;
+    :name "Sucesores De Jose Jesus Restre"^^xsd:string .
 
-fo:taiwan-sunlife-corp a fo:Brand ;
-    fo:name "Taiwan Sunlife Corp."^^xsd:string ;
-    fo:owner "Taiwan Sunlife Corp."^^xsd:string .
+:sun-bird a :Brand ;
+    :name "Sun Bird"^^xsd:string .
 
-fo:talking-rain-beverage-co a fo:Brand ;
-    fo:name "Talking Rain Beverage Co."^^xsd:string .
+:sunridge a :Brand ;
+    :name "Sunridge"^^xsd:string .
 
-fo:talking-rain-beverage-co-inc a fo:Brand ;
-    fo:name "Talking Rain Beverage Co.  Inc"^^xsd:string .
+:taiwan-sunlife-corp a :Brand ;
+    :name "Taiwan Sunlife Corp."^^xsd:string ;
+    :owner "Taiwan Sunlife Corp."^^xsd:string .
 
-fo:talkingrain-beverage-company a fo:Brand ;
-    fo:name "Talkingrain Beverage Company"^^xsd:string .
+:talking-rain-beverage-co a :Brand ;
+    :name "Talking Rain Beverage Co."^^xsd:string .
 
-fo:tamanishiki a fo:Brand ;
-    fo:name "Tamanishiki"^^xsd:string ;
-    fo:owner "JFC International Inc."^^xsd:string .
+:talking-rain-beverage-co-inc a :Brand ;
+    :name "Talking Rain Beverage Co.  Inc"^^xsd:string .
 
-fo:taste-adventure a fo:Brand ;
-    fo:name "Taste Adventure"^^xsd:string .
+:talkingrain-beverage-company a :Brand ;
+    :name "Talkingrain Beverage Company"^^xsd:string .
 
-fo:teeny-tys a fo:Brand ;
-    fo:name "Teeny Tys"^^xsd:string .
+:tamanishiki a :Brand ;
+    :name "Tamanishiki"^^xsd:string ;
+    :owner "JFC International Inc."^^xsd:string .
 
-fo:terrasoul a fo:Brand ;
-    fo:name "Terrasoul"^^xsd:string .
+:taste-adventure a :Brand ;
+    :name "Taste Adventure"^^xsd:string .
 
-fo:tetley a fo:Brand ;
-    fo:name "Tetley"^^xsd:string ;
-    fo:owner "Tetley USA, Inc."^^xsd:string .
+:teeny-tys a :Brand ;
+    :name "Teeny Tys"^^xsd:string .
 
-fo:tetley-usa-inc a fo:Brand ;
-    fo:name "Tetley Usa  Inc."^^xsd:string .
+:terrasoul a :Brand ;
+    :name "Terrasoul"^^xsd:string .
 
-fo:tetleyamerican-power-products-inc a fo:Brand ;
-    fo:name "Tetley,  American Power Products  Inc."^^xsd:string ;
-    fo:owner "American Power Products, Inc."^^xsd:string .
+:tetley a :Brand ;
+    :name "Tetley"^^xsd:string ;
+    :owner "Tetley USA, Inc."^^xsd:string .
 
-fo:tetleytetley-usa-inc a fo:Brand ;
-    fo:name "Tetley,  Tetley Usa  Inc."^^xsd:string ;
-    fo:owner "Tetley USA, Inc."^^xsd:string .
+:tetley-usa-inc a :Brand ;
+    :name "Tetley Usa  Inc."^^xsd:string .
 
-fo:thai-kitchen a fo:Brand ;
-    fo:name "Thaï Kitchen"^^xsd:string .
+:tetleyamerican-power-products-inc a :Brand ;
+    :name "Tetley,  American Power Products  Inc."^^xsd:string ;
+    :owner "American Power Products, Inc."^^xsd:string .
 
-fo:the-father-s-table a fo:Brand ;
-    fo:name "The Father'S Table"^^xsd:string ;
-    fo:owner "The Father's Table LLC"^^xsd:string .
+:tetleytetley-usa-inc a :Brand ;
+    :name "Tetley,  Tetley Usa  Inc."^^xsd:string ;
+    :owner "Tetley USA, Inc."^^xsd:string .
 
-fo:the-father-s-table-l-l-c a fo:Brand ;
-    fo:name "The Father'S Table  L.L.C."^^xsd:string ;
-    fo:owner "The Father's Table LLC"^^xsd:string .
+:thai-kitchen a :Brand ;
+    :name "Thaï Kitchen"^^xsd:string .
 
-fo:the-father-s-table-llc a fo:Brand ;
-    fo:name "The Father'S Table Llc"^^xsd:string ;
-    fo:owner "The Father's Table LLC"^^xsd:string .
+:the-father-s-table a :Brand ;
+    :name "The Father'S Table"^^xsd:string ;
+    :owner "The Father's Table LLC"^^xsd:string .
 
-fo:the-fathers-s-table-l-l-c a fo:Brand ;
-    fo:name "The Fathers'S Table  L.L.C."^^xsd:string ;
-    fo:owner "The Father's Table LLC"^^xsd:string .
+:the-father-s-table-l-l-c a :Brand ;
+    :name "The Father'S Table  L.L.C."^^xsd:string ;
+    :owner "The Father's Table LLC"^^xsd:string .
 
-fo:the-hershey-comp a fo:Brand ;
-    fo:name "The Hershey Comp."^^xsd:string ;
-    fo:owner "ZERO"^^xsd:string .
+:the-father-s-table-llc a :Brand ;
+    :name "The Father'S Table Llc"^^xsd:string ;
+    :owner "The Father's Table LLC"^^xsd:string .
 
-fo:the-hershey-company a fo:Brand ;
-    fo:name "The Hershey Company"^^xsd:string ;
-    fo:owner "Leaf, Inc."^^xsd:string .
+:the-fathers-s-table-l-l-c a :Brand ;
+    :name "The Fathers'S Table  L.L.C."^^xsd:string ;
+    :owner "The Father's Table LLC"^^xsd:string .
 
-fo:the-hershey-companyleaf-inc a fo:Brand ;
-    fo:name "The Hershey Company, Leaf  Inc."^^xsd:string ;
-    fo:owner "Leaf, Inc."^^xsd:string .
+:the-hershey-comp a :Brand ;
+    :name "The Hershey Comp."^^xsd:string ;
+    :owner "ZERO"^^xsd:string .
 
-fo:the-kroger-co a fo:Brand ;
-    fo:name "The Kroger Co."^^xsd:string .
+:the-hershey-company a :Brand ;
+    :name "The Hershey Company"^^xsd:string ;
+    :owner "Leaf, Inc."^^xsd:string .
 
-fo:the-kroger-codillon a fo:Brand ;
-    fo:name "The Kroger Co., Dillon"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:the-hershey-companyleaf-inc a :Brand ;
+    :name "The Hershey Company, Leaf  Inc."^^xsd:string ;
+    :owner "Leaf, Inc."^^xsd:string .
 
-fo:the-kroger-cokroger a fo:Brand ;
-    fo:name "The Kroger Co., Kroger"^^xsd:string .
+:the-kroger-co a :Brand ;
+    :name "The Kroger Co."^^xsd:string .
 
-fo:the-kroger-coprivate-selection a fo:Brand ;
-    fo:name "The Kroger Co., Private Selection"^^xsd:string .
+:the-kroger-codillon a :Brand ;
+    :name "The Kroger Co., Dillon"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:the-kroger-coprivate-selectoin a fo:Brand ;
-    fo:name "The Kroger Co.,Private Selectoin"^^xsd:string .
+:the-kroger-cokroger a :Brand ;
+    :name "The Kroger Co., Kroger"^^xsd:string .
 
-fo:the-kroger-cosimple-truth a fo:Brand ;
-    fo:name "The Kroger Co., Simple Truth"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:the-kroger-coprivate-selection a :Brand ;
+    :name "The Kroger Co., Private Selection"^^xsd:string .
 
-fo:the-kroger-cosimple-truth-organic a fo:Brand ;
-    fo:name "The Kroger Co., Simple Truth Organic"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:the-kroger-coprivate-selectoin a :Brand ;
+    :name "The Kroger Co.,Private Selectoin"^^xsd:string .
 
-fo:the-madelaine-chocolate-company a fo:Brand ;
-    fo:name "The Madelaine Chocolate Company"^^xsd:string ;
-    fo:owner "Madelaine Chocolate Novelties"^^xsd:string .
+:the-kroger-cosimple-truth a :Brand ;
+    :name "The Kroger Co., Simple Truth"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:tic-tac a fo:Brand ;
-    fo:name "Tic Tac"^^xsd:string ;
-    fo:owner "Ferrero U.S.A., Incorporated"^^xsd:string .
+:the-kroger-cosimple-truth-organic a :Brand ;
+    :name "The Kroger Co., Simple Truth Organic"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:tic-tacferrero a fo:Brand ;
-    fo:name "Tic Tac, Ferrero"^^xsd:string .
+:the-madelaine-chocolate-company a :Brand ;
+    :name "The Madelaine Chocolate Company"^^xsd:string ;
+    :owner "Madelaine Chocolate Novelties"^^xsd:string .
 
-fo:tic-tacferrero-u-s-a-incorporated a fo:Brand ;
-    fo:name "Tic Tac,  Ferrero U.S.A.  Incorporated"^^xsd:string .
+:tic-tac a :Brand ;
+    :name "Tic Tac"^^xsd:string ;
+    :owner "Ferrero U.S.A., Incorporated"^^xsd:string .
 
-fo:tiffin a fo:Brand ;
-    fo:name "Tiffin"^^xsd:string .
+:tic-tacferrero a :Brand ;
+    :name "Tic Tac, Ferrero"^^xsd:string .
 
-fo:today-s-temptations a fo:Brand ;
-    fo:name "Today'S Temptations"^^xsd:string ;
-    fo:owner "Feres' Candy"^^xsd:string .
+:tic-tacferrero-u-s-a-incorporated a :Brand ;
+    :name "Tic Tac,  Ferrero U.S.A.  Incorporated"^^xsd:string .
 
-fo:todds a fo:Brand ;
-    fo:name "Todds"^^xsd:string .
+:tiffin a :Brand ;
+    :name "Tiffin"^^xsd:string .
 
-fo:tonon a fo:Brand ;
-    fo:name "Tonon"^^xsd:string .
+:today-s-temptations a :Brand ;
+    :name "Today'S Temptations"^^xsd:string ;
+    :owner "Feres' Candy"^^xsd:string .
 
-fo:top-ems a fo:Brand ;
-    fo:name "Top 'Ems"^^xsd:string .
+:todds a :Brand ;
+    :name "Todds"^^xsd:string .
 
-fo:topco-associates-inc a fo:Brand ;
-    fo:name "Topco Associates  Inc."^^xsd:string ;
-    fo:owner "Topco Associates, Inc."^^xsd:string .
+:tonon a :Brand ;
+    :name "Tonon"^^xsd:string .
 
-fo:torn-glasser a fo:Brand ;
-    fo:name "Torn & Glasser"^^xsd:string .
+:top-ems a :Brand ;
+    :name "Top 'Ems"^^xsd:string .
 
-fo:torn-glasses a fo:Brand ;
-    fo:name "Torn & Glasses"^^xsd:string .
+:topco-associates-inc a :Brand ;
+    :name "Topco Associates  Inc."^^xsd:string ;
+    :owner "Topco Associates, Inc."^^xsd:string .
 
-fo:torodo a fo:Brand ;
-    fo:name "Torodo"^^xsd:string .
+:torn-glasser a :Brand ;
+    :name "Torn & Glasser"^^xsd:string .
 
-fo:trade-joe-s a fo:Brand ;
-    fo:name "Trade Joe'S"^^xsd:string ;
-    fo:owner "Fortier Associates"^^xsd:string .
+:torn-glasses a :Brand ;
+    :name "Torn & Glasses"^^xsd:string .
 
-fo:trader-giotto-s a fo:Brand ;
-    fo:name "Trader Giotto'S"^^xsd:string ;
-    fo:owner "TRADER GIOTTO'S"^^xsd:string .
+:torodo a :Brand ;
+    :name "Torodo"^^xsd:string .
 
-fo:trader-joe-s a fo:Brand ;
-    fo:name "Trader Joe'S"^^xsd:string .
+:trade-joe-s a :Brand ;
+    :name "Trade Joe'S"^^xsd:string ;
+    :owner "Fortier Associates"^^xsd:string .
 
-fo:trader-joe-s365-whole-foods-market a fo:Brand ;
-    fo:name "Trader Joe'S, 365 Whole Foods Market"^^xsd:string .
+:trader-giotto-s a :Brand ;
+    :name "Trader Giotto'S"^^xsd:string ;
+    :owner "TRADER GIOTTO'S"^^xsd:string .
 
-fo:trader-joe-se-leclerc a fo:Brand ;
-    fo:name "Trader Joe'S, E.Leclerc"^^xsd:string .
+:trader-joe-s a :Brand ;
+    :name "Trader Joe'S"^^xsd:string .
 
-fo:trader-joe-slearning-horizons a fo:Brand ;
-    fo:name "Trader Joe'S,  Learning Horizons"^^xsd:string .
+:trader-joe-s365-whole-foods-market a :Brand ;
+    :name "Trader Joe'S, 365 Whole Foods Market"^^xsd:string .
 
-fo:trader-joe-slookingglass-winery a fo:Brand ;
-    fo:name "Trader Joe'S,Lookingglass Winery"^^xsd:string ;
-    fo:owner "Lookingglass Winery"^^xsd:string .
+:trader-joe-se-leclerc a :Brand ;
+    :name "Trader Joe'S, E.Leclerc"^^xsd:string .
 
-fo:trader-joe-snapoli-s-italian-bakery a fo:Brand ;
-    fo:name "Trader Joe'S,  Napoli'S Italian Bakery"^^xsd:string ;
-    fo:owner "Napoli's Italian Bakery"^^xsd:string .
+:trader-joe-slearning-horizons a :Brand ;
+    :name "Trader Joe'S,  Learning Horizons"^^xsd:string .
 
-fo:trader-joe-ssparkling-lighting-mfg-co-ltd a fo:Brand ;
-    fo:name "Trader Joe'S,  Sparkling Lighting Mfg. Co. Ltd."^^xsd:string ;
-    fo:owner "Sparkling Lighting Mfg. Co. Ltd."^^xsd:string .
+:trader-joe-slookingglass-winery a :Brand ;
+    :name "Trader Joe'S,Lookingglass Winery"^^xsd:string ;
+    :owner "Lookingglass Winery"^^xsd:string .
 
-fo:trader-joe-ssupreme-foods-inc a fo:Brand ;
-    fo:name "Trader Joe'S,  Supreme Foods  Inc."^^xsd:string .
+:trader-joe-snapoli-s-italian-bakery a :Brand ;
+    :name "Trader Joe'S,  Napoli'S Italian Bakery"^^xsd:string ;
+    :owner "Napoli's Italian Bakery"^^xsd:string .
 
-fo:trader-joe-strader-joe-s a fo:Brand ;
-    fo:name "Trader Joe S,Trader Joe'S"^^xsd:string .
+:trader-joe-ssparkling-lighting-mfg-co-ltd a :Brand ;
+    :name "Trader Joe'S,  Sparkling Lighting Mfg. Co. Ltd."^^xsd:string ;
+    :owner "Sparkling Lighting Mfg. Co. Ltd."^^xsd:string .
 
-fo:trader-joes a fo:Brand ;
-    fo:name "Trader Joes"^^xsd:string .
+:trader-joe-ssupreme-foods-inc a :Brand ;
+    :name "Trader Joe'S,  Supreme Foods  Inc."^^xsd:string .
 
-fo:trader-jose-s a fo:Brand ;
-    fo:name "Trader Jose'S"^^xsd:string ;
-    fo:owner "Fortier Associates"^^xsd:string .
+:trader-joe-strader-joe-s a :Brand ;
+    :name "Trader Joe S,Trader Joe'S"^^xsd:string .
 
-fo:tri-connect-inc a fo:Brand ;
-    fo:name "Tri Connect Inc."^^xsd:string .
+:trader-joes a :Brand ;
+    :name "Trader Joes"^^xsd:string .
 
-fo:truicoco a fo:Brand ;
-    fo:name "Truicoco"^^xsd:string ;
-    fo:owner "TRUICOCO"^^xsd:string .
+:trader-jose-s a :Brand ;
+    :name "Trader Jose'S"^^xsd:string ;
+    :owner "Fortier Associates"^^xsd:string .
 
-fo:tuong-ot-sriracha a fo:Brand ;
-    fo:name "Tuong Ot Sriracha"^^xsd:string .
+:tri-connect-inc a :Brand ;
+    :name "Tri Connect Inc."^^xsd:string .
 
-fo:two-bitebakery-fresh-goodness a fo:Brand ;
-    fo:name "Two Bite,  Bakery Fresh Goodness"^^xsd:string ;
-    fo:owner "BAKERY FRESH GOODNESS"^^xsd:string .
+:truicoco a :Brand ;
+    :name "Truicoco"^^xsd:string ;
+    :owner "TRUICOCO"^^xsd:string .
 
-fo:udon a fo:Brand ;
-    fo:name "Udon"^^xsd:string .
+:tuong-ot-sriracha a :Brand ;
+    :name "Tuong Ot Sriracha"^^xsd:string .
 
-fo:unfi a fo:Brand ;
-    fo:name "Unfi"^^xsd:string .
+:two-bitebakery-fresh-goodness a :Brand ;
+    :name "Two Bite,  Bakery Fresh Goodness"^^xsd:string ;
+    :owner "BAKERY FRESH GOODNESS"^^xsd:string .
 
-fo:unilever a fo:Brand ;
-    fo:name "Unilever"^^xsd:string ;
-    fo:owner "PURE BLENDS"^^xsd:string .
+:udon a :Brand ;
+    :name "Udon"^^xsd:string .
 
-fo:unilever-home-and-personal-care-usa a fo:Brand ;
-    fo:name "Unilever Home And Personal Care Usa"^^xsd:string ;
-    fo:owner "Unilever Home and Personal Care USA"^^xsd:string .
+:unfi a :Brand ;
+    :name "Unfi"^^xsd:string .
 
-fo:united-states-bakery a fo:Brand ;
-    fo:name "United States Bakery"^^xsd:string .
+:unilever a :Brand ;
+    :name "Unilever"^^xsd:string ;
+    :owner "PURE BLENDS"^^xsd:string .
 
-fo:united-supermarkets-llc a fo:Brand ;
-    fo:name "United Supermarkets  Llc"^^xsd:string ;
-    fo:owner "UNITED SUPERMARKETS, LLC"^^xsd:string .
+:unilever-home-and-personal-care-usa a :Brand ;
+    :name "Unilever Home And Personal Care Usa"^^xsd:string ;
+    :owner "Unilever Home and Personal Care USA"^^xsd:string .
 
-fo:usda-organic-butternut-mountain-farmbutternut-mountain-farm a fo:Brand ;
-    fo:name "Usda Organic Butternut Mountain Farm, Butternut Mountain Farm"^^xsd:string ;
-    fo:owner "Butternut Mountain Farm"^^xsd:string .
+:united-states-bakery a :Brand ;
+    :name "United States Bakery"^^xsd:string .
 
-fo:usm a fo:Brand ;
-    fo:name "Usm"^^xsd:string ;
-    fo:owner "USM"^^xsd:string .
+:united-supermarkets-llc a :Brand ;
+    :name "United Supermarkets  Llc"^^xsd:string ;
+    :owner "UNITED SUPERMARKETS, LLC"^^xsd:string .
 
-fo:v8campbells a fo:Brand ;
-    fo:name "V8,Campbells"^^xsd:string .
+:usda-organic-butternut-mountain-farmbutternut-mountain-farm a :Brand ;
+    :name "Usda Organic Butternut Mountain Farm, Butternut Mountain Farm"^^xsd:string ;
+    :owner "Butternut Mountain Farm"^^xsd:string .
 
-fo:valkro-srl a fo:Brand ;
-    fo:name "Valkro Srl"^^xsd:string .
+:usm a :Brand ;
+    :name "Usm"^^xsd:string ;
+    :owner "USM"^^xsd:string .
 
-fo:van-de-kamp-s a fo:Brand ;
-    fo:name "Van De Kamp'S"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:v8campbells a :Brand ;
+    :name "V8,Campbells"^^xsd:string .
 
-fo:van-de-kamp-sthe-kroger-co a fo:Brand ;
-    fo:name "Van De Kamp'S,  The Kroger Co."^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:valkro-srl a :Brand ;
+    :name "Valkro Srl"^^xsd:string .
 
-fo:van-or-kamp-s a fo:Brand ;
-    fo:name "Van Or Kamp'S"^^xsd:string ;
-    fo:owner "VAN OR KAMP'S"^^xsd:string .
+:van-de-kamp-s a :Brand ;
+    :name "Van De Kamp'S"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:venice-maid-foods a fo:Brand ;
-    fo:name "Venice Maid Foods"^^xsd:string ;
-    fo:owner "VENICE MAID FOODS"^^xsd:string .
+:van-de-kamp-sthe-kroger-co a :Brand ;
+    :name "Van De Kamp'S,  The Kroger Co."^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:ventura-foods-l-l-c a fo:Brand ;
-    fo:name "Ventura Foods  L.L.C."^^xsd:string .
+:van-or-kamp-s a :Brand ;
+    :name "Van Or Kamp'S"^^xsd:string ;
+    :owner "VAN OR KAMP'S"^^xsd:string .
 
-fo:vichy a fo:Brand ;
-    fo:name "Vichy"^^xsd:string .
+:venice-maid-foods a :Brand ;
+    :name "Venice Maid Foods"^^xsd:string ;
+    :owner "VENICE MAID FOODS"^^xsd:string .
 
-fo:vintage-bee-inc a fo:Brand ;
-    fo:name "Vintage Bee  Inc."^^xsd:string ;
-    fo:owner "All American Products Co. Inc."^^xsd:string .
+:ventura-foods-l-l-c a :Brand ;
+    :name "Ventura Foods  L.L.C."^^xsd:string .
 
-fo:vintageall-american-products-co-inc a fo:Brand ;
-    fo:name "Vintage,  All American Products Co. Inc."^^xsd:string ;
-    fo:owner "All American Products Co. Inc."^^xsd:string .
+:vichy a :Brand ;
+    :name "Vichy"^^xsd:string .
 
-fo:vintagevintage-bee a fo:Brand ;
-    fo:name "Vintage,  Vintage Bee"^^xsd:string .
+:vintage-bee-inc a :Brand ;
+    :name "Vintage Bee  Inc."^^xsd:string ;
+    :owner "All American Products Co. Inc."^^xsd:string .
 
-fo:vintagevintage-bee-inc a fo:Brand ;
-    fo:name "Vintage,  Vintage Bee  Inc."^^xsd:string .
+:vintageall-american-products-co-inc a :Brand ;
+    :name "Vintage,  All American Products Co. Inc."^^xsd:string ;
+    :owner "All American Products Co. Inc."^^xsd:string .
 
-fo:vita-2-you a fo:Brand ;
-    fo:name "Vita 2 You"^^xsd:string .
+:vintagevintage-bee a :Brand ;
+    :name "Vintage,  Vintage Bee"^^xsd:string .
 
-fo:vitamalt a fo:Brand ;
-    fo:name "Vitamalt"^^xsd:string .
+:vintagevintage-bee-inc a :Brand ;
+    :name "Vintage,  Vintage Bee  Inc."^^xsd:string .
 
-fo:vitaspelt a fo:Brand ;
-    fo:name "Vitaspelt"^^xsd:string .
+:vita-2-you a :Brand ;
+    :name "Vita 2 You"^^xsd:string .
 
-fo:viva-la-salud a fo:Brand ;
-    fo:name "Viva La Salud"^^xsd:string .
+:vitamalt a :Brand ;
+    :name "Vitamalt"^^xsd:string .
 
-fo:wadakyu-europe-s-l a fo:Brand ;
-    fo:name "Wadakyu Europe S.L"^^xsd:string .
+:vitaspelt a :Brand ;
+    :name "Vitaspelt"^^xsd:string .
 
-fo:wah-seng-vit4ever a fo:Brand ;
-    fo:name "Wah Seng Vit4Ever,"^^xsd:string .
+:viva-la-salud a :Brand ;
+    :name "Viva La Salud"^^xsd:string .
 
-fo:wal-pac a fo:Brand ;
-    fo:name "Wal Pac"^^xsd:string ;
-    fo:owner "JFC International Inc."^^xsd:string .
+:wadakyu-europe-s-l a :Brand ;
+    :name "Wadakyu Europe S.L"^^xsd:string .
 
-fo:walden-farms a fo:Brand ;
-    fo:name "Walden Farms"^^xsd:string .
+:wah-seng-vit4ever a :Brand ;
+    :name "Wah Seng Vit4Ever,"^^xsd:string .
 
-fo:walmart a fo:Brand ;
-    fo:name "Walmart"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:wal-pac a :Brand ;
+    :name "Wal Pac"^^xsd:string ;
+    :owner "JFC International Inc."^^xsd:string .
 
-fo:walton-s-flies a fo:Brand ;
-    fo:name "Walton'S Flies"^^xsd:string ;
-    fo:owner "Walton's Flies"^^xsd:string .
+:walden-farms a :Brand ;
+    :name "Walden Farms"^^xsd:string .
 
-fo:waraku-co-ltd a fo:Brand ;
-    fo:name "Waraku Co.  Ltd"^^xsd:string ;
-    fo:owner "WARAKU"^^xsd:string .
+:walmart a :Brand ;
+    :name "Walmart"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:washington a fo:Brand ;
-    fo:name "Washington"^^xsd:string .
+:walton-s-flies a :Brand ;
+    :name "Walton'S Flies"^^xsd:string ;
+    :owner "Walton's Flies"^^xsd:string .
 
-fo:we-natural a fo:Brand ;
-    fo:name "We Natural"^^xsd:string .
+:waraku-co-ltd a :Brand ;
+    :name "Waraku Co.  Ltd"^^xsd:string ;
+    :owner "WARAKU"^^xsd:string .
 
-fo:webster-city-custom-meats-inc a fo:Brand ;
-    fo:name "Webster City Custom Meats Inc."^^xsd:string ;
-    fo:owner "BELL'S MILL"^^xsd:string .
+:washington a :Brand ;
+    :name "Washington"^^xsd:string .
 
-fo:weinrich-s a fo:Brand ;
-    fo:name "Weinrich'S"^^xsd:string ;
-    fo:owner "WEINRICHS 1895"^^xsd:string .
+:we-natural a :Brand ;
+    :name "We Natural"^^xsd:string .
 
-fo:weiss a fo:Brand ;
-    fo:name "Weiss"^^xsd:string ;
-    fo:owner "WEISS"^^xsd:string .
+:webster-city-custom-meats-inc a :Brand ;
+    :name "Webster City Custom Meats Inc."^^xsd:string ;
+    :owner "BELL'S MILL"^^xsd:string .
 
-fo:wel-pac a fo:Brand ;
-    fo:name "Wel Pac"^^xsd:string ;
-    fo:owner "JFC International Inc."^^xsd:string .
+:weinrich-s a :Brand ;
+    :name "Weinrich'S"^^xsd:string ;
+    :owner "WEINRICHS 1895"^^xsd:string .
 
-fo:wel-pacwelpac a fo:Brand ;
-    fo:name "Wel Pac,Welpac"^^xsd:string ;
-    fo:owner "JFC International Inc."^^xsd:string .
+:weiss a :Brand ;
+    :name "Weiss"^^xsd:string ;
+    :owner "WEISS"^^xsd:string .
 
-fo:welch-s a fo:Brand ;
-    fo:name "Welch'S"^^xsd:string ;
-    fo:owner "Healthy Food Brands LLC"^^xsd:string .
+:wel-pac a :Brand ;
+    :name "Wel Pac"^^xsd:string ;
+    :owner "JFC International Inc."^^xsd:string .
 
-fo:welch-shealthy-food-brands-llc a fo:Brand ;
-    fo:name "Welch'S,  Healthy Food Brands Llc"^^xsd:string ;
-    fo:owner "Healthy Food Brands LLC"^^xsd:string .
+:wel-pacwelpac a :Brand ;
+    :name "Wel Pac,Welpac"^^xsd:string ;
+    :owner "JFC International Inc."^^xsd:string .
 
-fo:welpac a fo:Brand ;
-    fo:name "Welpac"^^xsd:string ;
-    fo:owner "JFC International Inc."^^xsd:string .
+:welch-s a :Brand ;
+    :name "Welch'S"^^xsd:string ;
+    :owner "Healthy Food Brands LLC"^^xsd:string .
 
-fo:wholesome-home a fo:Brand ;
-    fo:name "Wholesome@Home"^^xsd:string .
+:welch-shealthy-food-brands-llc a :Brand ;
+    :name "Welch'S,  Healthy Food Brands Llc"^^xsd:string ;
+    :owner "Healthy Food Brands LLC"^^xsd:string .
 
-fo:whoppers a fo:Brand ;
-    fo:name "Whoppers"^^xsd:string ;
-    fo:owner "Leaf, Inc."^^xsd:string .
+:welpac a :Brand ;
+    :name "Welpac"^^xsd:string ;
+    :owner "JFC International Inc."^^xsd:string .
 
-fo:wilkins-rogers-mills a fo:Brand ;
-    fo:name "Wilkins Rogers Mills"^^xsd:string ;
-    fo:owner "Wilkins-Rogers Inc."^^xsd:string .
+:wholesome-home a :Brand ;
+    :name "Wholesome@Home"^^xsd:string .
 
-fo:willamette-valley a fo:Brand ;
-    fo:name "Willamette Valley"^^xsd:string .
+:whoppers a :Brand ;
+    :name "Whoppers"^^xsd:string ;
+    :owner "Leaf, Inc."^^xsd:string .
 
-fo:willons a fo:Brand ;
-    fo:name "Willons"^^xsd:string ;
-    fo:owner "The Kroger Co."^^xsd:string .
+:wilkins-rogers-mills a :Brand ;
+    :name "Wilkins Rogers Mills"^^xsd:string ;
+    :owner "Wilkins-Rogers Inc."^^xsd:string .
 
-fo:winco a fo:Brand ;
-    fo:name "Winco"^^xsd:string .
+:willamette-valley a :Brand ;
+    :name "Willamette Valley"^^xsd:string .
 
-fo:wisconsin a fo:Brand ;
-    fo:name "Wisconsin"^^xsd:string ;
-    fo:owner "WISCONSIN"^^xsd:string .
+:willons a :Brand ;
+    :name "Willons"^^xsd:string ;
+    :owner "The Kroger Co."^^xsd:string .
 
-fo:wise-woodworks a fo:Brand ;
-    fo:name "Wise Woodworks"^^xsd:string ;
-    fo:owner "Wise Woodworks"^^xsd:string .
+:winco a :Brand ;
+    :name "Winco"^^xsd:string .
 
-fo:witor-s a fo:Brand ;
-    fo:name "Witor'S"^^xsd:string .
+:wisconsin a :Brand ;
+    :name "Wisconsin"^^xsd:string ;
+    :owner "WISCONSIN"^^xsd:string .
 
-fo:wonkanerds a fo:Brand ;
-    fo:name "Wonka,Nerds"^^xsd:string .
+:wise-woodworks a :Brand ;
+    :name "Wise Woodworks"^^xsd:string ;
+    :owner "Wise Woodworks"^^xsd:string .
 
-fo:woodstock a fo:Brand ;
-    fo:name "Woodstock"^^xsd:string .
+:witor-s a :Brand ;
+    :name "Witor'S"^^xsd:string .
 
-fo:wykdssonselbstgemacht a fo:Brand ;
-    fo:name "Wykdsson, Selbstgemacht"^^xsd:string .
+:wonkanerds a :Brand ;
+    :name "Wonka,Nerds"^^xsd:string .
 
-fo:yama-moto-yama a fo:Brand ;
-    fo:name "Yama Moto Yama"^^xsd:string ;
-    fo:owner "JFC International Inc."^^xsd:string .
+:woodstock a :Brand ;
+    :name "Woodstock"^^xsd:string .
 
-fo:yamamotoyama a fo:Brand ;
-    fo:name "Yamamotoyama"^^xsd:string .
+:wykdssonselbstgemacht a :Brand ;
+    :name "Wykdsson, Selbstgemacht"^^xsd:string .
 
-fo:yemina a fo:Brand ;
-    fo:name "Yemina"^^xsd:string .
+:yama-moto-yama a :Brand ;
+    :name "Yama Moto Yama"^^xsd:string ;
+    :owner "JFC International Inc."^^xsd:string .
 
-fo:zeigler a fo:Brand ;
-    fo:name "Zeigler"^^xsd:string ;
-    fo:owner "R. L. Zeigler Company Inc."^^xsd:string .
+:yamamotoyama a :Brand ;
+    :name "Yamamotoyama"^^xsd:string .
+
+:yemina a :Brand ;
+    :name "Yemina"^^xsd:string .
+
+:zeigler a :Brand ;
+    :name "Zeigler"^^xsd:string ;
+    :owner "R. L. Zeigler Company Inc."^^xsd:string .
 
