@@ -3,7 +3,6 @@
 Repository of group graphle for the "[Graph Databases](https://iiia.dei.unipd.it/education/database-2/)"
 course, A.Y. 2023/2024. 
 
-
 ## Group members
 | Surname   | Name      |
 |-----------|-----------|
@@ -15,11 +14,12 @@ course, A.Y. 2023/2024.
 ## Dataset
 **Start Point:** OpenFoodFacts [[Link](https://github.com/openfoodfacts)]  
 
-**data:** Restriction of the original dataset composed of 157157 elements with 31 attributes
 
-**data_exp:** Restriction of the original dataset composed of 21360 elements with 33 attributes. The two additional attributes to *"data"* are *"packaging_tags"* and *"main_category_en"* [[Link](https://github.com/GreedyJacques/graphle/blob/main/data/data_exp.tsv)]
+**data:** Original dataset, not included in this repo, must be inserted in the data folder. [[Link](https://it.openfoodfacts.org/data)]
 
-**data_2:** Obtained from a newer version of the OpenFoodFacts dataset. It is composed of 739411 elements with 35 attributes. [[Link](https://github.com/GreedyJacques/graphle/blob/main/data/data_2.zip)]
+**data_2:** It is composed of 739411 elements with 35 attributes by a selection of the initial columns. To use it in the [[dataCleaning notebook](https://github.com/GreedyJacques/graphle/blob/main/code/dataCleaning.ipynb)], unzip this file into the data folder. [[Link](https://github.com/GreedyJacques/graphle/blob/main/data/data_2.zip)]
+
+**Taxonomies:** OpenFoodFacts taxonomies. [[Link](https://github.com/openfoodfacts/openfoodfacts-server/tree/main/taxonomies)]
 
 **data_2 attributes:**
 
@@ -56,3 +56,37 @@ course, A.Y. 2023/2024.
 * "vitamin-c_100g"
 * "calcium_100g"
 * "iron_100g"
+
+## Repository guide
+
+### Ontology
+
+Model: [[graphleontology.ttl](https://github.com/GreedyJacques/graphle/blob/main/data/graphleontology.ttl)]
+
+Draw.io: [[GraphleOntology.drawio](https://github.com/GreedyJacques/graphle/blob/main/docs/GraphleOntology.drawio)] - [[draw.io](draw.io)]
+
+Png: [[GraphleOntology.png](https://github.com/GreedyJacques/graphle/blob/main/docs/GraphleOntology.png)]
+
+### Jupyter Notebook (cleaning, ingestion, serialization)
+
+Notebook: [[dataCleaning.ipynb](https://github.com/GreedyJacques/graphle/blob/main/code/dataCleaning.ipynb)]
+
+### Serialization
+
+RDF Serialization: [[food_database.ttl](https://github.com/GreedyJacques/graphle/blob/main/data/foodDB/food_database.ttl)]
+
+RDF Serialization w/Ontology: [[food_database_with_onto.ttl](https://github.com/GreedyJacques/graphle/blob/main/data/foodDB/food_database_with_onto.ttl)]
+
+### Query
+
+Txt format: [[Queries.txt](https://github.com/GreedyJacques/graphle/blob/main/docs/Queries.txt)]
+
+Excel format (more readable): [[Queries.xlsx](https://github.com/GreedyJacques/graphle/blob/main/docs/Queries.xlsx)]
+
+Query results: [[QueriesResults](https://github.com/GreedyJacques/graphle/blob/main/docs/QueryResults/)]
+
+## Notes
+
+- The jupyter notebook is set to serialize 10.000 entries from the starting dataset (takes 20 minutes and generates a 20 Mb file);
+
+- For the presentation of the project we would like to serialize a bigger portion of the dataset for more accurate data analytics.
