@@ -83,7 +83,7 @@ Txt format: [[Queries.txt](https://github.com/GreedyJacques/graphle/blob/main/do
 
 Excel format (more readable): [[Queries.xlsx](https://github.com/GreedyJacques/graphle/blob/main/docs/Queries.xlsx)]
 
-Query results: [[QueriesResults](https://github.com/GreedyJacques/graphle/blob/main/docs/QueryResults/)]
+Query results: [[QueriesResults](https://github.com/GreedyJacques/graphle/blob/main/docs/QueriesResults/)]
 
 ## Notes
 
