@@ -63,7 +63,7 @@ course, A.Y. 2023/2024.
 
 Model: [[graphleontology.ttl](https://github.com/GreedyJacques/graphle/blob/main/data/graphleontology.ttl)]
 
-Draw.io: [[GraphleOntology.drawio](https://github.com/GreedyJacques/graphle/blob/main/docs/GraphleOntology.drawio)] - [[draw.io](draw.io)]
+Draw.io: [[GraphleOntology.drawio](https://github.com/GreedyJacques/graphle/blob/main/docs/GraphleOntology.drawio)]
 
 Png: [[GraphleOntology.png](https://github.com/GreedyJacques/graphle/blob/main/docs/GraphleOntology.png)]
 
