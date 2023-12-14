@@ -1,55 +1,19 @@
--------------------lista decrescente di quante entry ci sono per paese
-
-
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX : <http://www.graphle.com/foodOntology#>
-
-select ?country (count(?product) as ?howmany) where {
-    ?product rdf:type :Product.
-    ?product :fromCountry ?country
-}
-group by ?country
-order by desc(?howmany)
-
-
-
-----------------------lista dei paesi, in ordine decrescente, del valore calorico medio dei cibi inseriti di quel paese
+1-AVERAGE CALORIES OF PRODUCTS FROM A GIVEN COUNTRY, IN DESCENDING ORDER, COUNTRY MUST HAVE AT LEAST 5 PRODUCTS (TO EXCLUDE OUTLIERS)
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX : <http://www.graphle.com/foodOntology#>
 
-select ?country (AVG (?kcal) as ?avgKcal) where {
+select ?country (AVG (?kcal) as ?avgKcal) (count(?product) as ?n_product) where {
     ?product rdf:type :Product.
     ?product :fromCountry ?country.
     ?product :energyKcal_100g ?kcal
 }
 group by ?country
+having (?n_product > 5)
 order by desc(?avgKcal)
 
 
--------------------------------prodotti con tanti ingredienti, quanti sono vitamine 
-
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX : <http://www.graphle.com/foodOntology#>
-
-select ?product ?n_ingredient (count(?vitamin) as ?n_vitamins) where {
-    ?product :hasIngredient ?vitamin.
-    ?vitamin rdf:type :Vitamin.
-    { 
-	select ?product (count(?ingredient) as ?n_ingredient) where {
-    	?product rdf:type :Product.
-    	?product :hasIngredient ?ingredient.
-    
-	}group by ?product
-	order by desc(?n_ingredient)
-        limit 100}
-    
-}group by ?product ?n_ingredient
-
-
---------------prodotti con tanti ingredienti, quanti sono additivi
-
-
+2-LIST OF PRODUCTS ORDERED BY HOW MANY INGREDIENTS THEY HAVE AND A COLUMN TO SHOW HOW MANY OF THEM ARE ADDITIVES
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX : <http://www.graphle.com/foodOntology#>
@@ -69,7 +33,7 @@ select ?product ?n_ingredient (count(?additive) as ?n_additives) where {
 }group by ?product ?n_ingredient
 
 
---------quali sono i packaging più comuni
+3-LIST OF MOST USED PACKAGING TAGS
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX : <http://www.graphle.com/foodOntology#>
@@ -82,7 +46,7 @@ select ?package (count(?package) as ?n_packages) where {
 order by desc(?n_packages)
 
 
------------------mediamente quante calorie hanno i prodotti per categoria di cibo
+4-LIST OF FOOD GROUPS WITH THE AVERAGE NUMBER OF CALORIES FOR PRODUCTS BELONGING TO THAT GROUP, IN DESCENDANT ORDER
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX : <http://www.graphle.com/foodOntology#>
@@ -98,19 +62,19 @@ select ?foodgroup (avg(?kcal) as ?avg_kcal) where {
 order by desc(?avg_kcal)
 
 
------------------descrizione di un prodotto (Alfredo Pasta & Sauce) :)
+5-DESCRIPTION OF A SPECIFIED PRODUCT (CINNAMON WAFFLES) :)
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX : <http://www.graphle.com/foodOntology#>
 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 describe ?product where {
   ?product rdf:type :Product.
-  ?product :name "Alfredo Pasta & Sauce"^^xsd:string
+  ?product :name "Cinnamon waffles"^^xsd:string
 }
 
 
-
--------------quanto sono calorici mediamente i prodotti che contengono olio di palma (circa 400)
+6-AVERAGE NUMBER OF CALORIES FOR PRODUCTS THAT CONTAIN PALM OIL (AROUND 400, FOR COMPARISON GLOBAL AVERAGE IS 270 AND THE AVERAGE FOR PRODUCTS WITH OLIVE OIL IS 290). 
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX : <http://www.graphle.com/foodOntology#>
@@ -123,42 +87,58 @@ select (avg(?kcal_palm) as ?avg_kcal_with_palm_oil) where {
     filter regex(?ingr_n, "palm-oil*")    
 } 
 
-------------quanto sono calorici mediamente i prodotti in generale (circa 270)
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX : <http://www.graphle.com/foodOntology#>
 
-select (avg(?kcal) as ?avg_kcal) where {
-    ?product rdf:type :Product;
-             :energyKcal_100g ?kcal;
-} 
-
-
--------------quanto sono calorici mediamente i prodotti che contengono olio di oliva (circa 290)
-
+7-FOR EVERY ECOSCORE GRADE, THE NUMBER OF PRODUCTS THAT HAVE THAT GRADE AND HAVE PLASTIC IN THE PACKAGING LIST (THERE ARE NO PRODUCTS IN "A" CATEGORY)
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX : <http://www.graphle.com/foodOntology#>
 
-select (avg(?kcal_olive) as ?avg_kcal_with_olive_oil) where {
-    ?product rdf:type :Product;
-             :energyKcal_100g ?kcal_olive;
-             :hasIngredient ?ingredient.
-    ?ingredient :ingredientName ?ingr_n.
-    filter regex(?ingr_n, "olive-oil*")    
-} 
-
---------- uguale ma con vegetable oil senza olio di palma(skos(?))
+select ?ecoscore (count(?ecoscore) as ?n_ecoscore_with_plastic) where {
+    ?product :hasPackaging :plastic;
+             :ecoscoreGrade ?ecoscore.     
+}group by ?ecoscore
+order by ?ecoscore
 
 
-------labels più comuni(wip)
+8-AVERAGE VALUE OF CALORIES FOR PRODUCTS THAT HAVE LABEL "ORGANIC" (AROUND 280, GLOBAL AVERAGE IS 270)
+
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX : <http://www.graphle.com/foodOntology#>
 
-
-select ?label  where {
+select (avg(?kcal) as ?avg_kcal_organic) where {
     ?product rdf:type :Product;
-             :hasLabel ?label.
-    ?label rdf:type :Label
-             
-} 
--------------ecoscore con packaging in plastica vs no
+             :hasLabel :organic;
+             :energyKcal_100g ?kcal.
+    
+}
+
+
+9-FOR EVERY NUTRISCORE GRADE, HOW MANY FIBERS HAVE ON AVERAGE THE PRODUCTS WITH THAT GRADE
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.graphle.com/foodOntology#>
+
+select ?nutriscore (avg(?fiber) as ?avg_fiber) where {
+    ?product rdf:type :Product;
+             :nutriscoreGrade ?nutriscore;
+             :fiber_100g ?fiber.
+    
+}group by ?nutriscore
+order by ?nutriscore
+
+
+10-LIST OF BRANDS WITH THE AVERAGE VALUE UF THE NUTRISCORE SCORE OF THEIR PRODUCTS (THE LOWER VALUE, THE HEALTIER)
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.graphle.com/foodOntology#>
+
+select ?brand_n (avg(?nutriscore) as ?avg_nutriscore) where {
+    ?product rdf:type :Product;
+             :nutriscoreScore ?nutriscore;
+             :hasBrand ?brand.
+    ?brand rdf:type :Brand;
+           :name ?brand_n.
+    
+    
+}group by ?brand_n
+order by desc(?avg_nutriscore)

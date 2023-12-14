@@ -1,0 +1,41 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <http://www.graphle.com/foodOntology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+:cinnamon-waffles-11110875013 a :Product;
+  :fromCountry <http://eulersharp.sourceforge.net/2003/03swap/countries#us>;
+  :hasBrand :kroger;
+  :hasIngredient :whey, :corn-starch, :modified-corn-starch, :starch, :modified-starch,
+    :flavouring, :sugar, :vegetable-oil-and-fat, :natural-flavouring, :spice, :root-vegetable,
+    :condiment, :vegetable-oil, :cereal, :cinnamon, :salt, :corn, :vegetable, :water,
+    :flour, :butter-natural-flavouring, :diphosphates, :folate, :canola, :rapeseed, :cobalamin,
+    :vitamins, :wheat, :corn-syrup, :vitamin-b12, :wheat-flour, :dairy, :e101, :e14xx,
+    :e170, :e322, :e375, :e450, :e500, :egg, :cereal-flour, :folic-acid, :fortified-wheat-flour,
+    :soya-lecithin, :soya-oil, :disaccharide, :natural-and-artificial-flavouring, :artificial-flavouring,
+    :niacin, :vitamin-b6, :pyridoxine-hydrochloride, :raising-agent, :oil-and-fat, :vitamin-a,
+    :retinyl-palmitate, :riboflavin, :thiamin, :thiamin-mononitrate, :disodium-diphosphate,
+    :added-sugar;
+  :calcium_100g "0.28600000000000003"^^xsd:float;
+  :carbohydrates_100g "42.86"^^xsd:float;
+  :cholesterol_100g "0.006999999999999999"^^xsd:float;
+  :energyKJ_100g "1435.0"^^xsd:float;
+  :energyKcal_100g "342.86"^^xsd:float;
+  :fatSaturated_100g "2.86"^^xsd:float;
+  :fatTrans_100g "0.0"^^xsd:float;
+  :fat_100g "15.71"^^xsd:float;
+  :fiber_100g "1.43"^^xsd:float;
+  :iron_100g "0.00514"^^xsd:float;
+  :name "Cinnamon waffles";
+  :novaGroup "4.0"^^xsd:float;
+  :proteins_100g "7.14"^^xsd:float;
+  :salt_100g "1.6329"^^xsd:float;
+  :servingSize "2 WAFFLES (70 g)";
+  :sodium_100g "0.6531600000000001"^^xsd:float;
+  :sugars_100g "8.57"^^xsd:float;
+  :vitaminA_100g "0.0004287"^^xsd:float;
+  :vitaminC_100g "0.0"^^xsd:float .
