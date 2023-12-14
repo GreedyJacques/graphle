@@ -88,5 +88,5 @@ Query results: [[QueriesResults](https://github.com/GreedyJacques/graphle/blob/m
 ## Notes
 
 - The jupyter notebook is set to serialize 10.000 entries from the starting dataset (takes 20 minutes and generates a 20 Mb file);
-
-- For the presentation of the project we would like to serialize a bigger portion of the dataset for more accurate data analytics.
+- For the presentation of the project we would like to serialize a bigger portion of the dataset for more accurate data analytics;
+- When opening the ontology in Protege the eulersharp countries ontology import sometimes fails, but succeeds after at most a couple of re-tries. 
